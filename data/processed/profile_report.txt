@@ -1,0 +1,38 @@
+Total listings: 1,000
+Missing remarks: 0
+Average remark length: 1303 characters
+Shortest remark: 54 characters
+Longest remark: 3262 characters
+Listings containing HTML-like tags: 0
+
+Top 30 useful words:
+home                 2464
+living               1896
+room                 1283
+offers               1106
+space                1098
+kitchen              934
+private              906
+bedroom              834
+features             833
+dining               804
+spacious             744
+property             705
+new                  680
+area                 669
+bedrooms             638
+located              617
+access               600
+community            590
+floor                580
+open                 576
+bath                 570
+bathroom             559
+suite                553
+outdoor              550
+views                545
+enjoy                541
+perfect              538
+entertaining         532
+garage               531
+additional           521

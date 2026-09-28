@@ -1,0 +1,201 @@
+term,category,source,active
+condo,property_type,sample_candidate,True
+condominium,property_type,domain_seed,True
+townhouse,property_type,domain_seed,True
+townhome,property_type,sample_candidate,True
+single-family home,property_type,domain_seed,True
+detached home,property_type,domain_seed,True
+duplex,property_type,domain_seed,True
+triplex,property_type,domain_seed,True
+fourplex,property_type,domain_seed,True
+multi-family home,property_type,domain_seed,True
+manufactured home,property_type,domain_seed,True
+mobile home,property_type,domain_seed,True
+bungalow,property_type,domain_seed,True
+ranch home,property_type,domain_seed,True
+craftsman home,property_type,domain_seed,True
+contemporary home,property_type,domain_seed,True
+mid-century home,property_type,domain_seed,True
+victorian home,property_type,domain_seed,True
+cabin,property_type,domain_seed,True
+cottage,property_type,domain_seed,True
+pool,amenity,sample_candidate,True
+spa,amenity,sample_candidate,True
+hot tub,amenity,sample_candidate,True
+clubhouse,amenity,sample_candidate,True
+fitness center,amenity,sample_candidate,True
+gym,amenity,sample_candidate,True
+tennis courts,amenity,sample_candidate,True
+pickleball courts,amenity,sample_candidate,True
+playground,amenity,domain_seed,True
+community garden,amenity,domain_seed,True
+dog park,amenity,domain_seed,True
+concierge,amenity,domain_seed,True
+security gate,amenity,domain_seed,True
+gated community,amenity,sample_candidate,True
+elevator,amenity,domain_seed,True
+rooftop deck,amenity,domain_seed,True
+business center,amenity,domain_seed,True
+game room,amenity,domain_seed,True
+media room,amenity,sample_candidate,True
+sauna,amenity,domain_seed,True
+steam room,amenity,domain_seed,True
+guest parking,amenity,sample_candidate,True
+ev charging,amenity,domain_seed,True
+community amenities,amenity,sample_candidate,True
+resort-style amenities,amenity,sample_candidate,True
+updated,condition,sample_candidate,True
+renovated,condition,sample_candidate,True
+remodeled,condition,sample_candidate,True
+turnkey,condition,sample_candidate,True
+move-in ready,condition,sample_candidate,True
+new construction,condition,domain_seed,True
+newly built,condition,domain_seed,True
+like new,condition,domain_seed,True
+well maintained,condition,domain_seed,True
+beautifully maintained,condition,sample_candidate,True
+recently updated,condition,domain_seed,True
+freshly painted,condition,sample_candidate,True
+fresh interior paint,condition,sample_candidate,True
+upgraded,condition,sample_candidate,True
+modernized,condition,domain_seed,True
+restored,condition,domain_seed,True
+original condition,condition,domain_seed,True
+fixer-upper,condition,domain_seed,True
+needs tlc,condition,domain_seed,True
+cosmetic fixer,condition,domain_seed,True
+mountain views,location_feature,sample_candidate,True
+ocean views,location_feature,sample_candidate,True
+city views,location_feature,sample_candidate,True
+lake views,location_feature,domain_seed,True
+park views,location_feature,domain_seed,True
+golf course views,location_feature,sample_candidate,True
+cul-de-sac,location_feature,sample_candidate,True
+near shopping,location_feature,sample_candidate,True
+near dining,location_feature,domain_seed,True
+walking distance,location_feature,sample_candidate,True
+school district,location_feature,sample_candidate,True
+near schools,location_feature,sample_candidate,True
+freeway access,location_feature,sample_candidate,True
+commuter access,location_feature,domain_seed,True
+downtown,location_feature,sample_candidate,True
+waterfront,location_feature,domain_seed,True
+beachfront,location_feature,domain_seed,True
+hillside,location_feature,domain_seed,True
+quiet street,location_feature,domain_seed,True
+gated neighborhood,location_feature,domain_seed,True
+close to parks,location_feature,domain_seed,True
+public transit,location_feature,domain_seed,True
+nearby trails,location_feature,domain_seed,True
+central location,location_feature,domain_seed,True
+golf course,location_feature,sample_candidate,True
+seller financing,financing,domain_seed,True
+owner financing,financing,domain_seed,True
+assumable loan,financing,domain_seed,True
+assumable mortgage,financing,domain_seed,True
+fha loan,financing,domain_seed,True
+va loan,financing,domain_seed,True
+conventional loan,financing,domain_seed,True
+jumbo loan,financing,domain_seed,True
+usda loan,financing,domain_seed,True
+cash offer,financing,domain_seed,True
+cash buyer,financing,domain_seed,True
+all-cash,financing,domain_seed,True
+lease option,financing,domain_seed,True
+lease-to-own,financing,domain_seed,True
+rent-to-own,financing,domain_seed,True
+down payment assistance,financing,domain_seed,True
+closing cost assistance,financing,domain_seed,True
+rate buydown,financing,domain_seed,True
+interest rate buydown,financing,domain_seed,True
+mortgage credit,financing,domain_seed,True
+patio,exterior_feature,sample_candidate,True
+covered patio,exterior_feature,sample_candidate,True
+private patio,exterior_feature,sample_candidate,True
+deck,exterior_feature,sample_candidate,True
+balcony,exterior_feature,sample_candidate,True
+private balcony,exterior_feature,sample_candidate,True
+backyard,exterior_feature,sample_candidate,True
+private backyard,exterior_feature,sample_candidate,True
+landscaped yard,exterior_feature,domain_seed,True
+fenced yard,exterior_feature,domain_seed,True
+front yard,exterior_feature,sample_candidate,True
+outdoor kitchen,exterior_feature,sample_candidate,True
+outdoor fireplace,exterior_feature,domain_seed,True
+outdoor living space,exterior_feature,sample_candidate,True
+attached garage,exterior_feature,sample_candidate,True
+detached garage,exterior_feature,sample_candidate,True
+two-car garage,exterior_feature,sample_candidate,True
+driveway,exterior_feature,sample_candidate,True
+carport,exterior_feature,domain_seed,True
+solar panels,exterior_feature,sample_candidate,True
+dual-pane windows,exterior_feature,sample_candidate,True
+french doors,exterior_feature,sample_candidate,True
+sliding glass doors,exterior_feature,sample_candidate,True
+roof,exterior_feature,sample_candidate,True
+exterior paint,exterior_feature,sample_candidate,True
+kitchen,interior_feature,sample_candidate,True
+chef's kitchen,interior_feature,domain_seed,True
+kitchen island,interior_feature,domain_seed,True
+breakfast bar,interior_feature,sample_candidate,True
+quartz countertops,interior_feature,sample_candidate,True
+granite countertops,interior_feature,sample_candidate,True
+stainless steel appliances,interior_feature,sample_candidate,True
+custom cabinetry,interior_feature,sample_candidate,True
+hardwood floors,interior_feature,sample_candidate,True
+tile flooring,interior_feature,sample_candidate,True
+vinyl plank flooring,interior_feature,sample_candidate,True
+fireplace,interior_feature,sample_candidate,True
+walk-in closet,interior_feature,sample_candidate,True
+recessed lighting,interior_feature,sample_candidate,True
+vaulted ceilings,interior_feature,sample_candidate,True
+soaking tub,interior_feature,sample_candidate,True
+walk-in shower,interior_feature,sample_candidate,True
+dual vanities,interior_feature,sample_candidate,True
+central air conditioning,interior_feature,sample_candidate,True
+tankless water heater,interior_feature,sample_candidate,True
+washer and dryer,interior_feature,sample_candidate,True
+smart home features,interior_feature,domain_seed,True
+built-in storage,interior_feature,domain_seed,True
+pantry,interior_feature,sample_candidate,True
+ceiling fans,interior_feature,sample_candidate,True
+open floor plan,layout,sample_candidate,True
+open-concept layout,layout,sample_candidate,True
+split-level,layout,domain_seed,True
+single-story,layout,sample_candidate,True
+two-story,layout,sample_candidate,True
+main-level primary suite,layout,domain_seed,True
+primary suite,layout,sample_candidate,True
+living room,layout,sample_candidate,True
+family room,layout,sample_candidate,True
+great room,layout,sample_candidate,True
+formal dining room,layout,sample_candidate,True
+dining area,layout,sample_candidate,True
+home office,layout,sample_candidate,True
+bonus room,layout,sample_candidate,True
+flex space,layout,domain_seed,True
+loft area,layout,domain_seed,True
+den,layout,domain_seed,True
+mudroom,layout,domain_seed,True
+laundry room,layout,sample_candidate,True
+breakfast nook,layout,sample_candidate,True
+finished basement,layout,domain_seed,True
+guest suite,layout,sample_candidate,True
+in-law suite,layout,domain_seed,True
+indoor-outdoor flow,layout,domain_seed,True
+main level,layout,sample_candidate,True
+pergola,exterior_feature,domain_seed,True
+outdoor shower,exterior_feature,domain_seed,True
+fire pit,exterior_feature,domain_seed,True
+rv parking,exterior_feature,domain_seed,True
+storage shed,exterior_feature,domain_seed,True
+engineered hardwood,interior_feature,domain_seed,True
+laminate flooring,interior_feature,domain_seed,True
+marble countertops,interior_feature,domain_seed,True
+butcher block countertops,interior_feature,domain_seed,True
+farmhouse sink,interior_feature,domain_seed,True
+double oven,interior_feature,domain_seed,True
+gas range,interior_feature,domain_seed,True
+wine refrigerator,interior_feature,domain_seed,True
+smart thermostat,interior_feature,domain_seed,True
+built-in bookcases,interior_feature,domain_seed,True

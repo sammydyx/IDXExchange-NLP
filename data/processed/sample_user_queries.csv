@@ -1,0 +1,65 @@
+query_id,query,intent,target_category
+Q001,Show me condos near downtown Los Angeles.,property_type_search,property_type
+Q002,I am looking for a townhouse with a garage.,property_type_search,property_type
+Q003,Find single-family homes in a quiet neighborhood.,property_type_search,property_type
+Q004,Show duplex properties suitable for rental income.,property_type_search,property_type
+Q005,Find a bungalow with a backyard.,property_type_search,property_type
+Q006,I want a ranch home with a large lot.,property_type_search,property_type
+Q007,Show me loft homes close to restaurants.,property_type_search,property_type
+Q008,Find a cottage near hiking trails.,property_type_search,property_type
+Q009,Show homes with a swimming pool and spa.,amenity_search,amenity
+Q010,Find a condo building with a fitness center.,amenity_search,amenity
+Q011,I want a gated community with tennis courts.,amenity_search,amenity
+Q012,Show properties with a clubhouse and guest parking.,amenity_search,amenity
+Q013,Find homes near a dog park.,amenity_search,amenity
+Q014,Show me a community with EV charging.,amenity_search,amenity
+Q015,I want a home with resort-style amenities.,amenity_search,amenity
+Q016,Find properties with a rooftop deck.,amenity_search,amenity
+Q017,Find move-in ready homes under one million dollars.,condition_search,condition
+Q018,Show recently renovated properties.,condition_search,condition
+Q019,I am looking for an updated kitchen and bathrooms.,condition_search,condition
+Q020,Find a turnkey home in good condition.,condition_search,condition
+Q021,Show fixer-upper homes with renovation potential.,condition_search,condition
+Q022,Find newly built homes with modern finishes.,condition_search,condition
+Q023,Show properties with fresh interior paint.,condition_search,condition
+Q024,I want a well-maintained home that needs little work.,condition_search,condition
+Q025,Find homes with mountain views.,location_feature_search,location_feature
+Q026,Show ocean-view properties near the beach.,location_feature_search,location_feature
+Q027,I want a home within walking distance of shops and dining.,location_feature_search,location_feature
+Q028,Find houses in a strong school district.,location_feature_search,location_feature
+Q029,Show properties with easy freeway access.,location_feature_search,location_feature
+Q030,Find a quiet cul-de-sac home near parks.,location_feature_search,location_feature
+Q031,Show homes close to public transit.,location_feature_search,location_feature
+Q032,I want a property near a golf course.,location_feature_search,location_feature
+Q033,Find homes offering seller financing.,financing_search,financing
+Q034,Show properties eligible for an FHA loan.,financing_search,financing
+Q035,I need homes that may qualify for a VA loan.,financing_search,financing
+Q036,Find listings with an assumable mortgage.,financing_search,financing
+Q037,Show homes with down payment assistance options.,financing_search,financing
+Q038,I am looking for a rent-to-own property.,financing_search,financing
+Q039,Find homes where a lease option is available.,financing_search,financing
+Q040,Show investment properties with financing options.,financing_search,financing
+Q041,Find homes with a covered patio and backyard.,exterior_feature_search,exterior_feature
+Q042,Show properties with solar panels.,exterior_feature_search,exterior_feature
+Q043,I want a house with a two-car garage and driveway.,exterior_feature_search,exterior_feature
+Q044,Find homes with a private balcony.,exterior_feature_search,exterior_feature
+Q045,Show listings with a landscaped yard.,exterior_feature_search,exterior_feature
+Q046,Find properties with RV parking.,exterior_feature_search,exterior_feature
+Q047,I want a home with an outdoor kitchen.,exterior_feature_search,exterior_feature
+Q048,Show houses with dual-pane windows and a deck.,exterior_feature_search,exterior_feature
+Q049,Find homes with quartz countertops and stainless steel appliances.,interior_feature_search,interior_feature
+Q050,Show properties with hardwood floors and a fireplace.,interior_feature_search,interior_feature
+Q051,I want a kitchen with a large island and custom cabinetry.,interior_feature_search,interior_feature
+Q052,Find homes with a walk-in closet and vaulted ceilings.,interior_feature_search,interior_feature
+Q053,Show properties with a soaking tub and dual vanities.,interior_feature_search,interior_feature
+Q054,Find homes with central air conditioning.,interior_feature_search,interior_feature
+Q055,I want a house with a tankless water heater.,interior_feature_search,interior_feature
+Q056,Show listings with a walk-in shower and pantry.,interior_feature_search,interior_feature
+Q057,Find homes with an open floor plan.,layout_search,layout
+Q058,Show properties with a primary suite on the main level.,layout_search,layout
+Q059,I need a home office and bonus room.,layout_search,layout
+Q060,Find a two-story house with a family room.,layout_search,layout
+Q061,Show homes with a formal dining room.,layout_search,layout
+Q062,I want a property with a guest suite.,layout_search,layout
+Q063,Find a home with a dedicated laundry room.,layout_search,layout
+Q064,Show flexible floor plans with indoor-outdoor flow.,layout_search,layout

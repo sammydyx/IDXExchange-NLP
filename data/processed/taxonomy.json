@@ -1,0 +1,1417 @@
+{
+  "version": "1.0",
+  "description": "Week 1 curated real-estate taxonomy for listing text matching.",
+  "term_count": 200,
+  "categories": [
+    "amenity",
+    "condition",
+    "exterior_feature",
+    "financing",
+    "interior_feature",
+    "layout",
+    "location_feature",
+    "property_type"
+  ],
+  "terms": [
+    {
+      "id": "T001",
+      "term": "condo",
+      "category": "property_type",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T002",
+      "term": "condominium",
+      "category": "property_type",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T003",
+      "term": "townhouse",
+      "category": "property_type",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T004",
+      "term": "townhome",
+      "category": "property_type",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T005",
+      "term": "single-family home",
+      "category": "property_type",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T006",
+      "term": "detached home",
+      "category": "property_type",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T007",
+      "term": "duplex",
+      "category": "property_type",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T008",
+      "term": "triplex",
+      "category": "property_type",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T009",
+      "term": "fourplex",
+      "category": "property_type",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T010",
+      "term": "multi-family home",
+      "category": "property_type",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T011",
+      "term": "manufactured home",
+      "category": "property_type",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T012",
+      "term": "mobile home",
+      "category": "property_type",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T013",
+      "term": "bungalow",
+      "category": "property_type",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T014",
+      "term": "ranch home",
+      "category": "property_type",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T015",
+      "term": "craftsman home",
+      "category": "property_type",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T016",
+      "term": "contemporary home",
+      "category": "property_type",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T017",
+      "term": "mid-century home",
+      "category": "property_type",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T018",
+      "term": "victorian home",
+      "category": "property_type",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T019",
+      "term": "cabin",
+      "category": "property_type",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T020",
+      "term": "cottage",
+      "category": "property_type",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T021",
+      "term": "pool",
+      "category": "amenity",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T022",
+      "term": "spa",
+      "category": "amenity",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T023",
+      "term": "hot tub",
+      "category": "amenity",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T024",
+      "term": "clubhouse",
+      "category": "amenity",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T025",
+      "term": "fitness center",
+      "category": "amenity",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T026",
+      "term": "gym",
+      "category": "amenity",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T027",
+      "term": "tennis courts",
+      "category": "amenity",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T028",
+      "term": "pickleball courts",
+      "category": "amenity",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T029",
+      "term": "playground",
+      "category": "amenity",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T030",
+      "term": "community garden",
+      "category": "amenity",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T031",
+      "term": "dog park",
+      "category": "amenity",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T032",
+      "term": "concierge",
+      "category": "amenity",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T033",
+      "term": "security gate",
+      "category": "amenity",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T034",
+      "term": "gated community",
+      "category": "amenity",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T035",
+      "term": "elevator",
+      "category": "amenity",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T036",
+      "term": "rooftop deck",
+      "category": "amenity",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T037",
+      "term": "business center",
+      "category": "amenity",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T038",
+      "term": "game room",
+      "category": "amenity",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T039",
+      "term": "media room",
+      "category": "amenity",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T040",
+      "term": "sauna",
+      "category": "amenity",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T041",
+      "term": "steam room",
+      "category": "amenity",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T042",
+      "term": "guest parking",
+      "category": "amenity",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T043",
+      "term": "ev charging",
+      "category": "amenity",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T044",
+      "term": "community amenities",
+      "category": "amenity",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T045",
+      "term": "resort-style amenities",
+      "category": "amenity",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T046",
+      "term": "updated",
+      "category": "condition",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T047",
+      "term": "renovated",
+      "category": "condition",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T048",
+      "term": "remodeled",
+      "category": "condition",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T049",
+      "term": "turnkey",
+      "category": "condition",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T050",
+      "term": "move-in ready",
+      "category": "condition",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T051",
+      "term": "new construction",
+      "category": "condition",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T052",
+      "term": "newly built",
+      "category": "condition",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T053",
+      "term": "like new",
+      "category": "condition",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T054",
+      "term": "well maintained",
+      "category": "condition",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T055",
+      "term": "beautifully maintained",
+      "category": "condition",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T056",
+      "term": "recently updated",
+      "category": "condition",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T057",
+      "term": "freshly painted",
+      "category": "condition",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T058",
+      "term": "fresh interior paint",
+      "category": "condition",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T059",
+      "term": "upgraded",
+      "category": "condition",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T060",
+      "term": "modernized",
+      "category": "condition",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T061",
+      "term": "restored",
+      "category": "condition",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T062",
+      "term": "original condition",
+      "category": "condition",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T063",
+      "term": "fixer-upper",
+      "category": "condition",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T064",
+      "term": "needs tlc",
+      "category": "condition",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T065",
+      "term": "cosmetic fixer",
+      "category": "condition",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T066",
+      "term": "mountain views",
+      "category": "location_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T067",
+      "term": "ocean views",
+      "category": "location_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T068",
+      "term": "city views",
+      "category": "location_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T069",
+      "term": "lake views",
+      "category": "location_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T070",
+      "term": "park views",
+      "category": "location_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T071",
+      "term": "golf course views",
+      "category": "location_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T072",
+      "term": "cul-de-sac",
+      "category": "location_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T073",
+      "term": "near shopping",
+      "category": "location_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T074",
+      "term": "near dining",
+      "category": "location_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T075",
+      "term": "walking distance",
+      "category": "location_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T076",
+      "term": "school district",
+      "category": "location_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T077",
+      "term": "near schools",
+      "category": "location_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T078",
+      "term": "freeway access",
+      "category": "location_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T079",
+      "term": "commuter access",
+      "category": "location_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T080",
+      "term": "downtown",
+      "category": "location_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T081",
+      "term": "waterfront",
+      "category": "location_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T082",
+      "term": "beachfront",
+      "category": "location_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T083",
+      "term": "hillside",
+      "category": "location_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T084",
+      "term": "quiet street",
+      "category": "location_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T085",
+      "term": "gated neighborhood",
+      "category": "location_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T086",
+      "term": "close to parks",
+      "category": "location_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T087",
+      "term": "public transit",
+      "category": "location_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T088",
+      "term": "nearby trails",
+      "category": "location_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T089",
+      "term": "central location",
+      "category": "location_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T090",
+      "term": "golf course",
+      "category": "location_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T091",
+      "term": "seller financing",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T092",
+      "term": "owner financing",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T093",
+      "term": "assumable loan",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T094",
+      "term": "assumable mortgage",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T095",
+      "term": "fha loan",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T096",
+      "term": "va loan",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T097",
+      "term": "conventional loan",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T098",
+      "term": "jumbo loan",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T099",
+      "term": "usda loan",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T100",
+      "term": "cash offer",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T101",
+      "term": "cash buyer",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T102",
+      "term": "all-cash",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T103",
+      "term": "lease option",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T104",
+      "term": "lease-to-own",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T105",
+      "term": "rent-to-own",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T106",
+      "term": "down payment assistance",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T107",
+      "term": "closing cost assistance",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T108",
+      "term": "rate buydown",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T109",
+      "term": "interest rate buydown",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T110",
+      "term": "mortgage credit",
+      "category": "financing",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T111",
+      "term": "patio",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T112",
+      "term": "covered patio",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T113",
+      "term": "private patio",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T114",
+      "term": "deck",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T115",
+      "term": "balcony",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T116",
+      "term": "private balcony",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T117",
+      "term": "backyard",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T118",
+      "term": "private backyard",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T119",
+      "term": "landscaped yard",
+      "category": "exterior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T120",
+      "term": "fenced yard",
+      "category": "exterior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T121",
+      "term": "front yard",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T122",
+      "term": "outdoor kitchen",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T123",
+      "term": "outdoor fireplace",
+      "category": "exterior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T124",
+      "term": "outdoor living space",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T125",
+      "term": "attached garage",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T126",
+      "term": "detached garage",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T127",
+      "term": "two-car garage",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T128",
+      "term": "driveway",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T129",
+      "term": "carport",
+      "category": "exterior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T130",
+      "term": "solar panels",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T131",
+      "term": "dual-pane windows",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T132",
+      "term": "french doors",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T133",
+      "term": "sliding glass doors",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T134",
+      "term": "roof",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T135",
+      "term": "exterior paint",
+      "category": "exterior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T136",
+      "term": "kitchen",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T137",
+      "term": "chef's kitchen",
+      "category": "interior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T138",
+      "term": "kitchen island",
+      "category": "interior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T139",
+      "term": "breakfast bar",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T140",
+      "term": "quartz countertops",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T141",
+      "term": "granite countertops",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T142",
+      "term": "stainless steel appliances",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T143",
+      "term": "custom cabinetry",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T144",
+      "term": "hardwood floors",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T145",
+      "term": "tile flooring",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T146",
+      "term": "vinyl plank flooring",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T147",
+      "term": "fireplace",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T148",
+      "term": "walk-in closet",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T149",
+      "term": "recessed lighting",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T150",
+      "term": "vaulted ceilings",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T151",
+      "term": "soaking tub",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T152",
+      "term": "walk-in shower",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T153",
+      "term": "dual vanities",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T154",
+      "term": "central air conditioning",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T155",
+      "term": "tankless water heater",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T156",
+      "term": "washer and dryer",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T157",
+      "term": "smart home features",
+      "category": "interior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T158",
+      "term": "built-in storage",
+      "category": "interior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T159",
+      "term": "pantry",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T160",
+      "term": "ceiling fans",
+      "category": "interior_feature",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T161",
+      "term": "open floor plan",
+      "category": "layout",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T162",
+      "term": "open-concept layout",
+      "category": "layout",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T163",
+      "term": "split-level",
+      "category": "layout",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T164",
+      "term": "single-story",
+      "category": "layout",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T165",
+      "term": "two-story",
+      "category": "layout",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T166",
+      "term": "main-level primary suite",
+      "category": "layout",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T167",
+      "term": "primary suite",
+      "category": "layout",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T168",
+      "term": "living room",
+      "category": "layout",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T169",
+      "term": "family room",
+      "category": "layout",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T170",
+      "term": "great room",
+      "category": "layout",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T171",
+      "term": "formal dining room",
+      "category": "layout",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T172",
+      "term": "dining area",
+      "category": "layout",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T173",
+      "term": "home office",
+      "category": "layout",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T174",
+      "term": "bonus room",
+      "category": "layout",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T175",
+      "term": "flex space",
+      "category": "layout",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T176",
+      "term": "loft area",
+      "category": "layout",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T177",
+      "term": "den",
+      "category": "layout",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T178",
+      "term": "mudroom",
+      "category": "layout",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T179",
+      "term": "laundry room",
+      "category": "layout",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T180",
+      "term": "breakfast nook",
+      "category": "layout",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T181",
+      "term": "finished basement",
+      "category": "layout",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T182",
+      "term": "guest suite",
+      "category": "layout",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T183",
+      "term": "in-law suite",
+      "category": "layout",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T184",
+      "term": "indoor-outdoor flow",
+      "category": "layout",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T185",
+      "term": "main level",
+      "category": "layout",
+      "source": "sample_candidate",
+      "active": true
+    },
+    {
+      "id": "T186",
+      "term": "pergola",
+      "category": "exterior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T187",
+      "term": "outdoor shower",
+      "category": "exterior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T188",
+      "term": "fire pit",
+      "category": "exterior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T189",
+      "term": "rv parking",
+      "category": "exterior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T190",
+      "term": "storage shed",
+      "category": "exterior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T191",
+      "term": "engineered hardwood",
+      "category": "interior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T192",
+      "term": "laminate flooring",
+      "category": "interior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T193",
+      "term": "marble countertops",
+      "category": "interior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T194",
+      "term": "butcher block countertops",
+      "category": "interior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T195",
+      "term": "farmhouse sink",
+      "category": "interior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T196",
+      "term": "double oven",
+      "category": "interior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T197",
+      "term": "gas range",
+      "category": "interior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T198",
+      "term": "wine refrigerator",
+      "category": "interior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T199",
+      "term": "smart thermostat",
+      "category": "interior_feature",
+      "source": "domain_seed",
+      "active": true
+    },
+    {
+      "id": "T200",
+      "term": "built-in bookcases",
+      "category": "interior_feature",
+      "source": "domain_seed",
+      "active": true
+    }
+  ]
+}
