@@ -1,0 +1,6 @@
+null_rate: 0.0
+avg_length: 1337.03
+has_html: 1
+price_mentions: 13
+common_terms: [('and', 9472), ('the', 8605), ('with', 3657), ('to', 3417), ('of', 2947), ('in', 2926), ('home', 2539), ('for', 2447), ('this', 2264), ('living', 1920), ('is', 1783), ('an', 1750), ('room', 1287), ('or', 1168), ('space', 1123), ('offers', 1070), ('kitchen', 944), ('private', 927), ('dining', 818), ('features', 797)]
+common_abbreviations: ['br', 'bdrm', 'bd', 'ba', 'sqft', 'sq ft', 'sf', 'w/', 'w/o', 'a/c', 'ac', 'hvac', 'gar', 'kit', 'lr', 'dr', 'mbr', 'mb', 'hoa', 'ss', 'app', 'upd', 'renov', 'yr', 'yrs', 'approx', 'incl', 'det']
