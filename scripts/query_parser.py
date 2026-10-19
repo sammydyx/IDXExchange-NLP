@@ -52,7 +52,10 @@ class QueryFilters:
 
 
 class QueryParser:
-    """Parse constrained natural-language property searches into safe filters."""
+    """
+    Convert a natural-language property search query into structured filters
+    that can later be used to search the database.
+    """
 
     MAX_PRICE = 100_000_000
     MAX_BEDS = 20
@@ -67,7 +70,9 @@ class QueryParser:
         "financing options": ("financing", "financing"),
         "hiking trails": ("nearby trails", "location_feature"),
         "close to restaurants": ("near dining", "location_feature"),
+        "shops and dining": ("near dining", "location_feature"),
         "beach": ("beachfront", "location_feature"),
+        "ocean view": ("ocean views", "location_feature"),
     }
 
     def __init__(
@@ -112,7 +117,8 @@ class QueryParser:
 
     @staticmethod
     def _money_value(number: str, suffix: str | None) -> int:
-        value = float(number.replace(",", ""))
+        normalized_number = number.lower().replace(",", "").strip()
+        value = float(QueryParser.NUMBER_WORDS.get(normalized_number, normalized_number))
         suffix = (suffix or "").lower().replace(" ", "")
         if suffix in {"k", "thousand"}:
             value *= 1_000
@@ -140,11 +146,13 @@ class QueryParser:
     @staticmethod
     def _has_money_signal(match: re.Match[str], number_group: int, suffix_group: int) -> bool:
         """Reject small counts such as 'at least 3 bathrooms' as prices."""
-        value = float(match.group(number_group).replace(",", ""))
+        normalized_number = match.group(number_group).lower().replace(",", "").strip()
+        value = float(QueryParser.NUMBER_WORDS.get(normalized_number, normalized_number))
         return "$" in match.group(0) or bool(match.group(suffix_group)) or value >= 100_000
 
     def _extract_price(self, text: str, filters: QueryFilters) -> None:
-        money = r"\$?\s*([0-9][0-9,]*(?:\.\d+)?)\s*(k|m|thousand|million)?"
+        number = r"(?:[0-9][0-9,]*(?:\.\d+)?|one|two|three|four|five|six|seven|eight|nine|ten)"
+        money = rf"\$?\s*({number})\s*(k|m|thousand|million)?"
         range_match = re.search(rf"\b(?:between|from)\s+{money}\s+(?:and|to|-)\s+{money}\b", text)
         if range_match and self._has_money_signal(range_match, 1, 2) and self._has_money_signal(range_match, 3, 4):
             filters.price_min = self._money_value(range_match.group(1), range_match.group(2))

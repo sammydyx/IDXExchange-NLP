@@ -1,4 +1,5 @@
 from pathlib import Path
+import json
 import sys
 
 import pandas as pd
@@ -113,17 +114,58 @@ def test_sql_injection_is_not_concatenated(parser, generator):
 
 SAMPLE_QUERY_PATH = Path(__file__).resolve().parents[1] / "data/processed/sample_user_queries.csv"
 SAMPLE_ROWS = pd.read_csv(SAMPLE_QUERY_PATH).to_dict("records")
+EXPECTATIONS_PATH = Path(__file__).resolve().parent / "fixtures/week4_expected_filters.json"
+EXPECTED_SAMPLE_FILTERS = json.loads(EXPECTATIONS_PATH.read_text(encoding="utf-8"))
+
+FILTER_FIELDS = (
+    "city", "price_min", "price_max", "beds_min", "beds_max", "baths_min", "baths_max",
+    "amenities_include", "amenities_exclude", "terms_include", "terms_exclude",
+)
+EMPTY_FILTERS = {
+    "city": None,
+    "price_min": None,
+    "price_max": None,
+    "beds_min": None,
+    "beds_max": None,
+    "baths_min": None,
+    "baths_max": None,
+    "amenities_include": [],
+    "amenities_exclude": [],
+    "terms_include": [],
+    "terms_exclude": [],
+}
+
+
+def expected_filters(query_id: str) -> dict[str, object]:
+    """Return the complete expected structured output for one Week 1 query."""
+    return EMPTY_FILTERS | EXPECTED_SAMPLE_FILTERS[query_id]
+
+
+def parsed_filter_values(parser: QueryParser, query: str) -> dict[str, object]:
+    """Exclude diagnostic categories; compare the filters that drive SQL instead."""
+    filters = parser.parse(query)
+    return {field: getattr(filters, field) for field in FILTER_FIELDS}
+
+
+def test_every_week1_query_has_an_expected_filter_fixture():
+    query_ids = {row["query_id"] for row in SAMPLE_ROWS}
+    assert set(EXPECTED_SAMPLE_FILTERS) == query_ids
 
 
 @pytest.mark.parametrize("row", SAMPLE_ROWS, ids=lambda row: row["query_id"])
-def test_week1_sample_queries_match_target_category(row, parser):
-    filters = parser.parse(row["query"])
-    assert row["target_category"] in filters.matched_categories
+def test_week1_sample_queries_extract_expected_filters(row, parser):
+    """Each of the 64 examples must produce the SQL-driving filter values.
+
+    `matched_categories` is diagnostic metadata.  It cannot prove that a term
+    such as ``townhouse`` or ``pool`` was placed in the correct include/exclude
+    list, so it is deliberately not used as the correctness criterion here.
+    """
+    assert parsed_filter_values(parser, row["query"]) == expected_filters(row["query_id"])
 
 
-def test_week1_sample_query_accuracy_is_at_least_90_percent(parser):
+def test_week1_structured_filter_accuracy_is_at_least_90_percent(parser):
     correct = sum(
-        row["target_category"] in parser.parse(row["query"]).matched_categories
+        parsed_filter_values(parser, row["query"]) == expected_filters(row["query_id"])
         for row in SAMPLE_ROWS
     )
     assert correct / len(SAMPLE_ROWS) >= 0.90
