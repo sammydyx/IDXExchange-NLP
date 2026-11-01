@@ -31,7 +31,7 @@ class EntityExtractor:
         r"\b(one|two|three|four|five|six|seven|eight|nine|ten)(?:(?:\s*-\s*|\s+)and(?:\s*-\s*|\s+)a(?:\s*-\s*|\s+)half)?\s+(?:full\s+)?(?:bathrooms?|baths?)\b", re.IGNORECASE
     )
     SQFT_PATTERN = re.compile(
-        r"\b([0-9]{1,3}(?:,[0-9]{3})+|[0-9]+)\s*(?:-?\s*)(?:square\s*-?\s*(?:foot|feet)|sq\.?\s*-?\s*ft\.?|sqft|sf)\b",
+        r"\b([0-9]{1,3}(?:,[0-9]{3})+|[0-9]+)\s*(?:-?\s*)(?:square\s*-?\s*(?:foot|feet)|living\s+sf\.?|sq\.?\s*-?\s*ft\.?|sqft|sf)\b",
         re.IGNORECASE,
     )
     DOLLAR_PRICE_PATTERN = re.compile(
@@ -39,7 +39,7 @@ class EntityExtractor:
         re.IGNORECASE,
     )
     COMPACT_PRICE_PATTERN = re.compile(
-        r"\b(?:price(?:d)?|offered at|listed at|asking)\s*(?:at|for)?\s*\$?\s*([0-9]+(?:\.[0-9]+)?)\s*([km])\b",
+        r"\b(?:now\s+only|price(?:d)?|offered at|listed at|asking)\s*(?:at|for)?\s*\$?\s*([0-9]+(?:\.[0-9]+)?)\s*([km])\b",
         re.IGNORECASE,
     )
 
@@ -153,7 +153,9 @@ class EntityExtractor:
     def _square_feet_candidate_score(text: str, match: re.Match, order: int) -> tuple[int, int]:
         """Rank likely primary-property square-footage mentions by local context."""
         before = text[max(0, match.start() - 50):match.start()].lower()
-        after = text[match.end():match.end() + 50].lower()
+        # Keep this suffix local: a later sentence can describe an unrelated
+        # addition after first stating the primary home's size.
+        after = text[match.end():match.end() + 32].lower()
         score = 0
         if re.search(r"\bmain residence\b", before):
             score += 15
@@ -161,6 +163,8 @@ class EntityExtractor:
             score += 12
         if re.search(r"\b(?:residence|home|house)\s+(?:offers|has|totaling|includes)\b", before):
             score += 8
+        if re.search(r"\b(?:main\s+)?(?:residence|home|house)\s+(?:offers|has|is)?\s*(?:approximately|approx\.?)?\s*$", before):
+            score += 15
         if re.search(r"\b(?:structure|building)\b", before):
             score += 6
         if re.search(r"^\s*(?:of\s+)?(?:a\s+)?(?:lot|parcel|acre|land|yard|garage|deck|patio|outdoor)\b", after):
@@ -170,10 +174,38 @@ class EntityExtractor:
         # Earlier mentions win exact ties, preserving the original stable behavior.
         return score, -order
 
+    @staticmethod
+    def _is_secondary_square_feet(text: str, match: re.Match) -> bool:
+        """Exclude lot/yard and auxiliary-area measurements from home-area extraction."""
+        before = text[max(0, match.start() - 75):match.start()].lower()
+        # Restrict auxiliary-space checks to the immediate phrase so a later
+        # sentence does not disqualify a valid primary-home measurement.
+        after = text[match.end():match.end() + 32].lower()
+        nearby = f"{before} {after}"
+
+        # A noun immediately following the measurement makes it a land area,
+        # not the residence's living area. This still permits a later valid
+        # home-area measurement in the same listing.
+        land_noun_follows = re.search(
+            r"^\s*,?\s*(?:[\w-]+\s+){0,4}(?:lot|yard|parcel|land)\b", after
+        )
+        describes_home = re.search(r"\b(?:residence|home|house|living)\b", after)
+        if land_noun_follows and not describes_home:
+            return True
+        if re.search(r"\b(?:lot|yard|parcel)\s+(?:size|of)\s*$", before):
+            return True
+
+        # Do not treat a bonus room, addition, breezeway, garage, etc. as the
+        # total home size when the listing labels it as an auxiliary space.
+        return bool(re.search(r"\b(?:bonus\s+room|addition|breezeway|garage|patio|deck|office|shed)\b", nearby))
+
     def extract_square_feet(self, text: object) -> int | None:
         """Extract the most likely primary-property square-footage value."""
         normalized = str(text or "")
-        matches = list(self.SQFT_PATTERN.finditer(normalized))
+        matches = [
+            match for match in self.SQFT_PATTERN.finditer(normalized)
+            if not self._is_secondary_square_feet(normalized, match)
+        ]
         if not matches:
             return None
         best_match = max(
@@ -185,8 +217,12 @@ class EntityExtractor:
     def extract_price(self, text: object) -> int | None:
         """Extract the first explicitly dollar-denominated or labelled compact price."""
         text = str(text or "")
-        match = self.DOLLAR_PRICE_PATTERN.search(text)
-        if match:
+        for match in self.DOLLAR_PRICE_PATTERN.finditer(text):
+            # Monthly rent, HOA, and solar-lease charges are money amounts,
+            # but they are not listing-price mentions.
+            following = text[match.end():match.end() + 24]
+            if re.match(r"\s*(?:/\s*)?(?:month|mo\.?\b|monthly)\b", following, re.IGNORECASE):
+                continue
             number = float(match.group(1).replace(",", "") + ("." + match.group(2) if match.group(2) else ""))
             suffix = (match.group(3) or "").lower()
             multiplier = 1_000 if suffix == "k" else 1_000_000 if suffix == "m" else 1

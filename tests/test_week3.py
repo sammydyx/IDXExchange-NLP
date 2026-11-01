@@ -137,3 +137,17 @@ def test_square_feet_prefers_main_residence_over_total_multi_unit_space(extracto
         "residence has approximately 2100 square feet plus a 500 square feet guest house."
     )
     assert extractor.extract_square_feet(text) == 2100
+
+
+def test_square_feet_handles_living_sf_and_ignores_auxiliary_or_land_area(extractor):
+    assert extractor.extract_square_feet(
+        "The main house offers approximately 943 Living SF. A permit covers a 430SF addition."
+    ) == 943
+    assert extractor.extract_square_feet("Home sits on a 12,422 sq ft, fenced lot.") is None
+    assert extractor.extract_square_feet("The approx 430-sq ft yard has raised beds.") is None
+
+
+def test_price_handles_contextual_compact_price_and_ignores_monthly_charges(extractor):
+    assert extractor.extract_price("Hot new price! Now only 550K + seller credit.") == 550_000
+    assert extractor.extract_price("Solar lease has 14 years remaining, $140/month.") is None
+    assert extractor.extract_price("HOA dues are $499/mo.") is None
