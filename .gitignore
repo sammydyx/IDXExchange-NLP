@@ -8,5 +8,6 @@ data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/week7_intent_queries.csv
 data/models/*
 !data/models/.gitkeep

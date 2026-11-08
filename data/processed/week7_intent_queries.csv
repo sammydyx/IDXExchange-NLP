@@ -1,0 +1,241 @@
+query_id,query,intent,label_source,review_status,notes
+W7-001,show me homes in Irvine,browsing,human_reviewed,manual_verified,nan
+W7-002,find condos in Irvine,browsing,human_reviewed,manual_verified,nan
+W7-003,browse townhomes around Irvine,browsing,human_reviewed,manual_verified,nan
+W7-004,list single-family homes in Irvine,browsing,human_reviewed,manual_verified,nan
+W7-005,what duplexes are for sale in Irvine,browsing,human_reviewed,manual_verified,nan
+W7-006,show homes with pools in Irvine,browsing,human_reviewed,manual_verified,nan
+W7-007,find condos near Irvine,browsing,human_reviewed,manual_verified,nan
+W7-008,I am looking for townhomes in Irvine,browsing,human_reviewed,manual_verified,nan
+W7-009,show me condos in San Diego,browsing,human_reviewed,manual_verified,nan
+W7-010,find townhomes in San Diego,browsing,human_reviewed,manual_verified,nan
+W7-011,browse single-family homes around San Diego,browsing,human_reviewed,manual_verified,nan
+W7-012,list duplexes in San Diego,browsing,human_reviewed,manual_verified,nan
+W7-013,what homes are for sale in San Diego,browsing,human_reviewed,manual_verified,nan
+W7-014,show condos with fireplaces in San Diego,browsing,human_reviewed,manual_verified,nan
+W7-015,find townhomes near San Diego,browsing,human_reviewed,manual_verified,nan
+W7-016,I am looking for single-family homes in San Diego,browsing,human_reviewed,manual_verified,nan
+W7-017,show me townhomes in Beverly Hills,browsing,human_reviewed,manual_verified,nan
+W7-018,find single-family homes in Beverly Hills,browsing,human_reviewed,manual_verified,nan
+W7-019,browse duplexes around Beverly Hills,browsing,human_reviewed,manual_verified,nan
+W7-020,list homes in Beverly Hills,browsing,human_reviewed,manual_verified,nan
+W7-021,what condos are for sale in Beverly Hills,browsing,human_reviewed,manual_verified,nan
+W7-022,show townhomes with large yards in Beverly Hills,browsing,human_reviewed,manual_verified,nan
+W7-023,find single-family homes near Beverly Hills,browsing,human_reviewed,manual_verified,nan
+W7-024,I am looking for duplexes in Beverly Hills,browsing,human_reviewed,manual_verified,nan
+W7-025,show me single-family homes in Los Angeles,browsing,human_reviewed,manual_verified,nan
+W7-026,find duplexes in Los Angeles,browsing,human_reviewed,manual_verified,nan
+W7-027,browse homes around Los Angeles,browsing,human_reviewed,manual_verified,nan
+W7-028,list condos in Los Angeles,browsing,human_reviewed,manual_verified,nan
+W7-029,what townhomes are for sale in Los Angeles,browsing,human_reviewed,manual_verified,nan
+W7-030,show single-family homes with home offices in Los Angeles,browsing,human_reviewed,manual_verified,nan
+W7-031,find duplexes near Los Angeles,browsing,human_reviewed,manual_verified,nan
+W7-032,I am looking for homes in Los Angeles,browsing,human_reviewed,manual_verified,nan
+W7-033,show me duplexes in Pasadena,browsing,human_reviewed,manual_verified,nan
+W7-034,find homes in Pasadena,browsing,human_reviewed,manual_verified,nan
+W7-035,browse condos around Pasadena,browsing,human_reviewed,manual_verified,nan
+W7-036,list townhomes in Pasadena,browsing,human_reviewed,manual_verified,nan
+W7-037,what single-family homes are for sale in Pasadena,browsing,human_reviewed,manual_verified,nan
+W7-038,show duplexes with solar panels in Pasadena,browsing,human_reviewed,manual_verified,nan
+W7-039,find homes near Pasadena,browsing,human_reviewed,manual_verified,nan
+W7-040,I am looking for condos in Pasadena,browsing,human_reviewed,manual_verified,nan
+W7-041,show me homes in Long Beach,browsing,human_reviewed,manual_verified,nan
+W7-042,find condos in Long Beach,browsing,human_reviewed,manual_verified,nan
+W7-043,browse townhomes around Long Beach,browsing,human_reviewed,manual_verified,nan
+W7-044,list single-family homes in Long Beach,browsing,human_reviewed,manual_verified,nan
+W7-045,what duplexes are for sale in Long Beach,browsing,human_reviewed,manual_verified,nan
+W7-046,show homes with pools in Long Beach,browsing,human_reviewed,manual_verified,nan
+W7-047,find condos near Long Beach,browsing,human_reviewed,manual_verified,nan
+W7-048,I am looking for townhomes in Long Beach,browsing,human_reviewed,manual_verified,nan
+W7-049,show me condos in Sacramento,browsing,human_reviewed,manual_verified,nan
+W7-050,find townhomes in Sacramento,browsing,human_reviewed,manual_verified,nan
+W7-051,browse single-family homes around Sacramento,browsing,human_reviewed,manual_verified,nan
+W7-052,list duplexes in Sacramento,browsing,human_reviewed,manual_verified,nan
+W7-053,what homes are for sale in Sacramento,browsing,human_reviewed,manual_verified,nan
+W7-054,show condos with fireplaces in Sacramento,browsing,human_reviewed,manual_verified,nan
+W7-055,find townhomes near Sacramento,browsing,human_reviewed,manual_verified,nan
+W7-056,I am looking for single-family homes in Sacramento,browsing,human_reviewed,manual_verified,nan
+W7-057,show me townhomes in Santa Monica,browsing,human_reviewed,manual_verified,nan
+W7-058,find single-family homes in Santa Monica,browsing,human_reviewed,manual_verified,nan
+W7-059,browse duplexes around Santa Monica,browsing,human_reviewed,manual_verified,nan
+W7-060,list homes in Santa Monica,browsing,human_reviewed,manual_verified,nan
+W7-061,what condos are for sale in Santa Monica,browsing,human_reviewed,manual_verified,nan
+W7-062,show townhomes with large yards in Santa Monica,browsing,human_reviewed,manual_verified,nan
+W7-063,find single-family homes near Santa Monica,browsing,human_reviewed,manual_verified,nan
+W7-064,I am looking for duplexes in Santa Monica,browsing,human_reviewed,manual_verified,nan
+W7-065,show me single-family homes in Anaheim,browsing,human_reviewed,manual_verified,nan
+W7-066,find duplexes in Anaheim,browsing,human_reviewed,manual_verified,nan
+W7-067,browse homes around Anaheim,browsing,human_reviewed,manual_verified,nan
+W7-068,list condos in Anaheim,browsing,human_reviewed,manual_verified,nan
+W7-069,what townhomes are for sale in Anaheim,browsing,human_reviewed,manual_verified,nan
+W7-070,show single-family homes with home offices in Anaheim,browsing,human_reviewed,manual_verified,nan
+W7-071,find duplexes near Anaheim,browsing,human_reviewed,manual_verified,nan
+W7-072,I am looking for homes in Anaheim,browsing,human_reviewed,manual_verified,nan
+W7-073,show me duplexes in Riverside,browsing,human_reviewed,manual_verified,nan
+W7-074,find homes in Riverside,browsing,human_reviewed,manual_verified,nan
+W7-075,browse condos around Riverside,browsing,human_reviewed,manual_verified,nan
+W7-076,list townhomes in Riverside,browsing,human_reviewed,manual_verified,nan
+W7-077,what single-family homes are for sale in Riverside,browsing,human_reviewed,manual_verified,nan
+W7-078,show duplexes with solar panels in Riverside,browsing,human_reviewed,manual_verified,nan
+W7-079,find homes near Riverside,browsing,human_reviewed,manual_verified,nan
+W7-080,I am looking for condos in Riverside,browsing,human_reviewed,manual_verified,nan
+W7-081,which neighborhoods in Irvine have lower property taxes,researching,human_reviewed,manual_verified,nan
+W7-082,compare HOA fees for condos in Irvine,researching,human_reviewed,manual_verified,nan
+W7-083,what should I know about buying townhomes in Irvine,researching,human_reviewed,manual_verified,nan
+W7-084,which areas near Irvine have good schools,researching,human_reviewed,manual_verified,nan
+W7-085,are duplexes in Irvine expensive to maintain,researching,human_reviewed,manual_verified,nan
+W7-086,how do property taxes compare around Irvine,researching,human_reviewed,manual_verified,nan
+W7-087,what is the typical HOA for condos in Irvine,researching,human_reviewed,manual_verified,nan
+W7-088,which Irvine neighborhoods are best for families,researching,human_reviewed,manual_verified,nan
+W7-089,which neighborhoods in San Diego have lower property taxes,researching,human_reviewed,manual_verified,nan
+W7-090,compare HOA fees for townhomes in San Diego,researching,human_reviewed,manual_verified,nan
+W7-091,what should I know about buying single-family homes in San Diego,researching,human_reviewed,manual_verified,nan
+W7-092,which areas near San Diego have good schools,researching,human_reviewed,manual_verified,nan
+W7-093,are homes in San Diego expensive to maintain,researching,human_reviewed,manual_verified,nan
+W7-094,how do property taxes compare around San Diego,researching,human_reviewed,manual_verified,nan
+W7-095,what is the typical HOA for townhomes in San Diego,researching,human_reviewed,manual_verified,nan
+W7-096,which San Diego neighborhoods are best for families,researching,human_reviewed,manual_verified,nan
+W7-097,which neighborhoods in Beverly Hills have lower property taxes,researching,human_reviewed,manual_verified,nan
+W7-098,compare HOA fees for single-family homes in Beverly Hills,researching,human_reviewed,manual_verified,nan
+W7-099,what should I know about buying duplexes in Beverly Hills,researching,human_reviewed,manual_verified,nan
+W7-100,which areas near Beverly Hills have good schools,researching,human_reviewed,manual_verified,nan
+W7-101,are condos in Beverly Hills expensive to maintain,researching,human_reviewed,manual_verified,nan
+W7-102,how do property taxes compare around Beverly Hills,researching,human_reviewed,manual_verified,nan
+W7-103,what is the typical HOA for single-family homes in Beverly Hills,researching,human_reviewed,manual_verified,nan
+W7-104,which Beverly Hills neighborhoods are best for families,researching,human_reviewed,manual_verified,nan
+W7-105,which neighborhoods in Los Angeles have lower property taxes,researching,human_reviewed,manual_verified,nan
+W7-106,compare HOA fees for duplexes in Los Angeles,researching,human_reviewed,manual_verified,nan
+W7-107,what should I know about buying homes in Los Angeles,researching,human_reviewed,manual_verified,nan
+W7-108,which areas near Los Angeles have good schools,researching,human_reviewed,manual_verified,nan
+W7-109,are townhomes in Los Angeles expensive to maintain,researching,human_reviewed,manual_verified,nan
+W7-110,how do property taxes compare around Los Angeles,researching,human_reviewed,manual_verified,nan
+W7-111,what is the typical HOA for duplexes in Los Angeles,researching,human_reviewed,manual_verified,nan
+W7-112,which Los Angeles neighborhoods are best for families,researching,human_reviewed,manual_verified,nan
+W7-113,which neighborhoods in Pasadena have lower property taxes,researching,human_reviewed,manual_verified,nan
+W7-114,compare HOA fees for homes in Pasadena,researching,human_reviewed,manual_verified,nan
+W7-115,what should I know about buying condos in Pasadena,researching,human_reviewed,manual_verified,nan
+W7-116,which areas near Pasadena have good schools,researching,human_reviewed,manual_verified,nan
+W7-117,are single-family homes in Pasadena expensive to maintain,researching,human_reviewed,manual_verified,nan
+W7-118,how do property taxes compare around Pasadena,researching,human_reviewed,manual_verified,nan
+W7-119,what is the typical HOA for homes in Pasadena,researching,human_reviewed,manual_verified,nan
+W7-120,which Pasadena neighborhoods are best for families,researching,human_reviewed,manual_verified,nan
+W7-121,which neighborhoods in Long Beach have lower property taxes,researching,human_reviewed,manual_verified,nan
+W7-122,compare HOA fees for condos in Long Beach,researching,human_reviewed,manual_verified,nan
+W7-123,what should I know about buying townhomes in Long Beach,researching,human_reviewed,manual_verified,nan
+W7-124,which areas near Long Beach have good schools,researching,human_reviewed,manual_verified,nan
+W7-125,are duplexes in Long Beach expensive to maintain,researching,human_reviewed,manual_verified,nan
+W7-126,how do property taxes compare around Long Beach,researching,human_reviewed,manual_verified,nan
+W7-127,what is the typical HOA for condos in Long Beach,researching,human_reviewed,manual_verified,nan
+W7-128,which Long Beach neighborhoods are best for families,researching,human_reviewed,manual_verified,nan
+W7-129,which neighborhoods in Sacramento have lower property taxes,researching,human_reviewed,manual_verified,nan
+W7-130,compare HOA fees for townhomes in Sacramento,researching,human_reviewed,manual_verified,nan
+W7-131,what should I know about buying single-family homes in Sacramento,researching,human_reviewed,manual_verified,nan
+W7-132,which areas near Sacramento have good schools,researching,human_reviewed,manual_verified,nan
+W7-133,are homes in Sacramento expensive to maintain,researching,human_reviewed,manual_verified,nan
+W7-134,how do property taxes compare around Sacramento,researching,human_reviewed,manual_verified,nan
+W7-135,what is the typical HOA for townhomes in Sacramento,researching,human_reviewed,manual_verified,nan
+W7-136,which Sacramento neighborhoods are best for families,researching,human_reviewed,manual_verified,nan
+W7-137,which neighborhoods in Santa Monica have lower property taxes,researching,human_reviewed,manual_verified,nan
+W7-138,compare HOA fees for single-family homes in Santa Monica,researching,human_reviewed,manual_verified,nan
+W7-139,what should I know about buying duplexes in Santa Monica,researching,human_reviewed,manual_verified,nan
+W7-140,which areas near Santa Monica have good schools,researching,human_reviewed,manual_verified,nan
+W7-141,are condos in Santa Monica expensive to maintain,researching,human_reviewed,manual_verified,nan
+W7-142,how do property taxes compare around Santa Monica,researching,human_reviewed,manual_verified,nan
+W7-143,what is the typical HOA for single-family homes in Santa Monica,researching,human_reviewed,manual_verified,nan
+W7-144,which Santa Monica neighborhoods are best for families,researching,human_reviewed,manual_verified,nan
+W7-145,which neighborhoods in Anaheim have lower property taxes,researching,human_reviewed,manual_verified,nan
+W7-146,compare HOA fees for duplexes in Anaheim,researching,human_reviewed,manual_verified,nan
+W7-147,what should I know about buying homes in Anaheim,researching,human_reviewed,manual_verified,nan
+W7-148,which areas near Anaheim have good schools,researching,human_reviewed,manual_verified,nan
+W7-149,are townhomes in Anaheim expensive to maintain,researching,human_reviewed,manual_verified,nan
+W7-150,how do property taxes compare around Anaheim,researching,human_reviewed,manual_verified,nan
+W7-151,what is the typical HOA for duplexes in Anaheim,researching,human_reviewed,manual_verified,nan
+W7-152,which Anaheim neighborhoods are best for families,researching,human_reviewed,manual_verified,nan
+W7-153,which neighborhoods in Riverside have lower property taxes,researching,human_reviewed,manual_verified,nan
+W7-154,compare HOA fees for homes in Riverside,researching,human_reviewed,manual_verified,nan
+W7-155,what should I know about buying condos in Riverside,researching,human_reviewed,manual_verified,nan
+W7-156,which areas near Riverside have good schools,researching,human_reviewed,manual_verified,nan
+W7-157,are single-family homes in Riverside expensive to maintain,researching,human_reviewed,manual_verified,nan
+W7-158,how do property taxes compare around Riverside,researching,human_reviewed,manual_verified,nan
+W7-159,what is the typical HOA for homes in Riverside,researching,human_reviewed,manual_verified,nan
+W7-160,which Riverside neighborhoods are best for families,researching,human_reviewed,manual_verified,nan
+W7-161,schedule a tour of homes in Irvine this week,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-162,show open houses in Irvine this weekend,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-163,I need to see move-in ready townhomes in Irvine today,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-164,contact an agent about single-family homes in Irvine,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-165,I am ready to make an offer on a duplexes in Irvine,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-166,find newly listed homes in Irvine available now,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-167,book a viewing for condos with fireplaces in Irvine,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-168,urgent: townhomes in Irvine I can tour tomorrow,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-169,schedule a tour of condos in San Diego this week,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-170,show open houses in San Diego this weekend,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-171,I need to see move-in ready single-family homes in San Diego today,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-172,contact an agent about duplexes in San Diego,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-173,I am ready to make an offer on a homes in San Diego,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-174,find newly listed condos in San Diego available now,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-175,book a viewing for townhomes with large yards in San Diego,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-176,urgent: single-family homes in San Diego I can tour tomorrow,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-177,schedule a tour of townhomes in Beverly Hills this week,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-178,show open houses in Beverly Hills this weekend,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-179,I need to see move-in ready duplexes in Beverly Hills today,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-180,contact an agent about homes in Beverly Hills,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-181,I am ready to make an offer on a condos in Beverly Hills,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-182,find newly listed townhomes in Beverly Hills available now,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-183,book a viewing for single-family homes with home offices in Beverly Hills,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-184,urgent: duplexes in Beverly Hills I can tour tomorrow,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-185,schedule a tour of single-family homes in Los Angeles this week,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-186,show open houses in Los Angeles this weekend,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-187,I need to see move-in ready homes in Los Angeles today,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-188,contact an agent about condos in Los Angeles,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-189,I am ready to make an offer on a townhomes in Los Angeles,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-190,find newly listed single-family homes in Los Angeles available now,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-191,book a viewing for duplexes with solar panels in Los Angeles,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-192,urgent: homes in Los Angeles I can tour tomorrow,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-193,schedule a tour of duplexes in Pasadena this week,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-194,show open houses in Pasadena this weekend,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-195,I need to see move-in ready condos in Pasadena today,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-196,contact an agent about townhomes in Pasadena,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-197,I am ready to make an offer on a single-family homes in Pasadena,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-198,find newly listed duplexes in Pasadena available now,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-199,book a viewing for homes with pools in Pasadena,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-200,urgent: condos in Pasadena I can tour tomorrow,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-201,schedule a tour of homes in Long Beach this week,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-202,show open houses in Long Beach this weekend,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-203,I need to see move-in ready townhomes in Long Beach today,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-204,contact an agent about single-family homes in Long Beach,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-205,I am ready to make an offer on a duplexes in Long Beach,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-206,find newly listed homes in Long Beach available now,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-207,book a viewing for condos with fireplaces in Long Beach,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-208,urgent: townhomes in Long Beach I can tour tomorrow,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-209,schedule a tour of condos in Sacramento this week,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-210,show open houses in Sacramento this weekend,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-211,I need to see move-in ready single-family homes in Sacramento today,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-212,contact an agent about duplexes in Sacramento,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-213,I am ready to make an offer on a homes in Sacramento,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-214,find newly listed condos in Sacramento available now,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-215,book a viewing for townhomes with large yards in Sacramento,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-216,urgent: single-family homes in Sacramento I can tour tomorrow,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-217,schedule a tour of townhomes in Santa Monica this week,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-218,show open houses in Santa Monica this weekend,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-219,I need to see move-in ready duplexes in Santa Monica today,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-220,contact an agent about homes in Santa Monica,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-221,I am ready to make an offer on a condos in Santa Monica,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-222,find newly listed townhomes in Santa Monica available now,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-223,book a viewing for single-family homes with home offices in Santa Monica,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-224,urgent: duplexes in Santa Monica I can tour tomorrow,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-225,schedule a tour of single-family homes in Anaheim this week,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-226,show open houses in Anaheim this weekend,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-227,I need to see move-in ready homes in Anaheim today,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-228,contact an agent about condos in Anaheim,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-229,I am ready to make an offer on a townhomes in Anaheim,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-230,find newly listed single-family homes in Anaheim available now,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-231,book a viewing for duplexes with solar panels in Anaheim,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-232,urgent: homes in Anaheim I can tour tomorrow,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-233,schedule a tour of duplexes in Riverside this week,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-234,show open houses in Riverside this weekend,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-235,I need to see move-in ready condos in Riverside today,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-236,contact an agent about townhomes in Riverside,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-237,I am ready to make an offer on a single-family homes in Riverside,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-238,find newly listed duplexes in Riverside available now,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-239,book a viewing for homes with pools in Riverside,high_intent_inquiry,human_reviewed,manual_verified,nan
+W7-240,urgent: condos in Riverside I can tour tomorrow,high_intent_inquiry,human_reviewed,manual_verified,nan
