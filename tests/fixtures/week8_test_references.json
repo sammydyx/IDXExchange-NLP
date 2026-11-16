@@ -1,0 +1,325 @@
+{
+  "selection": "listing_sample.csv.sample(n=20, random_state=8)",
+  "cases": [
+    {
+      "listing_id": "1190803654",
+      "record": {
+        "L_ListingID": 1190803654,
+        "L_Address": "36194 Toulon",
+        "L_City": "Murrieta",
+        "beds": 4.0,
+        "baths": 3.0,
+        "price": 649000,
+        "remarks": "Beautiful four-bedroom home in Murrieta's Encanto neighborhood, just off Clinton Keith Road and in close proximity to the 215 and 15 freeways.  36194 Toulon Road offers a two-level home with 1935 sq. ft. of living space, four bedrooms, and 2 1/2 bathrooms. You will appreciate the covered main entry leading to the double door entry. As you enter the home, you will enjoy the spacious living room and dining room with vaulted ceilings, an abundance of windows providing natural light, and a sliding door leading directly to a patio area. The kitchen has a stainless stove, microwave, sink and dishwasher, and there is a perfectly situated breakfast nook adjacent to the kitchen. A second sliding door is just off the family room leading to a covered patio area where you can entertain and relax. The main level has easy to maintain flooring, while there is new carpeting on the second level and stairway.  Just off the primary suite is a direct access balcony where you can enjoy your morning coffee and sunsets. All bedrooms and the family room have a ceiling fan, and there is a cozy fireplace in the family room. The interior is freshly painted, and the exterior trim and facia has been touched up. The spacious back yard is waiting for your dreams.  The property has a block wall and vinyl fencing/gate.  A three-car garage, with a storage platform built above the single bay is perfect for vehicles and storage. The conveniently located laundry room has a 220V outlet and gas connection, as well as a utility sink. Close to school and shopping.  Low tax rate area and no HOA."
+      },
+      "reference_summary": "This Murrieta home is listed at $649,000 with 4 bedrooms and 3 bathrooms in the listing fields. Features include a fireplace, covered patio, balcony and three-car garage, while the remarks describe two and a half bathrooms.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1157630859",
+      "record": {
+        "L_ListingID": 1157630859,
+        "L_Address": "75 Pelican P-75",
+        "L_City": "Watsonville",
+        "beds": 2.0,
+        "baths": 2.0,
+        "price": 990000,
+        "remarks": "A Perfect Beach Vacation Home !  Overlooking the Pajaro River and Bay stretching all the way to Monterey. Privacy and enchanting views await the lucky new owner of this single level, 2-bedroom, 2 bath.  The master bedroom has private views of the river and ocean beyond.  Large deck to enjoy the morning sunrise and just steps to the beach path.  Enjoy tennis, pickleball and miles of sandy beach.  Centrally located half way between Santa Cruz and Monterey."
+      },
+      "reference_summary": "This 2-bedroom, 2-bathroom Watsonville home is listed for $990,000. It offers a large deck, river and ocean views, a single-level layout and access to the beach path, with tennis and pickleball nearby.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1177185346",
+      "record": {
+        "L_ListingID": 1177185346,
+        "L_Address": "12052 Laurel Terrace Drive",
+        "L_City": "Studio City",
+        "beds": 3.0,
+        "baths": 3.0,
+        "price": 1795000,
+        "remarks": "This New England style cottage is nestled in the coveted \"Silver Triangle\" neighborhood of Studio City. Up a shared drive, off the street, this charming home is warm, elegant, and private. The home is infused with natural light from expansive walls of floor-to-ceiling windows and French doors. Gleaming wood floors flow throughout, complemented by soaring wood-beamed ceilings. The inviting dining room features a fireplace and French doors opening to a private patio, perfect for intimate gatherings. Spacious and light-filled, the great room is designed to entertain, boasting high wood-beamed ceilings and panoramic windows with views of stunning vistas. The chef's kitchen is equipped with granite countertops and opens to the family and dining rooms, creating a harmonious flow. Each of the three beautiful bedrooms has an ensuite bath, with the entire lower level dedicated to the primary suite. This sanctuary of a primary includes a walk-in cedar closet, dual vanity, soaking tub, and access to a large but intimate deck, overlooking a fragrant rose garden and serene views. Adding to the home's enchantment is a delightful storybook playhouse. Moments from Ventura Boulevard's fine dining and shops, the Farmer's Market, Carpenter School, Fryman Canyon, and scenic hiking trails, this exceptional Studio City home offers a unique blend of comfort, style, and convenience."
+      },
+      "reference_summary": "This Studio City home has 3 bedrooms and 3 bathrooms and is listed for $1,795,000. A fireplace and private patio accompany wood floors, granite countertops and a primary suite with a walk-in closet and deck.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1190316000",
+      "record": {
+        "L_ListingID": 1190316000,
+        "L_Address": "2569 W Plaza Serena Drive",
+        "L_City": "Rialto",
+        "beds": 3.0,
+        "baths": 2.0,
+        "price": 629999,
+        "remarks": "Welcome to 2569 Plaza Serena Dr. This inviting single-story home sits on a corner lot in a friendly Rialto neighborhood, offering three bedrooms, two bathrooms, and 1,357 square feet of comfortable living space on a generous 6,900 square foot lot.\r\r\n\r\r\nStep inside to find tile flooring flowing throughout the home, paired with vaulted ceilings that give the living areas an open, airy feel. The kitchen offers plenty of cabinet storage and counter space, ready for everyday cooking and gathering. Ceiling fans throughout the home add year-round comfort, and a cozy fireplace anchors the main living space, perfect for relaxed evenings in.\r\r\n\r\r\nThis home has been thoughtfully maintained with a saltless water softener system, paid off Vivint security system, upgraded smart home light switches, and solar panels, giving buyers modern convenience and energy efficiency from day one. Outside, the corner lot provides extra space and privacy, with a backyard set up for outdoor living and entertaining.\r\r\n\r\r\nLocated close to shopping and good schools, this home offers the ease and convenience today's buyers are looking for, all within a well-established Rialto community. Come see everything 2569 Plaza Serena Dr has to offer."
+      },
+      "reference_summary": "This Rialto home is listed at $629,999 with 3 bedrooms and 2 bathrooms. Highlights include solar panels and a fireplace, along with vaulted ceilings, tile flooring and a backyard on a corner lot.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1190188728",
+      "record": {
+        "L_ListingID": 1190188728,
+        "L_Address": "4251 Moraga Avenue",
+        "L_City": "San Diego",
+        "beds": 3.0,
+        "baths": 2.0,
+        "price": 1329999,
+        "remarks": "Some homes are simply lived in. This one was cared for. Offered for the very first time, this Clairemont home sits on an oversized 7,300 sq ft lot in the tucked-away pocket of Bay Ho in San Diego's 92117 zip code. Every every detail inside reflects decades of intention, not just maintenance.  The kitchen has been fully remodeled with solid hickory cabinetry and adobe-cooling tile flooring, opening into a thoughtfully designed floor plan built for real life, not just showings. A brand-new Samsung French door refrigerator conveys with the home. The front bathroom has been remodeled to be ADA-compliant, and both bathrooms feature low-flow fixtures while retaining their original character and charm. Dual-pane tempered windows, a redone electrical panel, and a solar system round out a property where the big-ticket items have been handled.  The backyard does the talking: an expansive lot with peekaboo ocean views and room to dream. Garden, entertain, expand, or simply breathe. Mature, quarterly-fed fruit trees, including Meyer lemon, Hass avocado, and Cara Cara orange, fill a yard that was thoughtfully terraced in 2020 with dedicated irrigation for the orchard — tended for years, not staged for a season.  Ideally located minutes from Mission Bay, Pacific Beach, and I-5 access, this Bay Ho/Clairemont Mesa home is zoned for Cadman Elementary, Marston Middle, and Clairemont High School in the San Diego Unified School District.  Efficient. Thoughtful. First time available in San Diego's 92117 Clairemont neighborhood. This is Bay Ho living, done right."
+      },
+      "reference_summary": "This San Diego home is listed for $1,329,999 with 3 bedrooms and 2 bathrooms in the listing fields. The remarks describe ocean views, a solar system, a remodeled kitchen and a terraced backyard with fruit trees.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1178396393",
+      "record": {
+        "L_ListingID": 1178396393,
+        "L_Address": "313 Amherst",
+        "L_City": "Lompoc",
+        "beds": 4.0,
+        "baths": 2.0,
+        "price": 689000,
+        "remarks": "Welcome to 313 Amherst Place, a thoughtfully updated 4-bedroom, 2-bathroom home tucked into a serene Southside Lompoc neighborhood, where stylish interiors, a beautifully landscaped backyard, and meaningful improvements make this home truly move-in ready. Recent upgrades include a new roof in 2020, a new refrigerator and water heater in 2025, an EV charger in the garage, and a new dishwasher in 2026. Inside, the beautifully updated kitchen features rich wood cabinetry, and granite countertops. Updated LVP flooring flows throughout the home, while dual-pane windows, sliding glass doors bring in natural light regardless of the time of day. The spacious primary suite includes a private en-suite bathroom and custom-designed closet system, while three additional bedrooms offer flexibility for family, guests, or a home office. A cozy fireplace adds warmth and character to the living space, perfect for the cooler Lompoc evenings. Outside, the backyard is made for enjoying the Central Coast lifestyle. Views of the hills, low-maintenance turf with drainage, a brick and paver patio, bistro lights, and a fire pit gathering area create an inviting setting from afternoon to evening. Citrus, apple, and peach trees, along with a passion fruit vine, add to the charm, while the side yard offers additional usable space, perfect for a dog run. An extended driveway leads to an oversized two-car garage with epoxy flooring and an electric vehicle charger. Conveniently located near local coffee shops, Beattie Park, wineries, beaches, Highway 1 and Highway 246, with a short commute to Vandenberg Space Force Base, 313 Amherst Place brings together thoughtful updates, outdoor living, and an ideal Southside location."
+      },
+      "reference_summary": "This 4-bedroom, 2-bathroom Lompoc home is listed at $689,000. It features a fireplace and two-car garage, with an EV charger, granite countertops, updated flooring and a landscaped backyard with a fire pit.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1179321783",
+      "record": {
+        "L_ListingID": 1179321783,
+        "L_Address": "9025 Camp Rock Road",
+        "L_City": "Lucerne Valley",
+        "beds": 2.0,
+        "baths": 2.0,
+        "price": 1600000,
+        "remarks": "37 Acres. A Legacy Property Unlike Anything Else on the Market. Set against the dramatic backdrop of Lucerne Valley, this extraordinary 37-acre estate offers a rare combination of luxury, sustainability, and opportunity. At its heart is a beautifully engineered 1,800-square-foot steel residence built in 2009, designed for exceptional durability, energy efficiency, and fire resistance. Thoughtfully constructed with two spacious bedroom suites, the home provides modern comfort while embracing the privacy and serenity of the surrounding desert landscape. What truly sets this property apart is the infrastructure and potential that would be nearly impossible to recreate today. Formerly operated as a wild animal rescue, the property includes a transferable lifetime commercial use permit for an animal sanctuary, making it a unique opportunity for qualified organizations, conservation groups, animal rescue operators, or buyers seeking an established specialty-use property. The existing infrastructure provides a strong foundation for continuing that mission or adapting the property to other approved uses. Equestrian enthusiasts will appreciate direct access to nearby riding trails and the expansive acreage, offering endless possibilities for horses, training, or recreational riding. The property's established orchard features approximately 80 fruit trees, creating both beauty and productivity while complementing the property's self-sufficient lifestyle. Additional highlights include owned solar, extensive site improvements, wide-open desert and mountain views, and the privacy that only a property of this scale can provide. Whether your vision is to establish or expand an animal sanctuary, create a premier equestrian estate, develop a private family compound, or simply own one of Southern California's most distinctive rural properties, this offering presents an opportunity that is exceptionally difficult to duplicate. Properties with this combination of acreage, infrastructure, commercial entitlement, and quality construction rarely become available. This is more than a homeit's a property with purpose, potential, and lasting legacy."
+      },
+      "reference_summary": "This Lucerne Valley property has 2 bedrooms and 2 bathrooms in the listing fields and is listed for $1,600,000. The 37-acre estate offers mountain views, owned solar, an established orchard and infrastructure from an animal sanctuary.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1190413227",
+      "record": {
+        "L_ListingID": 1190413227,
+        "L_Address": "6268 Canyon Bluff Ct",
+        "L_City": "San Diego",
+        "beds": 4.0,
+        "baths": 2.0,
+        "price": 1625000,
+        "remarks": "Rarely available SINGLE-LEVEL home in Pacific Ridge, ideally situated on a corner lot in a quiet cul-de-sac. This light-filled residence offers 4 bedrooms, 2 full baths, vaulted ceilings, and a functional open floor plan. The kitchen features granite countertops, stainless steel appliances, a large center island, and opens to the family room with a fireplace and custom built-in cabinetry. The spacious primary suite includes a vaulted ceiling and direct backyard access. Recent improvements include fresh paint, luxury vinyl plank flooring in the bedrooms, updated bathrooms, a tankless water heater, automatic water shut-off system, smart-home features, and an upgraded garage with custom storage and a utility sink. Enjoy the private backyard with a trellised patio, enhanced landscaping, and low-maintenance greenery. Conveniently located near Sorrento Valley, UTC, La Jolla, shopping, dining, and major commuter routes."
+      },
+      "reference_summary": "This San Diego home has 4 bedrooms and 2 bathrooms and is listed at $1,625,000. Highlights include a fireplace and cul-de-sac location, with granite countertops, stainless steel appliances, vaulted ceilings and a private backyard patio.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1181670968",
+      "record": {
+        "L_ListingID": 1181670968,
+        "L_Address": "2026 Lexington Drive",
+        "L_City": "Fullerton",
+        "beds": 4.0,
+        "baths": 3.0,
+        "price": 1599000,
+        "remarks": "Welcome to this beautifully maintained 4-bedroom, 3-bathroom home in the highly sought-after gated community of Sorrento Hills in Fullerton. Offering approximately 3,307 square feet of living space, the versatile floor plan includes an expansive upstairs bonus room with closet space, plus a main-level office that offers the potential for a 5th bedroom ideal for multi-generational living, extended family, guests, or working from home. Fresh interior paint and abundant natural light create a bright, refreshed feel throughout, while new windows, a new HVAC system, and solar add comfort and energy efficiency. Step outside to a private backyard with a pool and hot tub, creating the perfect setting for entertaining, relaxing, and enjoying Southern California living. Situated on a cul-de-sac, Sorrento Hills offers the privacy of a gated community along with a greenbelt park, sports court, walking paths, and direct access to the scenic Fullerton Loop trails. Conveniently located near shopping, dining, parks, and schools, this home delivers an exceptional combination of space, versatility, comfort, and location."
+      },
+      "reference_summary": "This Fullerton home is listed for $1,599,000 with 4 bedrooms and 3 bathrooms. A pool and hot tub sit in a private backyard, with a gated community, solar, a bonus room and a main-level office.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1179223596",
+      "record": {
+        "L_ListingID": 1179223596,
+        "L_Address": "709 S Azusa Avenue M",
+        "L_City": "Azusa",
+        "beds": 3.0,
+        "baths": 3.0,
+        "price": 645000,
+        "remarks": "Tucked within the gated Colony at Azusa community, this bright and beautifully maintained tri-level corner townhouse offers privacy, functionality, and a thoughtfully designed layout. Built in 2015 and cared for by its original owner, the home reflects pride of ownership throughout. The entry level features direct access to a spacious side-by-side two-car garage, along with plenty of room for storage. Upstairs, the main living level opens into an airy and inviting space filled with natural light. The open kitchen offers ample cabinetry and storage and flows seamlessly into the dining area and comfortable living room, creating an ideal setting for everyday living and entertaining. A conveniently located half bathroom completes this level. All three bedrooms are privately situated on the top floor. The primary bedroom features its own ensuite bathroom, while two additional bedrooms share a second full bathroom. A stackable laundry closet is also located on the bedroom level for added convenience. Additional highlights include abundant storage throughout, low HOA dues, no Mello-Roos, and access to the community pool. Ideally located near shopping, dining, freeways, and Azusa Pacific University, this quiet corner residence combines modern comfort with everyday convenience."
+      },
+      "reference_summary": "This Azusa townhouse is listed at $645,000 with 3 bedrooms and 3 bathrooms in the listing fields. It offers a community pool and two-car garage in a gated community, with a laundry closet and storage.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1151288342",
+      "record": {
+        "L_ListingID": 1151288342,
+        "L_Address": "7015 N Atlantic Place",
+        "L_City": "Long Beach",
+        "beds": 4.0,
+        "baths": 3.0,
+        "price": 2300000,
+        "remarks": "You're being presented an exceptional opportunity to own a huge, approximately 34,912 square foot, 80% of an acre, equestrian and R2 zoned estate. This is the first time on the market in decades, Properties adjacent to the 72nd Street Horse Park and Arena, of this size, with a full build out of stables and private riding ring are rarely available. The back gate provides access to the 72nd Street Equestrian Park and the Los Angeles River Trail. The property is fully fenced and has metal rolling driveway gates. The south driveway leads to a large garage, The long north driveway provides direct access to the stables and private arena. Spacious private front and back yards, both have expansive lawns and mature landscaping. Custom built ranch style home has a great floorplan. Central heat and air conditioning, plus solar electric system. Stepping inside the formal entry area has natural stone flooring. The huge living and dining rooms both have the warm view of a huge natural stone fireplace. High open wood beam ceilings, tiled floors and multiple sliding glass patio doors to the enclosed patio. The kitchen features built in oven & stove, dual stainless sink, huge expanse of counter space, numerous cabinets include a pantry, breakfast bar etc. A utility room with included washer and dryer, is kitchen adjacent plus has a separate entrance door. A spacious den with fireplace, high open beam ceilings plus custom woodwork includes numerous display cabinets including a mirrored beverage cabinet. Four bedrooms include the big master bedroom suite with it's private bathroom. There are two more hall accessible bathrooms. A large fully enclosed patio facing out to the back yard greatly increases the usable space of the home. The horse facilities feature: private arena, several stable buildings with huge number of stalls, multiple tack rooms, hay barn, bunkhouse, etc. Property is being sold in it's \"AS IS PRESENT CONDITION\"  subject to the buyer's inspections."
+      },
+      "reference_summary": "This Long Beach property is listed for $2,300,000 with 4 bedrooms and 3 bathrooms. Features include fireplaces, stables and a private riding arena, with a garage, enclosed patio, solar system and access to an equestrian park.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1179191520",
+      "record": {
+        "L_ListingID": 1179191520,
+        "L_Address": "5210 S Montecito Dr",
+        "L_City": "Concord",
+        "beds": 4.0,
+        "baths": 3.0,
+        "price": 1448800,
+        "remarks": "Extensively updated and expanded executive home borders Walnut Creek City limits and the lush Lime Ridge Open Space. Embrace the Montecito lifestyle, a gated community of about 183 homes near 25 miles of hiking trails and a neighborhood pool. Within three miles of the Oak Grove Plaza shops and restaurants, and within five miles of BART. 3011+/-SF on two levels includes a 276-SF bonus room/loft, formal living and dining rooms, an executive office with private entries, and a chef’s eat-in kitchen open to a family room with a gas fireplace and a mirrored accent wall. Four bedrooms and two and a half updated bathrooms include a main-level primary suite with French door backyard access, floor-to-ceiling built-in wardrobes, and an en suite with a Jacuzzi tub, a glass-enclosed shower, a rain showerhead, and a dual-sink vanity. Chef’s kitchen with granite counters, backsplashes with decorative tile inlays, island/breakfast bar. Stainless steel GE, Samsung, and Bosch appliances. Gas cooktop, dual ovens, four-door refrigerator, dishwasher, and microwave. Casual dining area with built-in cabinets. Curb appeal with a California native landscape. Gated courtyard entry with slate tile. Bamboo, slate tile, and carpeted staircase. Plantation shutters. Recessed LED lighting. Decorative ironwork banister. Energy-efficient solar panels, solar attic fan and roof ventilation grills. Ring Wi-Fi-enabled security cameras, window sensors. Keyless front door entry controlled via Ring system. Keyless entries for laundry and primary suite’s walk-in closet. Digital 2 cubic-ft safe, 1 hour fire rating, embedded into closet concrete flr. Updated Ecobee thermostat, high-capacity, efficient 2-stage furnace, 2-stage air conditioning, and water heater. Updated Samsung washer and dryer. 2-car garage, extensive Gladiator storage units, LED lights, a myQ app-controlled garage door w/open/close sensor. Backyard sanctuary. Loggia with retractable sun awning, patio, terraced garden beds, waterfall feature, LED lighting. Half mile to Crystal Ranch Trailhead. K-12 schools within about two miles."
+      },
+      "reference_summary": "This Concord home is listed at $1,448,800 with 4 bedrooms and 3 bathrooms in the listing fields. It offers solar panels, a fireplace, a two-car garage and access to a neighborhood pool in a gated community, while the remarks describe two and a half bathrooms.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1169734056",
+      "record": {
+        "L_ListingID": 1169734056,
+        "L_Address": "6369 Clubhouse Drive",
+        "L_City": "Rancho Santa Fe",
+        "beds": 6.0,
+        "baths": 6.0,
+        "price": 10495000,
+        "remarks": "6369 Clubhouse Drive is a rare and extraordinary offering within the prestigious guard-gated Del Mar Country Club (DMCC), an exceptional estate ideally positioned at the quiet end of Clubhouse Drive in one of the community’s most secluded and desirable settings. This private sanctuary enjoys breathtaking panoramic views to both the front and rear, spanning expansive fairways, water features, rolling hills, and a pristine nature reserve.   Its oversized 1.48-acre lot boasts one of DMCC’s most expansive and serene gardens and offers the scale, privacy, and presence of a Rancho Santa Fe Covenant estate while enjoying the convenience, security, and walkable luxury lifestyle of DMCC. Lush, mature landscaping creates a natural privacy screen, enveloping the residence in beauty and complete seclusion while enhancing the feeling of being entirely surrounded by nature.  Recently remodeled with meticulous attention to detail, the 8,089-square-foot mansion blends refined modern style with the charm and elegance of a sophisticated Tuscan villa. Bathed in full southern exposure, the home is filled with natural light from sunrise to sunset. Soaring ceilings, floor-to-ceiling windows, and expansive double doors create a seamless indoor-outdoor connection, enhancing the bright open floor plan and effortless Southern California lifestyle. Elegant finishes, including polished stone and rich walnut wood flooring, further elevate the home’s warm yet sophisticated design. Thoughtfully designed for both comfortable daily living and grand-scale entertaining, the residence ... See Supplement  Thoughtfully designed for both comfortable daily living and grand-scale entertaining, the residence features six spacious bedrooms and five- and-a-half bathrooms with two bedroom suites located on the main level. The luxurious primary suite offers a large balcony overlooking fairways, valley and pond, and a spa-inspired bath retreat with a freestanding soaking tub, steam sauna, dual walk-in closets, and peaceful garden views. A dedicated fitness studio with floor-to-ceiling mirrors and padded flooring supplements the broad range of health and wellness offerings.  The grounds have been curated as a true private resort and wellness oasis. A palm-framed pool with dramatic natural rock waterfalls, spa, charming gazebo with fireplace, expansive entertaining terraces, and mature orchard create an unforgettable outdoor setting for relaxation, rejuvenation, and hosting memorable celebrations. With its thoughtful layout, generous scale and seamless indoor-outdoor flow, the estate is perfectly suited for intimate family living or gatherings of 100+ guests.  Additional highlights include smart home and security technology, extensive health and wellness features, as well as battery-backed solar and heat pump systems for enhanced efficiency and modern convenience. Del Mar Country Club is home to one of the nation’s most celebrated private golf courses and offers an ultra-luxurious lifestyle with 24/7 guard-gated security, tennis, pickleball, swimming, dining, and a vibrant club community. Ideally located just minutes from the beaches of Del Mar and enjoying Rancho Santa Fe’s coveted microclimate and year-round sunshine, 6369 Clubhouse Drive is a truly rare opportunity to own one of Del Mar Country Club’s most expansive, private, nature-immersed, and beautifully appointed estates. Where luxury, serenity, and unforgettable living come together."
+      },
+      "reference_summary": "This Rancho Santa Fe estate is listed for $10,495,000 with 6 bedrooms and 6 bathrooms in the listing fields. A pool and spa accompany a fireplace, gardens and solar systems, while the remarks describe five and a half bathrooms.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1176758458",
+      "record": {
+        "L_ListingID": 1176758458,
+        "L_Address": "17417 Rancho Street",
+        "L_City": "Encino",
+        "beds": 7.0,
+        "baths": 6.0,
+        "price": 4795000,
+        "remarks": "Presenting a custom-built Hamptons-inspired estate South of the Boulevard in Encino's highly coveted Rancho Estates neighborhood. This exceptional two-story residence spans 7BD/5.5BA plus an office, and is defined by soaring ceilings, vintage light fixtures, and an abundance of sun-drenched living spaces designed for both grand-scale entertaining and everyday comfort. A gated circular driveway centered around a magnificent oak tree, complemented by charming garden landscaping, creates a warm and distinguished first impression. Upon entry, an elegant formal living room boasts dramatic ceilings, intricate crown molding, limestone flooring and fireplace, and generous seating areas ideal for gathering with family and guests. Adjacent, the formal dining area offers a refined setting for hosting and is framed by French windows and doors that both bathe the space in natural light and open seamlessly to the backyard. The chef's kitchen is both visually striking and exceptionally functional, featuring Viking appliances, an oversized Sub-Zero refrigerator and freezer, limestone countertops, an expansive center island with a secondary sink, dual bar seating areas, and a casual dining space overlooking the backyard. Connected to the kitchen is an inviting family room complete with French windows, extensive built-ins with integrated desk space, and a gas fireplace, creating the perfect central gathering area. Just beyond, a thoughtfully designed butler's pantry includes an additional refrigerator, supplementary appliances, abundant storage, and exceptional prep space. Completing the main level are a guest suite with an adjacent bathroom featuring a walk-in shower, a powder room, a versatile bonus room ideal as a gym or playroom, and extensive storage throughout. Upstairs, six additional bedrooms await, including a remarkable primary suite designed as a true private retreat. This sanctuary features soaring ceilings, dual walk-in closets, a dedicated sitting area, an elegant fireplace, and a charming window seat.The spa-inspired primary bath showcases dual Jerusalem stone vanities, a soaking tub, a spacious walk-in shower, and a private water closet. Also situated within this wing are a cozy library nook, a richly designed office with custom built-ins, and an additional guest bedroom. Further down the hall, four secondary bedrooms feature generous storage and charming window seats, accompanied by two Jack-and-Jill bathrooms with dual vanities as well as an additional full bath. Three bedrooms also include built-in study areas, offering privacy and functionality. Outside, the enchanting backyard presents a private oasis featuring a covered patio, expansive grassy grounds, and lush mature landscaping that creates a serene sense of seclusion and natural beauty. Additional highlights include a dedicated laundry room with a connecting laundry chute upstairs, a three-car garage with direct access and abundant storage, as well as ample additional driveway parking. Ideally located within the award-winning Encino Charter Elementary School district and moments from Ventura Boulevard's premier dining and shopping destinations, this exceptional residence offers the perfect balance of timeless elegance, privacy, and a refreshing escape from the traditional Valley home experience."
+      },
+      "reference_summary": "This Encino home is listed at $4,795,000 with 7 bedrooms and 6 bathrooms in the listing fields. It features fireplaces, a covered patio, walk-in closets and a three-car garage, while the remarks describe 5.5 bathrooms.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1155214068",
+      "record": {
+        "L_ListingID": 1155214068,
+        "L_Address": "5731 Oak Avenue",
+        "L_City": "Temple City",
+        "beds": 5.0,
+        "baths": 5.0,
+        "price": 2089000,
+        "remarks": "Welcome to your NEWLY BUILT 2026 Luxurious Single-Story residence ideally located in the PRIME LOCATION of Temple City, known for its award-winning schools & exceptional convenience. The impressive curb appeal features vibrant landscaping, a brand-new long driveway, & a charming porch that creates a warm & welcoming first impression. Inside, the thoughtfully designed open & functional floor plan offers 5 bedrooms & 5 full bathrooms, including a detached studio ADU ideal for guests, extended family, or flexible living space. Majority of the house is Just Newly Rebuilt!! High ceilings & designer finishes enhance the interior, complemented by numerous new upgrades including chevron flooring, contemporary brass lighting fixtures, custom cabinetry, dual-pane windows, LED recessed lighting, new doors, premium hardware, elegant details, & much more! The spacious living room with a stylish fireplace flows seamlessly into the dining room and gourmet kitchen. The kitchen features state-of-the-art appliances, dual sinks, a large center island with seating, and a generous pantry, making it ideal for both daily living & entertaining. Abundant natural light fills the home through dual-pane windows, creating a bright and comfortable atmosphere throughout. The primary suite serves as a private retreat with a large walk-in closet & spa-inspired bathroom featuring dual vanities, a soaking tub, & direct access to the backyard. Additional highlights include an oversized garage with ample storage and a convenient interior laundry area. The spacious backyard offers fruit trees and landscaped outdoor areas, providing an inviting setting for entertaining, relaxing, or creating your dream garden. Savor exquisite local fine dining experiences (Michelin Guide: Bistro Na’s) explore nearby supermarkets such as Ralph's, Great Wall Supermarket, 99 Ranch, & Hmart, and enjoy the vibrant local entertainment scene. For outdoor enthusiasts, there are beautiful hiking trails to explore, recreational activities at Live Oak Park, & nearby golf courses to enjoy. Families will appreciate the proximity to prestigious Temple City Award-Winning Schools, providing an exceptional educational experience for students. With easy access to the 10, 605, & 210 freeways, this home places Downtown Los Angeles and the rest of Southern California within reach. Schedule a tour today & discover your happiest life at this remarkable property in one of Temple City’s most desirable neighborhoods!"
+      },
+      "reference_summary": "This Temple City property is listed at $2,089,000 with 5 bedrooms and 5 bathrooms. Highlights include a fireplace and walk-in closet, with a detached studio ADU, oversized garage and landscaped backyard.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1176830956",
+      "record": {
+        "L_ListingID": 1176830956,
+        "L_Address": "95 Canopy",
+        "L_City": "Irvine",
+        "beds": 3.0,
+        "baths": 3.0,
+        "price": 1875000,
+        "remarks": "Rarely does a home combine such an exceptional location, PREMIUM LOT, beautiful upgrades, sought-after floor plan, and resort-style outdoor living as 95 Canopy. Ideally situated within the highly desirable \"Laurel\" neighborhood of Quail Hill—just one block from award-winning Alderwood Elementary School—this beautifully appointed residence occupies one of the largest and most desirable lots in the community, offering a rare combination of privacy and charm. A vine-covered arbor welcomes you into an inviting front courtyard—an outdoor living room that creates a memorable sense of arrival. An extra-long driveway, spacious side yard, and expansive backyard further distinguish this exceptional property. Inside, one of Laurel's most popular floor plans features rich hardwood flooring, plantation shutters, custom built-ins, designer lighting, and abundant natural light throughout. The gourmet kitchen showcases beautiful wood cabinetry, granite countertops, stainless steel appliances, a center island, and opens seamlessly to the dining area and family room, creating an ideal space for entertaining. Designed for true indoor-outdoor living, beautiful French doors open to a private backyard retreat featuring extensive stone hardscape, a custom spa and fountain, fire feature, mature landscaping, and multiple entertaining areas. Towering pine trees create a tranquil natural backdrop rarely found in Irvine, offering the feeling of living surrounded by nature while enjoying the conveniences of one of Orange County's premier master-planned communities. Upstairs, the spacious primary suite provides a relaxing retreat with a luxurious bath. Two additional bedrooms are complemented by a generous loft ideal as a media room, office, or children's retreat. Originally offered by the builder as an OPTIONAL FOURTH BEDROOM, the loft provides future flexibility, while the tandem three-car garage offers potential for a fifth bedroom, gym, office, or multigenerational space. Residents enjoy Quail Hill's exceptional amenities, including three resort-style pools, spas, BBQs, five parks, fitness center, tennis and basketball courts, playgrounds, hiking and biking trails, the Quail Hill Community Center, and nearby shopping and dining. Conveniently located near the 405, 5, and 133 Freeways, the 73 Toll Road, Irvine Spectrum, UC Irvine, John Wayne Airport, Laguna Beach, and Orange County's beautiful coastline. A rare opportunity to own one of the neighborhood's truly special homes."
+      },
+      "reference_summary": "This Irvine home is listed for $1,875,000 with 3 bedrooms and 3 bathrooms in the listing fields. Highlights include a private spa and community pools, with tennis courts, a fitness center, a loft and a tandem garage.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1108670441",
+      "record": {
+        "L_ListingID": 1108670441,
+        "L_Address": "1685 Washington Avenue",
+        "L_City": "Oroville",
+        "beds": 3.0,
+        "baths": 1.0,
+        "price": 249000,
+        "remarks": "Discover this beautifully updated 3-bedroom, 1-bath home, ideally situated on a spacious corner lot with a fully fenced backyard, just on the outskirts of downtown Oroville. Located less than a half mile from Oroville High School, this home offers both convenience and comfort- perfect for first-time buyers or those looking to downsize. Recent upgrades include new appliances, featuring a gas range, an above range microwave, and a tankless water heater. Fresh interior and exterior paint, new siding, and newly installed tile flooring enhance both style and durability. The home also boasts improved wall insulation for year-round efficiency. Follow the ladder up to the versatile loft-like space--ideal for a cozy lounge, extra storage, or even an additional bedroom. Don't miss out on this amazing opportunity. Schedule a showing today."
+      },
+      "reference_summary": "This Oroville home is listed at $249,000 with 3 bedrooms and 1 bathroom. The remarks describe a fenced backyard and corner lot, plus updated appliances, a tankless water heater, fresh paint and new tile flooring.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1189859685",
+      "record": {
+        "L_ListingID": 1189859685,
+        "L_Address": "163 Fieldwood",
+        "L_City": "Irvine",
+        "beds": 5.0,
+        "baths": 6.0,
+        "price": 3488000,
+        "remarks": "Move into your new home, just in time for the holidays. Welcome to 163 Fieldwood, an artfully crafted Mediterranean-inspired estate in Pavilion Park, Great Park’s premier established enclave. Situated on a premium 6,814 square foot corner lot with no front-facing neighbors and ample guest parking, this sprawling 4,156-square-foot residence offers unmatched privacy and sophistication. \r\r\n\r\r\nInside, soaring two-story ceilings and an exquisite outdoor atrium with a tranquil water fountain set a tone of timeless elegance, perfectly complemented by brand-new luxury Lalegno-Incanto engineered oak flooring made in Italy. Designed for grand-scale entertaining, the expansive great room opens up to the outdoor entertainment area via a multi-panel sliding glass door, seamlessly connecting the interior to the covered California Room and patio. \r\r\n\r\r\nThe chef-inspired gourmet kitchen is a striking centerpiece featuring a sweeping oversized island, elegant granite countertops, custom cabinetry, and professional-grade GE Monogram stainless steel appliances, including dual ovens, dishwasher, and a 6-burner stove. A formal dining room offers an intimate space for evening meals. \r\r\n\r\r\nThe highly functional floor plan includes five bedrooms and an office, highlighted by a private main-level en-suite bedroom ideal for guests or seamless multi-generational living, and a separate home office that can serve as a playroom or sixth bedroom. Upstairs, a spacious loft with balcony access joins three generous en-suite secondary bedrooms. The indulgent primary suite is a true sanctuary with massive proportions, an extensively organized walk-in closet, and a spa-inspired bath with a separate soaking tub and large walk-in shower. \r\r\n\r\r\nAdditional upgrades include custom window coverings, a finished three-car tandem garage with epoxy flooring and an EV charger, and dual tankless water heaters. \r\r\n\r\r\nResidents enjoy world-class Great Park amenities including 21 pools, sports courts, scenic trails, a community greenhouse, and clubhouses for private events, plus the highly anticipated Canopy retail and dining destination opening in late 2026. Ideally located minutes from Woodbury Town Center, Irvine Spectrum, John Wayne Airport, and major freeways (I-5, 241, 133, 73), and zoned for award-winning Portola High and Beacon Park K-8, this is an exceptional opportunity to experience uncompromising luxury."
+      },
+      "reference_summary": "This Irvine home has 5 bedrooms and 6 bathrooms in the listing fields and is listed for $3,488,000. Residents have access to community pools and clubhouses, while the home offers a walk-in closet, covered patio and three-car tandem garage.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1176062502",
+      "record": {
+        "L_ListingID": 1176062502,
+        "L_Address": "110 Clearview Court",
+        "L_City": "Tehachapi",
+        "beds": 4.0,
+        "baths": 4.0,
+        "price": 539900,
+        "remarks": "Welcome to this move-in ready family home, ideally situated on a cul-de-sac with an oversized lot and an RV-ready driveway. Offering 4 bedrooms, 4 bathrooms, and a spacious 3-car garage, this beautifully maintained home provides plenty of room for everyone.\r\r\n\r\r\nThe thoughtfully designed floor plan includes a first-floor guest suite complete with its own en-suite bathroom and walk-in closet, making it ideal for guests or multigenerational living. Gorgeous wood flooring flows throughout the main living areas, complemented by tile flooring in the kitchen and bathrooms. The spacious primary suite features an expanded walk-in closet and a beautifully upgraded primary bathroom designed for comfort and style.\r\r\n\r\r\nRecent updates and meticulous maintenance make this home truly turnkey. Improvements include fresh interior paint, new carpeting, new blinds, a new microwave, a GE dishwasher, roof repairs, HVAC, termite clearance, and professional window and house cleaning—making the home shine from top to bottom. Step outside to enjoy the large, private backyard, complete with a storage shed and ample space for entertaining, gardening, and play. Located in a desirable neighborhood with an exceptional lot, this home offers the perfect combination of space, comfort, and convenience.  Don't miss this incredible opportunity to own a beautiful family home that's ready for you to move right in!\r\r\n\r\r\nListing Agent is related to the Sellers."
+      },
+      "reference_summary": "This Tehachapi home is listed at $539,900 with 4 bedrooms and 4 bathrooms. It offers walk-in closets and a cul-de-sac location, with a three-car garage, first-floor guest suite and private backyard.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1173021177",
+      "record": {
+        "L_ListingID": 1173021177,
+        "L_Address": "681 Epic Way",
+        "L_City": "San Jose",
+        "beds": 3.0,
+        "baths": 4.0,
+        "price": 1580000,
+        "remarks": "Modern living meets flexible design in this stunning Pyrus Place Plan 3 home. This well-designed 3-story residence offers 3 bedrooms plus an office, 3.5 baths, and a spacious outdoor balcony, creating the perfect balance of comfort, functionality, and contemporary style. The open-concept main living level features a bright and inviting great room connected to a designer kitchen with quartz countertops, a large center island, sleek cabinetry, and Bosch stainless steel appliances, ideal for entertaining, working from home, & everyday living. The versatile office provides flexibility for a home office, fitness room, or creative studio. Upstairs, the spacious primary suite is complemented by well-appointed secondary bedrooms and modern baths, while the outdoor balcony offers a relaxing extension of the living space for morning coffee or evening gatherings. The attached side-by-side garage adds convenience and extra storage. Solar is available for purchase or lease. Located in N. SJ, Pyrus Place offers convenient access to many major Silicon Valley employers, shopping, dining, and everyday conveniences. Commuters will appreciate the proximity to major freeways, public transit, and nearby tech campuses, making it easy to connect to work and entertainment throughout the Bay Area."
+      },
+      "reference_summary": "This San Jose home is listed for $1,580,000 with 3 bedrooms and 4 bathrooms in the listing fields. An attached garage and outdoor balcony accompany quartz countertops and an office, while the remarks describe 3.5 bathrooms.",
+      "split": "test",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "reference_count": 20,
+  "human_verified_references": 0,
+  "split": "test",
+  "evaluation_status": "provisional_draft_references",
+  "rouge_implementation": "google-research rouge-score 0.1.2; Porter stemming; macro mean per listing",
+  "target_metric": "rougeL_fmeasure",
+  "target_threshold": 0.4,
+  "scores": {
+    "structured_plus_extractive": {
+      "rouge1_precision": 0.818850899479416,
+      "rouge1_recall": 0.548499756958843,
+      "rouge1_fmeasure": 0.6538074500041378,
+      "rouge2_precision": 0.4641922078684093,
+      "rouge2_recall": 0.3087780864068658,
+      "rouge2_fmeasure": 0.3691650755858559,
+      "rougeL_precision": 0.5674034740479753,
+      "rougeL_recall": 0.3786130964060649,
+      "rougeL_fmeasure": 0.45212007218088796
+    },
+    "extractive": {
+      "rouge1_precision": 0.307687132758358,
+      "rouge1_recall": 0.3834331106183765,
+      "rouge1_fmeasure": 0.3349449030728453,
+      "rouge2_precision": 0.08802916243363124,
+      "rouge2_recall": 0.11021713059646991,
+      "rouge2_fmeasure": 0.0962035243211358,
+      "rougeL_precision": 0.18368808708625228,
+      "rougeL_recall": 0.22864562464642213,
+      "rougeL_fmeasure": 0.19992897636952756
+    }
+  },
+  "summary_count": 1000,
+  "potential_room_count_conflicts": 164,
+  "all_required_fields_available": 925,
+  "human_evaluation": {
+    "required": 20,
+    "completed": 0,
+    "status": "awaiting_teammate_ratings"
+  }
+}

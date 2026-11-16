@@ -12,3 +12,36 @@ This project uses Python, Docker, MySQL, and pytest.
 source .venv/bin/activate
 docker compose up -d
 pytest -q tests/test_setup.py
+```
+
+## Week 8: Listing Summarization and Answerability
+
+The [Week 8 notebook](notebooks/week8_listing_summarization.ipynb) demonstrates
+original-sentence extractive summaries, separate MLS metadata, and Week 4 query
+validation with pre/post-search explanations. Its default workflow runs offline.
+The primary `summary` copies remarks; the old template is comparison output only.
+See [the Week 8 guide](docs/week8_listing_summarization.md) for source-only evaluation,
+same-reference baselines, limitations, and the interactive review workflow.
+
+The current extractive ROUGE-L F1 is 0.577; the three-sentence scoring baseline
+is 0.634 on the same 20 test records. References are assistant-prepared drafts
+awaiting human verification. Twenty self-reviews are saved, with mean ratings
+of 5.00/5 for factual accuracy, 3.55/5 for completeness, and 5.00/5 for readability.
+These self-ratings do not replace the requested teammate review.
+
+```bash
+python scripts/build_week8_artifacts.py
+python -m pytest -q tests/test_week8.py
+python -m pytest -q tests/test_week8_widget.py
+```
+
+For the notebook, activate the project environment and register its kernel:
+
+```bash
+python -m ipykernel install --user --name idx-exchange-nlp --display-name "IDX Exchange NLP (.venv)"
+```
+
+Select **IDX Exchange NLP (.venv)** in VS Code, then run the notebook. Section 8
+contains Previous/Next navigation, ratings, notes, saved drafts, and an
+**Update evaluation** button. Completed ratings and evaluation results are
+versioned; local widget drafts and generated review seeds remain local.

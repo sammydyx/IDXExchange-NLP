@@ -1,0 +1,75 @@
+{
+  "reference_count": 20,
+  "human_verified_references": 0,
+  "split": "test",
+  "reference_protocol": "remarks-only; original-sentence drafts selected independently by assistant; human confirmation pending",
+  "evaluation_status": "provisional_draft_references",
+  "primary_method": "extractive",
+  "target_metric": "rougeL_fmeasure",
+  "target_threshold": 0.4,
+  "rouge_implementation": "google-research rouge-score 0.1.2; Porter stemming; macro mean per listing",
+  "model_sha256": "d5f063d03246dc06509f7687b6e2346a7e4fba7c607709b52e1f6da0b35a9261",
+  "scores": {
+    "baseline_2_sentences": {
+      "rouge1_precision": 0.7265712139761674,
+      "rouge1_recall": 0.5463430137720909,
+      "rouge1_fmeasure": 0.5980573786985734,
+      "rouge2_precision": 0.6419886246578301,
+      "rouge2_recall": 0.49547801251902734,
+      "rouge2_fmeasure": 0.536627130239063,
+      "rougeL_precision": 0.6902047840489046,
+      "rougeL_recall": 0.5266296469125968,
+      "rougeL_fmeasure": 0.5732384386677138
+    },
+    "baseline_3_sentences": {
+      "rouge1_precision": 0.6696849934758333,
+      "rouge1_recall": 0.6899824677919572,
+      "rouge1_fmeasure": 0.6598946666429288,
+      "rouge2_precision": 0.6056329975058048,
+      "rouge2_recall": 0.6313809581396802,
+      "rouge2_fmeasure": 0.5991604094294918,
+      "rougeL_precision": 0.6415791978752919,
+      "rougeL_recall": 0.6661565027342002,
+      "rougeL_fmeasure": 0.6343260379917484
+    },
+    "extractive": {
+      "rouge1_precision": 0.6473978348151157,
+      "rouge1_recall": 0.6217679555519345,
+      "rouge1_fmeasure": 0.613043721475343,
+      "rouge2_precision": 0.5777317265623456,
+      "rouge2_recall": 0.5547422223789433,
+      "rouge2_fmeasure": 0.5456768173558861,
+      "rougeL_precision": 0.6112986215312686,
+      "rougeL_recall": 0.5839275392344935,
+      "rougeL_fmeasure": 0.5766550582284276
+    },
+    "template_comparison_only": {
+      "rouge1_precision": 0.4688360258903736,
+      "rouge1_recall": 0.18780714176141455,
+      "rouge1_fmeasure": 0.26206679432142105,
+      "rouge2_precision": 0.11821997269567601,
+      "rouge2_recall": 0.047805079970506384,
+      "rouge2_fmeasure": 0.06669903715249065,
+      "rougeL_precision": 0.31962807160633244,
+      "rougeL_recall": 0.1297092118847966,
+      "rougeL_fmeasure": 0.18041596751420702
+    }
+  },
+  "summary_count": 1000,
+  "all_summaries_are_source_sentences": true,
+  "primary_rouge_target_met_numerically": true,
+  "potential_room_count_conflicts": 164,
+  "remarks_missing_information": {
+    "beds": 261,
+    "baths": 438,
+    "price": 985,
+    "location": 376
+  },
+  "source_sentences_under_two": 4,
+  "human_evaluation": {
+    "required": 20,
+    "completed": 20,
+    "status": "complete"
+  },
+  "extractive_minus_baseline_3_rougeL": -0.05767097976332081
+}

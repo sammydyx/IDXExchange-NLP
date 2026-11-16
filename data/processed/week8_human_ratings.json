@@ -1,0 +1,202 @@
+[
+  {
+    "listing_id": "1156538875",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "bd434b0148e142b7837068d48086d204daab20163d91144fe480ae874c2e3d91",
+    "factual_accuracy": 5,
+    "completeness": 4,
+    "readability": 5,
+    "status": "complete"
+  },
+  {
+    "listing_id": "1189473380",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "6eefa5bb645dbf4a750debedfb9e0242239889b66ebc6459386539c0f6169bcf",
+    "factual_accuracy": 5,
+    "completeness": 3,
+    "readability": 5,
+    "status": "complete"
+  },
+  {
+    "listing_id": "1176603062",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "89fac9db4951bf8c28e06b1f6c2d35bd520af4be6fcb9972e5d4ca1b24c230eb",
+    "factual_accuracy": 5,
+    "completeness": 4,
+    "readability": 5,
+    "status": "complete"
+  },
+  {
+    "listing_id": "1174225864",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "5b996301f3a22f2258d5e06686a87726127ba7c00f578f2aa0b3273a7062f93c",
+    "factual_accuracy": 5,
+    "completeness": 4,
+    "readability": 5,
+    "status": "complete"
+  },
+  {
+    "listing_id": "1174744255",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "36cc9964bb8a24cc9404c2513bc7c2f4d45b29b0de7321d18a1b7ebc5317a702",
+    "factual_accuracy": 5,
+    "completeness": 3,
+    "readability": 5,
+    "status": "complete"
+  },
+  {
+    "listing_id": "1178234327",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "7d452a6d42e11f8fe4962767e0a1c68d88a64626eb031fe31e5ed76afd2fae74",
+    "factual_accuracy": 5,
+    "completeness": 3,
+    "readability": 5,
+    "status": "complete"
+  },
+  {
+    "listing_id": "1183472536",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "c07c59a765a9fddfd21b887d9cba420afcb0997f8004dc39294f479f422ab998",
+    "factual_accuracy": 5,
+    "completeness": 4,
+    "readability": 5,
+    "status": "complete"
+  },
+  {
+    "listing_id": "1183147905",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "683744f17a585905ff78765d198a50593274626c0f4adfa11948607f7895fc3b",
+    "factual_accuracy": 5,
+    "completeness": 3,
+    "readability": 5,
+    "status": "complete"
+  },
+  {
+    "listing_id": "1176286746",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "21681c26aa4a0e8d18831008857d6a8108ce12a63cc6039acbc6cf7cbda7e76f",
+    "factual_accuracy": 5,
+    "completeness": 4,
+    "readability": 5,
+    "status": "complete"
+  },
+  {
+    "listing_id": "1176952573",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "7dc2038a4ad562e80e4c8a0f50c37fc4a7f6b35ad86a6a332637fdea14842596",
+    "factual_accuracy": 5,
+    "completeness": 4,
+    "readability": 5,
+    "status": "complete"
+  },
+  {
+    "listing_id": "1157825716",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "0b60ac86fa550bb156155d27963ce05ebc263d32c8f42412af0e478910a76790",
+    "factual_accuracy": 5,
+    "completeness": 4,
+    "readability": 5,
+    "status": "complete"
+  },
+  {
+    "listing_id": "1159976751",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "b862231f6ac388f8691f9678bd262803db99c7f43f67ac9c6279a2da291c8286",
+    "factual_accuracy": 5,
+    "completeness": 4,
+    "readability": 5,
+    "status": "complete"
+  },
+  {
+    "listing_id": "1179307732",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "85b689882b85ee4f92f085bad01fa92309552231c1233b925a990174f8e5c666",
+    "factual_accuracy": 5,
+    "completeness": 4,
+    "readability": 5,
+    "status": "complete"
+  },
+  {
+    "listing_id": "1190347015",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "76e9488ea15db8d29d645fb41bafb93c74aa2275a40641a11e34a9782c3c2df2",
+    "factual_accuracy": 5,
+    "completeness": 3,
+    "readability": 5,
+    "status": "complete"
+  },
+  {
+    "listing_id": "1177002563",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "b0ca3b6b5c91a328b1d29cea8e04243b35d4130b24bd2bb4aeeeecddfa40815d",
+    "factual_accuracy": 5,
+    "completeness": 4,
+    "readability": 5,
+    "status": "complete"
+  },
+  {
+    "listing_id": "1189332060",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "0a37ed0a2fa65b87204e0fe5e53920d65154dc800a5648c818654454124a214d",
+    "factual_accuracy": 5,
+    "completeness": 3,
+    "readability": 5,
+    "status": "complete"
+  },
+  {
+    "listing_id": "1180290080",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "37d57657f36d3e7a33c7f71baf38f2692621a91b4111c2ffabdd4ec3389e8925",
+    "factual_accuracy": 5,
+    "completeness": 2,
+    "readability": 5,
+    "status": "complete"
+  },
+  {
+    "listing_id": "1178544808",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "93568ead5bc5f181b8e1ebeb003770513b888f989c60c5d2dcd87d92bc544ad8",
+    "factual_accuracy": 5,
+    "completeness": 4,
+    "readability": 5,
+    "status": "complete"
+  },
+  {
+    "listing_id": "1159558215",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "77c54c3062d37139caa376c10c650215a02beb726ae629969952552b67deb12f",
+    "factual_accuracy": 5,
+    "completeness": 3,
+    "readability": 5,
+    "status": "complete"
+  },
+  {
+    "listing_id": "1176989295",
+    "reviewer": "Sammy",
+    "notes": "",
+    "summary_sha256": "c3fd5948ecbf51520794a79e3769bb007b463242c9fb2b17800a03ad1184c8f0",
+    "factual_accuracy": 5,
+    "completeness": 4,
+    "readability": 5,
+    "status": "complete"
+  }
+]

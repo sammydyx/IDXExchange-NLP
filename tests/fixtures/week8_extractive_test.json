@@ -1,0 +1,563 @@
+{
+  "protocol": "remarks-only independently selected sentence references; human confirmation pending",
+  "random_seed": 20261115,
+  "excluded_previous_test": true,
+  "cases": [
+    {
+      "listing_id": "1156538875",
+      "record": {
+        "L_ListingID": 1156538875,
+        "L_Address": "1543 Elizabeth Lake",
+        "L_City": "Palmdale",
+        "beds": 3.0,
+        "baths": 2.0,
+        "price": 425000,
+        "remarks": "West Palmdale home with 3 bedrooms, 2 bathrooms and a spacious bonus room for entertainment or home office. The living room features a vaulted ceiling and a brick fireplace, connecting to the dining area and kitchen via a breakfast bar. The open floor plan creates a spacious interior environment. The sliding door opens onto the outdoor patio and spacious backyard. The property has an 8,019 sq ft lot which provides limitless opportunities—ideal for entertaining, gardening, or potential enhancements like a pool, ADU, or an outdoor lounge area. There is also a two-car detached garage with a long driveway. Located near shopping, dining, and the 14 freeway, this home is ready for its next owner or as an investment property."
+      },
+      "split": "test",
+      "reference_summary": "West Palmdale home with 3 bedrooms, 2 bathrooms and a spacious bonus room for entertainment or home office. The living room features a vaulted ceiling and a brick fireplace, connecting to the dining area and kitchen via a breakfast bar. There is also a two-car detached garage with a long driveway.",
+      "reference_sentences": [
+        "West Palmdale home with 3 bedrooms, 2 bathrooms and a spacious bonus room for entertainment or home office.",
+        "The living room features a vaulted ceiling and a brick fireplace, connecting to the dining area and kitchen via a breakfast bar.",
+        "There is also a two-car detached garage with a long driveway."
+      ],
+      "reference_sentence_indices": [
+        0,
+        1,
+        5
+      ],
+      "source_only": true,
+      "source_sha256": "8b42449f3a6e7e9f7e84974343b47fde868df1201d5e12afe27d8bf04377f8a4",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1189473380",
+      "record": {
+        "L_ListingID": 1189473380,
+        "L_Address": "7722 Davmor",
+        "L_City": "Stanton",
+        "beds": 4.0,
+        "baths": 2.0,
+        "price": 950000,
+        "remarks": "Welcome to 7722 Davmor Ave! This charming 4-bedroom, 2-bath home offers a wonderful opportunity in an established Stanton neighborhood. Featuring approximately 1,255 sq. ft. of living space, the home offers a comfortable, functional layout with ample potential to make it your own. Situated on a spacious lot of approximately 7,541 sq. ft., the property offers a generously sized yard for entertaining, play, gardening, or creating your ideal outdoor retreat. An attached garage adds additional convenience and storage. Centrally located near schools, shopping, dining, parks, and everyday amenities, this home combines space, location, and opportunity. A great option for buyers looking to put down roots in Orange County!"
+      },
+      "split": "test",
+      "reference_summary": "This charming 4-bedroom, 2-bath home offers a wonderful opportunity in an established Stanton neighborhood. Situated on a spacious lot of approximately 7,541 sq. ft., the property offers a generously sized yard for entertaining, play, gardening, or creating your ideal outdoor retreat. An attached garage adds additional convenience and storage.",
+      "reference_sentences": [
+        "This charming 4-bedroom, 2-bath home offers a wonderful opportunity in an established Stanton neighborhood.",
+        "Situated on a spacious lot of approximately 7,541 sq. ft., the property offers a generously sized yard for entertaining, play, gardening, or creating your ideal outdoor retreat.",
+        "An attached garage adds additional convenience and storage."
+      ],
+      "reference_sentence_indices": [
+        1,
+        3,
+        4
+      ],
+      "source_only": true,
+      "source_sha256": "c3e9d2690437ae06ff59fa47b1ebb425b3100df712b9167ef6f8a4a483730c6d",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1176603062",
+      "record": {
+        "L_ListingID": 1176603062,
+        "L_Address": "10207 Camarillo Street",
+        "L_City": "Toluca Lake",
+        "beds": 2.0,
+        "baths": 2.0,
+        "price": 1250000,
+        "remarks": "In Toluca Lake, the jump from two bedrooms to three can come with a significant jump in price. At 10207 Camarillo Street, the third bedroom may already be hiding within the existing floor plan. Set on a generous 7,613-square-foot corner lot, this approximately 1,448-square-foot home pairs classic character, abundant natural light, and multiple living spaces with something increasingly hard to find: the opportunity to rethink a home without necessarily having to make it bigger.\r\r\n\r\r\nCurrently configured with two bedrooms and two bathrooms, the floor plan holds an intriguing possibility. The oversized den already includes a full bathroom and is currently accessed from the dining room. By closing off that interior doorway, the space could potentially be reimagined as a large private primary suite, creating the potential for a three-bedroom configuration largely within the home’s existing footprint.\r\r\n\r\r\nIn a market where the jump from two bedrooms to three can come with a significant price increase, this floor plan is worth considering differently.\r\r\n\r\r\nLarge windows bring sunlight throughout the interiors, while the home’s classic architecture gives the next owner a strong foundation to update thoughtfully rather than start from scratch. There is room here to preserve the character, introduce a more modern point of view, and create a home that feels entirely personal. Outside, the corner lot offers another canvas. Mature lemon and orange trees already dot the property, with plenty of room to imagine outdoor dining, gardens, entertaining spaces, or a more private backyard retreat.\r\r\n\r\r\nAnd then there is the location. Just moments from Toluca Lake, you are close to Universal Studios, Warner Bros. Studios, Lakeside Golf Club, and the restaurants, coffee shops, and creative energy of the North Hollywood Arts District. It is the kind of location that can make a morning coffee, studio commute, dinner out, or weekend adventure feel remarkably convenient.\r\r\n\r\r\nNow offered at a significantly improved price, 10207 Camarillo Street presents an increasingly compelling proposition: buy the space that is already here, then decide what you want it to become. A potential three-bedroom home. A generous corner lot. A backyard ready to be reimagined. A home shaped around the way you actually want to live.\r\r\n\r\r\nThe space is already here. The opportunity is in how you use it."
+      },
+      "split": "test",
+      "reference_summary": "Set on a generous 7,613-square-foot corner lot, this approximately 1,448-square-foot home pairs classic character, abundant natural light, and multiple living spaces with something increasingly hard to find: the opportunity to rethink a home without necessarily having to make it bigger. Currently configured with two bedrooms and two bathrooms, the floor plan holds an intriguing possibility. Just moments from Toluca Lake, you are close to Universal Studios, Warner Bros.",
+      "reference_sentences": [
+        "Set on a generous 7,613-square-foot corner lot, this approximately 1,448-square-foot home pairs classic character, abundant natural light, and multiple living spaces with something increasingly hard to find: the opportunity to rethink a home without necessarily having to make it bigger.",
+        "Currently configured with two bedrooms and two bathrooms, the floor plan holds an intriguing possibility.",
+        "Just moments from Toluca Lake, you are close to Universal Studios, Warner Bros."
+      ],
+      "reference_sentence_indices": [
+        2,
+        3,
+        12
+      ],
+      "source_only": true,
+      "source_sha256": "f4045b88cbfb090464ec5fde3401fe6f6bfa8d5af42e89917fe27c20b313b4ff",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1174225864",
+      "record": {
+        "L_ListingID": 1174225864,
+        "L_Address": "41249 Saint Croix",
+        "L_City": "Temecula",
+        "beds": 5.0,
+        "baths": 3.0,
+        "price": 1585000,
+        "remarks": "Located in the highly sought-after Temecula Belle Maison community, this stunning \r\r\n5-bedroom, 3-bathroom home,\r\r\noffers an open floor plan with a bonus loft, 3-car garage, pool & spa, and PAID SOLAR everything you've been looking for!\r\r\nInterior Features\r\r\nGrand entry with beautiful designer landscaping and stamped concrete walkway.\r\r\nFormal dining area opening to a gourmet kitchen with granite countertops.\r\r\nOversized island perfect for entertaining and family gatherings.\r\r\nStainless steel appliances including a GE Monogram refrigerator, GE Profile double oven, and 5-burner cooktop.\r\r\nLarge walk-in pantry,\r\r\nSpacious family room with cozy fireplace and laminate wood flooring\r\r\nFrench doors leading to the backyard oasis\r\r\nDownstairs bedroom and full bathroom, ideal for guests or multi-generational living\r\r\nUpstairs Retreat Wrought-iron staircase leading to four additional bedrooms\r\r\nLuxurious primary suite with a private retreat area perfect for a home office, gym, or sitting room\r\r\nSpa-inspired primary bathroom featuring a soaking tub, vanity area, dual sinks, and an oversized walk-in closet\r\r\nBackyard Paradise-Sparkling pool and spa,\r\r\nCalifornia Room with fireplace and ceiling fan,\r\r\nOutdoor speakers throughout the entertainment area.\r\r\nCustom outdoor kitchen with BBQ, refrigerator, sink, 2 burners, warming drawer, and microwave,\r\r\nAlumawood patio covers with ceiling fans.\r\r\nStamped concrete, lush landscaping on a drip system, and landscape lighting in both front and back yards\r\r\nRaised vegetable garden boxes and fruit trees\r\r\nAdditional Upgrades-\r\r\nTankless water heater,\r\r\nWhole-house filtration system,\r\r\nCrown molding And much more!\r\r\nPrime Temecula Location,\r\r\nAward-winning schools,Low taxes, low hoa\r\r\nMinutes from shopping, restaurants, Temecula Wine Country, Old Town Temecula, golf courses, casinos, and year-round entertainment\r\r\nThis exceptional home truly has it all\r\r\nhttps://tours.tvvirtualtours.com/idx/323888"
+      },
+      "split": "test",
+      "reference_summary": "Located in the highly sought-after Temecula Belle Maison community, this stunning 5-bedroom, 3-bathroom home, offers an open floor plan with a bonus loft, 3-car garage, pool & spa, and PAID SOLAR everything you've been looking for!",
+      "reference_sentences": [
+        "Located in the highly sought-after Temecula Belle Maison community, this stunning 5-bedroom, 3-bathroom home, offers an open floor plan with a bonus loft, 3-car garage, pool & spa, and PAID SOLAR everything you've been looking for!"
+      ],
+      "reference_sentence_indices": [
+        0
+      ],
+      "source_only": true,
+      "source_sha256": "ea2d2d2bc5640db8756e12bdf29eacc0424636550d1765fa786ec380469d36b4",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1174744255",
+      "record": {
+        "L_ListingID": 1174744255,
+        "L_Address": "911 N Kings Road 310",
+        "L_City": "West Hollywood",
+        "beds": 2.0,
+        "baths": 2.0,
+        "price": 799000,
+        "remarks": "BRAND NEW WHITE CAESARSTONE QUARTZ COUNTERTOPS & 8-FOOT BREAKFAST BAR, updated cupboards, recessed lighting, all new stainless steel appliances & garbage disposal, new marble-patterned flooring in the chef-inspired kitchen with in-unit washer/dryer. This striking recently-renovated home has turnkey luxury that provides a serene, radiant corner residence on one of West Hollywood's most coveted blocks. As a top floor penthouse corner unit, this sun-drenched home is bathed in luminous natural light & cool breezes all day long. The open-concept oversized windows throughout the dining room, living room & bedrooms offer a sunny tranquil atmosphere & unsurpassed views. The wall of 8-foot floor-to-ceiling windows in the large dining room showcases the elegant & well-designed layout. This seamlessly connects to a huge open living room of expansive sophisticated design & charming gas fireplace that few condos offer. This favored location has neutral-colored hardwood flooring & all newly-painted white walls throughout to provide a serene relaxing ultra modern look.  The huge resort-style primary bedroom has a stylish en-suite bathroom with mirrored dressing area, California closets on both sides & chic spa-like glassed-in shower. The large second bedroom has an enormous 4ftx8ft walk-in closet, linen cupboards & glass sliding door that leads to balcony. The second bathroom has a bathtub/shower & has been upgraded with a beautiful vanity, new tiles, lighting & flooring. Both bedrooms are spacious with lovely floor-to-ceiling windows overlooking the private back of the building's peaceful flora oasis. Both bathrooms are also quite large with extra storage everywhere. The large exclusive private balcony has glass sliding doors from both living room & second bedroom & overlooks the quiet neighborhood & wide variety of trees that provide a garden sanctuary. Gorgeous colorful sunsets & North Hollywood Hills light up the night with cool breezes & spectacular unobstructed views from every window. With almost no shared walls & the peace & quiet of a private home, this is a truly stunning move-in ready WeHo paradise. The underground gated garage has CCTV security surveillance cameras, SMART phone-enabled visitor entry system & two coveted side-by-side parking spaces. There also is a gorgeous swimming pool, courtyard area, gym, sauna & recreation room with pool table.  The neighborhood highlights shopping, dining & nightlife experiences of international cuisine, gourmet supermarkets, trendy cafes & exhilarating bars near Melrose, Santa Monica Blvd, Farmer's Market, Sunset, Beverly Hills & ocean. This stylish condo has low HOA fees, free WiFi, Cable TV, water & electricity. It is the ideal dream home to live in with the best of all worlds: peaceful tranquility of a private house & amenities & atmosphere of a chic upscale neighborhood with nearby activities & events."
+      },
+      "split": "test",
+      "reference_summary": "BRAND NEW WHITE CAESARSTONE QUARTZ COUNTERTOPS & 8-FOOT BREAKFAST BAR, updated cupboards, recessed lighting, all new stainless steel appliances & garbage disposal, new marble-patterned flooring in the chef-inspired kitchen with in-unit washer/dryer. This seamlessly connects to a huge open living room of expansive sophisticated design & charming gas fireplace that few condos offer. There also is a gorgeous swimming pool, courtyard area, gym, sauna & recreation room with pool table.",
+      "reference_sentences": [
+        "BRAND NEW WHITE CAESARSTONE QUARTZ COUNTERTOPS & 8-FOOT BREAKFAST BAR, updated cupboards, recessed lighting, all new stainless steel appliances & garbage disposal, new marble-patterned flooring in the chef-inspired kitchen with in-unit washer/dryer.",
+        "This seamlessly connects to a huge open living room of expansive sophisticated design & charming gas fireplace that few condos offer.",
+        "There also is a gorgeous swimming pool, courtyard area, gym, sauna & recreation room with pool table."
+      ],
+      "reference_sentence_indices": [
+        0,
+        5,
+        16
+      ],
+      "source_only": true,
+      "source_sha256": "14ab4a97180fec8e379924f79b559f45fc364a992a08410ba3583900030e2845",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1178234327",
+      "record": {
+        "L_ListingID": 1178234327,
+        "L_Address": "2516 E Quincy",
+        "L_City": "Orange",
+        "beds": 4.0,
+        "baths": 2.0,
+        "price": 1230000,
+        "remarks": "PRICE IMPROVEMENT — NOW $1,230,000! SELLER OFFERING UP TO $15,000 TOWARD BUYER CLOSING COSTS OR AN INTEREST-RATE BUYDOWN, SUBJECT TO LENDER GUIDELINES. With borrowing costs higher again, this is an opportunity for a buyer to reduce upfront costs or potentially improve monthly affordability while purchasing an exceptional home.\r\r\n\r\r\nLocated in one of the most desirable school districts in the City of Orange, this beautifully appointed four-bedroom, two-bath home offers comfortable, modern living. Snugly located in inner section of the prestigious Presidential Tract.   \r\r\n\r\r\nThe all-new kitchen features modern gray Shaker-style cabinetry, crisp white quartz countertops, recessed lighting, a breakfast bar, and a striking waterfall-edge peninsula accented by elegant gold pendant lights. Gold-toned faucets, door handles, and cabinet hardware add sophisticated finishing touches. Soft-close drawers and cabinets, stainless steel appliances, and a deep, single-basin stainless steel sink complete this thoughtfully designed space.\r\r\n\r\r\nJust off the kitchen is a convenient laundry and pantry area featuring a newer stacked washer and dryer, additional storage, and plenty of functionality. The open kitchen and dining/family area flows easily into the gracious living room, featuring a charming bay window and fireplace.\r\r\n\r\r\nAdditional highlights include newer plumbing, double-pane windows, hardwood floors, and durable luxury vinyl flooring with the rich, elegant appearance of genuine slate. Both bathrooms have been tastefully updated, and the spacious primary bedroom features  a skylight and an en-suite bathroom.   \r\r\n\r\r\nRecently installed, mostly drought-tolerant landscaping incorporates decomposed granite and distinctive solar lighting that beautifully highlights the yard. A lovely covered patio with skylights creates an inviting setting for outdoor dining, entertaining, or relaxing. Move-in ready and turnkey inside and out.  \r\r\n\r\r\nVilla Park-adjacent  and conveniently located near major freeways, the historic Orange Circle, shopping, dining, and everything the City of Orange has to offer. Truly move-in ready—you won’t be disappointed!  May Qualify Welcome Home Grant up to $20K  Ask Agent for Details See Private Remarks"
+      },
+      "split": "test",
+      "reference_summary": "PRICE IMPROVEMENT — NOW $1,230,000! Located in one of the most desirable school districts in the City of Orange, this beautifully appointed four-bedroom, two-bath home offers comfortable, modern living. The all-new kitchen features modern gray Shaker-style cabinetry, crisp white quartz countertops, recessed lighting, a breakfast bar, and a striking waterfall-edge peninsula accented by elegant gold pendant lights.",
+      "reference_sentences": [
+        "PRICE IMPROVEMENT — NOW $1,230,000!",
+        "Located in one of the most desirable school districts in the City of Orange, this beautifully appointed four-bedroom, two-bath home offers comfortable, modern living.",
+        "The all-new kitchen features modern gray Shaker-style cabinetry, crisp white quartz countertops, recessed lighting, a breakfast bar, and a striking waterfall-edge peninsula accented by elegant gold pendant lights."
+      ],
+      "reference_sentence_indices": [
+        0,
+        3,
+        5
+      ],
+      "source_only": true,
+      "source_sha256": "cd76b196e822892ea0e3ea0b5c0ac15a0cb000f0a5f0076592f94b1424ca932d",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1183472536",
+      "record": {
+        "L_ListingID": 1183472536,
+        "L_Address": "4795 Thornbush",
+        "L_City": "Fontana",
+        "beds": 4.0,
+        "baths": 3.0,
+        "price": 928000,
+        "remarks": "Welcome to this beautifully maintained single-story pool home in the highly sought-after Hunters Ridge community of North Fontana. Built in 2009 and situated on a generous 9,172 sq. ft. lot, this exceptional home features 4 bedrooms and 2.5 bathrooms. The 4th bedroom is currently configured as an office with a built-in Murphy bed, offering flexibility as a bedroom, guest room, or home office. The inviting interior features a granite and stainless-steel kitchen, plantation shutters and a thoughtfully designed single-level floor plan. Step outside to a beautifully landscaped backyard retreat featuring a sparkling saltwater pool and spa, built-in BBQ, and beautiful mountain and city-light views. Additional highlights include a fully paid-off 14-panel solar system, whole-house water softener, and EV charger. Located within the highly regarded Etiwanda School District, just minutes from the nearby elementary school and park, with easy access to the 15 and 210 freeways. Conveniently located near Victoria Gardens, Ontario Mills, and Ontario International Airport, this rare combination of single-story living, a large lot, private saltwater pool and spa, scenic views, and a prime North Fontana location is truly one you don’t want to miss."
+      },
+      "split": "test",
+      "reference_summary": "Welcome to this beautifully maintained single-story pool home in the highly sought-after Hunters Ridge community of North Fontana. Built in 2009 and situated on a generous 9,172 sq. ft. lot, this exceptional home features 4 bedrooms and 2.5 bathrooms. Step outside to a beautifully landscaped backyard retreat featuring a sparkling saltwater pool and spa, built-in BBQ, and beautiful mountain and city-light views.",
+      "reference_sentences": [
+        "Welcome to this beautifully maintained single-story pool home in the highly sought-after Hunters Ridge community of North Fontana.",
+        "Built in 2009 and situated on a generous 9,172 sq. ft. lot, this exceptional home features 4 bedrooms and 2.5 bathrooms.",
+        "Step outside to a beautifully landscaped backyard retreat featuring a sparkling saltwater pool and spa, built-in BBQ, and beautiful mountain and city-light views."
+      ],
+      "reference_sentence_indices": [
+        0,
+        1,
+        4
+      ],
+      "source_only": true,
+      "source_sha256": "3884537e27ea460628a1d807dec2bb11f2aeb4a7e54bb0bd8698b702b3b8c4a1",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1183147905",
+      "record": {
+        "L_ListingID": 1183147905,
+        "L_Address": "107 Daisy Ave",
+        "L_City": "Imperial Beach",
+        "beds": 3.0,
+        "baths": 4.0,
+        "price": 2350000,
+        "remarks": "Panoramic ocean views. New 2026 construction. A licensed Airbnb. This professionally designed coastal retreat in Imperial Beach, California checks every box today's buyer is searching for, with a level of craftsmanship and thoughtful detail rarely found on the market. From the moment you arrive, this three-bedroom, four-bathroom residence signals that it was designed by professionals with an eye for unique, one-of-a-kind fixtures throughout — a home built not just to be lived in, but to be experienced. This is not a spec home dressed up for the market; it is a residence where every decision, from the placement of the windows to the selection of a single light fixture, was made deliberately, with the ocean as the ultimate backdrop. Properties that combine true panoramic ocean views with this level of design rarely come to market in Imperial Beach, and even more rarely do they pair that view with the everyday livability, efficiency, and flexibility built into this home. This is a home for buyers who have looked at plenty of ocean-view listings and found most of them asking for compromise — on layout, on finishes, on functionality. This one asks for none. Step through the entry and the scale of the home reveals itself immediately. Soaring high ceilings draw the eye upward, while walls of floor-to-ceiling windows flood every room with natural light from sunrise to sunset. Light and bright ceiling fans throughout keep the airy, sunlit feel going year-round. Rich wood flooring runs throughout the main living areas,SqFT includes Roof topdeck of 650'sqft  **Living in Imperial Beach: The Area & The Lifestyle** Imperial Beach is the southernmost city on the California coast, tucked into San Diego County's South Bay just north of the U.S.–Mexico border and connected to Coronado by the scenic Silver Strand. It's a place still known, first and foremost, for its beach: nearly four miles of wide, sandy coastline anchored by the iconic Imperial Beach Pier, one of the longest wooden piers on the West Coast. Surfers have long prized the area's breaks, including the legendary Tijuana Sloughs, while beach volleyball, body boarding, and simply spending time along the shoreline are part of daily life here.  What sets Imperial Beach apart from many Southern California coastal towns is its authenticity. This is a working beach community with a genuine, laid-back character — long-standing, family-owned restaurants like El Tapatio and Star Dust Donut Shop have anchored the local food scene for more than four decades, while newer spots like Trident Coffee and Sammy's Woodfired Pizza reflect a town in the midst of a thoughtful revival. Locally loved taco shops, a growing crop of independent retailers, and community gathering spaces like Portwood Pier Plaza give the area a distinctly small-town, community-first feel rarely found this close to the ocean in Southern California.  Nature lovers and outdoor enthusiasts have plenty to explore beyond the sand. The Tijuana River National Estuarine Research Reserve borders the city and is one of the most significant coastal wetlands on the Pacific Coast, drawing birdwatchers and nature photographers from across the region. The Bayshore Bikeway offers miles of scenic, protected cycling along the water, connecting Imperial Beach to neighboring Coronado and beyond. For those craving a truly unique coastal experience, Border Field State Park marks the southernmost beach in the continental United States.  Despite its small-town feel, Imperial Beach offers real convenience: it sits roughly fourteen miles south of downtown San Diego and just minutes from Coronado, putting the city's dining, culture, and employment centers well within reach while still coming home to a quieter, ocean-close setting each day. The climate is one of the area's quiet luxuries as well — mild, semi-arid weather with summers in the upper 70s and winters in the 60s, and sunny or mostly sunny skies on the vast majority of days each year.  For ho..."
+      },
+      "split": "test",
+      "reference_summary": "Panoramic ocean views. This professionally designed coastal retreat in Imperial Beach, California checks every box today's buyer is searching for, with a level of craftsmanship and thoughtful detail rarely found on the market. From the moment you arrive, this three-bedroom, four-bathroom residence signals that it was designed by professionals with an eye for unique, one-of-a-kind fixtures throughout — a home built not just to be lived in, but to be experienced.",
+      "reference_sentences": [
+        "Panoramic ocean views.",
+        "This professionally designed coastal retreat in Imperial Beach, California checks every box today's buyer is searching for, with a level of craftsmanship and thoughtful detail rarely found on the market.",
+        "From the moment you arrive, this three-bedroom, four-bathroom residence signals that it was designed by professionals with an eye for unique, one-of-a-kind fixtures throughout — a home built not just to be lived in, but to be experienced."
+      ],
+      "reference_sentence_indices": [
+        0,
+        3,
+        4
+      ],
+      "source_only": true,
+      "source_sha256": "f379a4d192cde2309ff0b10c62fccab77fbba51519742ed759ba2788cbe43d0f",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1176286746",
+      "record": {
+        "L_ListingID": 1176286746,
+        "L_Address": "20948 Center Street",
+        "L_City": "Riverside",
+        "beds": 4.0,
+        "baths": 3.0,
+        "price": 795000,
+        "remarks": "Welcome to 20948 Center St, an exceptional blend of timeless elegance, modern sophistication & effortless single-story living in the highly sought-after Spring Mountain Ranch community in High Grove with an upgraded FULLY PAID 7kW solar system, Tesla Powerwall 3 whole-home backup battery, EV charging pre-wiring, and luxurious finishes throughout. Perfectly positioned on an expansive quarter-acre homesite with breathtaking foothill views, this impeccably upgraded residence offers nearly 2,900 square feet of thoughtfully designed living space featuring 4 spacious bedrooms, 3 beautifully appointed bathrooms & ample storage throughout the home—all of this with NO HOA! From the moment you arrive, the home’s striking Craftsman architecture, manicured landscaping, and inviting curb appeal create an unforgettable first impression. Inside, soaring 9-foot ceilings, oversized 8-foot doors, designer lighting, plantation shutters, elegant herringbone-style tile flooring, and a beautifully accentuated foyer combine to create a warm yet refined atmosphere throughout. At the heart of the home lies a stunning chef’s kitchen, thoughtfully designed for both everyday living and effortless entertaining. Lovely granite countertops, upgraded cabinetry, a cast-iron farmhouse sink, walk-in pantry,& oversized center island, this beautiful space flows easy into the expansive great room & dining area, creating the perfect setting for gatherings of any size. The luxurious primary suite serves as a private retreat, featuring a spa-inspired bathroom with dual vanities, a soaking tub, separate glass-enclosed shower, and generous walk-in closet. Every detail has been carefully curated for comfort and style, including a beautifully remodeled laundry room with custom flooring, cabinetry, and a pet washing station highly coveted by all pet owners. Step outside to your own private backyard sanctuary where stamped concrete patios, a built-in gas BBQ, cozy gas fire pit & mature citrus trees create the ideal backdrop for relaxing evenings or entertaining under the stars. Elevated above neighboring homes, the property enjoys exceptional privacy and picturesque hillside views & you'll be ready to hang up your holiday lights with conveniently place wiring around the home. This remarkable home also features upgraded quartz bathroom finishes, LED lighting throughout, tankless water heater, smart controls & tv/data wiring throughout. Come enjoy a rare opportunity to own one Riverside's best areas."
+      },
+      "split": "test",
+      "reference_summary": "Welcome to 20948 Center St, an exceptional blend of timeless elegance, modern sophistication & effortless single-story living in the highly sought-after Spring Mountain Ranch community in High Grove with an upgraded FULLY PAID 7kW solar system, Tesla Powerwall 3 whole-home backup battery, EV charging pre-wiring, and luxurious finishes throughout. Perfectly positioned on an expansive quarter-acre homesite with breathtaking foothill views, this impeccably upgraded residence offers nearly 2,900 square feet of thoughtfully designed living space featuring 4 spacious bedrooms, 3 beautifully appointed bathrooms & ample storage throughout the home—all of this with NO HOA! Step outside to your own private backyard sanctuary where stamped concrete patios, a built-in gas BBQ, cozy gas fire pit & mature citrus trees create the ideal backdrop for relaxing evenings or entertaining under the stars.",
+      "reference_sentences": [
+        "Welcome to 20948 Center St, an exceptional blend of timeless elegance, modern sophistication & effortless single-story living in the highly sought-after Spring Mountain Ranch community in High Grove with an upgraded FULLY PAID 7kW solar system, Tesla Powerwall 3 whole-home backup battery, EV charging pre-wiring, and luxurious finishes throughout.",
+        "Perfectly positioned on an expansive quarter-acre homesite with breathtaking foothill views, this impeccably upgraded residence offers nearly 2,900 square feet of thoughtfully designed living space featuring 4 spacious bedrooms, 3 beautifully appointed bathrooms & ample storage throughout the home—all of this with NO HOA!",
+        "Step outside to your own private backyard sanctuary where stamped concrete patios, a built-in gas BBQ, cozy gas fire pit & mature citrus trees create the ideal backdrop for relaxing evenings or entertaining under the stars."
+      ],
+      "reference_sentence_indices": [
+        0,
+        1,
+        8
+      ],
+      "source_only": true,
+      "source_sha256": "ca3ac2797d65ef4d273be677ee8cb2e586fdedbaf1fdae3794b5f50ae584f263",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1176952573",
+      "record": {
+        "L_ListingID": 1176952573,
+        "L_Address": "2471 SAWTELLE Boulevard 102",
+        "L_City": "Los Angeles",
+        "beds": 3.0,
+        "baths": 3.0,
+        "price": 895000,
+        "remarks": "The home is newly remodeled; new kitchen, hardwood floors, bathrooms and all. A very rare find 3 bedroom, 3 full bathrooms on the westside. It is also a google smart home, everything can be turned on and activated by voice/google. There are two patios with the second being for the master bedroom only. All furniture and appliances can be be sold with the condo for an extra negotiated price. The place has rarely been lived in, the owners has another home that he stays most the time. The parking in tandem enough for two cars. Please call if you would like to get inside of the home to view, short notice is ok also. Thanks"
+      },
+      "split": "test",
+      "reference_summary": "The home is newly remodeled; new kitchen, hardwood floors, bathrooms and all. A very rare find 3 bedroom, 3 full bathrooms on the westside. There are two patios with the second being for the master bedroom only.",
+      "reference_sentences": [
+        "The home is newly remodeled; new kitchen, hardwood floors, bathrooms and all.",
+        "A very rare find 3 bedroom, 3 full bathrooms on the westside.",
+        "There are two patios with the second being for the master bedroom only."
+      ],
+      "reference_sentence_indices": [
+        0,
+        1,
+        3
+      ],
+      "source_only": true,
+      "source_sha256": "0cdaf456c5a5a3579f7483d3c13bc9e505c67e45ab9caa56ac320c1f8a4d4acf",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1157825716",
+      "record": {
+        "L_ListingID": 1157825716,
+        "L_Address": "54685 Marian View Drive",
+        "L_City": "Idyllwild",
+        "beds": 5.0,
+        "baths": 1.0,
+        "price": 309000,
+        "remarks": "Rare find! Original 1940 two-story Idyllwild rustic five bedroom cabin that's very close (about a quarter mile) to downtown Idyllwild. This lovely home sits on a gated .24 acre flag lot dotted with mature trees and plenty of space for entertaining. You enter on the main level via the mudroom that leads to two separate entrances. One goes through an additional bonus area into the charming kitchen with refrigerator, stove, microwave, pantry, and plenty of cabinets and shelves for storage. Off one side of the kitchen is the very spacious living room with lots of windows, built-in shelving and drawers, and the beautiful large rock fireplace accented by a wood mantle. The living room also has its own door to access the mudroom. Off the other side of the kitchen is a hallway that leads to the main bedroom (large enough to hold a king bed, side table, and dresser) and to the single full bathroom, as well as to the separate laundry area with washer and dryer. Upstairs you'll find another large bedroom with a king bed, side table and dresser, as well as three small bedrooms. Each of the small bedrooms includes a twin bed, side table, and small dresser -- one even has its own separate sitting area. This charming vintage home is being sold ''as is'' and comes furnished with antiques, bedding, full kitchen -- everything you need to have the perfect full time or part time Idyllwild rustic and original iconic property."
+      },
+      "split": "test",
+      "reference_summary": "Original 1940 two-story Idyllwild rustic five bedroom cabin that's very close (about a quarter mile) to downtown Idyllwild. Off one side of the kitchen is the very spacious living room with lots of windows, built-in shelving and drawers, and the beautiful large rock fireplace accented by a wood mantle. Off the other side of the kitchen is a hallway that leads to the main bedroom (large enough to hold a king bed, side table, and dresser) and to the single full bathroom, as well as to the separate laundry area with washer and dryer.",
+      "reference_sentences": [
+        "Original 1940 two-story Idyllwild rustic five bedroom cabin that's very close (about a quarter mile) to downtown Idyllwild.",
+        "Off one side of the kitchen is the very spacious living room with lots of windows, built-in shelving and drawers, and the beautiful large rock fireplace accented by a wood mantle.",
+        "Off the other side of the kitchen is a hallway that leads to the main bedroom (large enough to hold a king bed, side table, and dresser) and to the single full bathroom, as well as to the separate laundry area with washer and dryer."
+      ],
+      "reference_sentence_indices": [
+        1,
+        5,
+        7
+      ],
+      "source_only": true,
+      "source_sha256": "eade80967ce5bbc716cac0bf447eaec852c7860bce6cdda62bd7dc0e51fc4aed",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1159976751",
+      "record": {
+        "L_ListingID": 1159976751,
+        "L_Address": "2262 Hewitt Avenue",
+        "L_City": "Oroville",
+        "beds": 4.0,
+        "baths": 3.0,
+        "price": 309000,
+        "remarks": "Two great homes on one lot with strong income potential! Live in one and rent out the other, or maximize cash flow by leasing both. The main home offers 3 bedrooms, 2 bathrooms, and 1,118 sq ft with central heating and air, an attached garage, private yard, and a spacious primary suite. Currently rented at $1,650 per month. Tucked privately behind the main home with its own alley access, the second home feels completely separate from the front property. This 1 bedroom, 1 bathroom home plus den offers approximately 900 sq ft, its own private yard, and excellent rental potential at approximately $1,400+/- per month. The rear unit also features a newer mini split system and newer roof. Both have their own laundry. The back unit is expected to be vacant soon, creating a great opportunity for a new owner to either move in while collecting income from the front home or lease the back unit at market rent. Both units have separate water and power meters, and tenants pay all utilities including trash, helping keep ownership expenses low and making this an investor-friendly opportunity. The seller has maintained the property to the best of their ability and has invested thousands of dollars over the past few years to improve the overall appeal and condition of the homes. Conveniently located just a short walk to the bus station and in site of Raley’s shopping center, this is an excellent opportunity for investors or owner-occupants seeking flexibility, convenience, and income potential. Interested prospects to provide verification of qualifications and an offer subject to interior inspections only; to limit disturbance of tenant/s."
+      },
+      "split": "test",
+      "reference_summary": "Two great homes on one lot with strong income potential! The main home offers 3 bedrooms, 2 bathrooms, and 1,118 sq ft with central heating and air, an attached garage, private yard, and a spacious primary suite. This 1 bedroom, 1 bathroom home plus den offers approximately 900 sq ft, its own private yard, and excellent rental potential at approximately $1,400+/- per month.",
+      "reference_sentences": [
+        "Two great homes on one lot with strong income potential!",
+        "The main home offers 3 bedrooms, 2 bathrooms, and 1,118 sq ft with central heating and air, an attached garage, private yard, and a spacious primary suite.",
+        "This 1 bedroom, 1 bathroom home plus den offers approximately 900 sq ft, its own private yard, and excellent rental potential at approximately $1,400+/- per month."
+      ],
+      "reference_sentence_indices": [
+        0,
+        2,
+        5
+      ],
+      "source_only": true,
+      "source_sha256": "824090daeebf2462a18e611b547ea8ea05711f1a1bc5a14aea89a9c94920b22b",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1179307732",
+      "record": {
+        "L_ListingID": 1179307732,
+        "L_Address": "2038 Mulberry Cmn",
+        "L_City": "Livermore",
+        "beds": 3.0,
+        "baths": 3.0,
+        "price": 1049000,
+        "remarks": "**Open Saturday & Sunday 1p-4p** Welcome to 2038 Mulberry Common in Livermore’s desirable Maralisa Courtyard community. This well-maintained home features OWNED SOLAR with BACKUP BATTERY, an updated kitchen with breakfast bar, and a spacious family room with soaring ceilings, stacked windows, abundant natural light, warm wood flooring, and a wood-burning fireplace. All three bedrooms and a convenient laundry room are located upstairs. The low-maintenance backyard offers planting beds, a deck, and artificial turf, giving you more time to enjoy the COMMUNITY POOL, nearby trails, and convenient access to the neighborhood elementary school. Stop waiting for interest rates to fall and start enjoying the lifestyle you deserve. With a seller concession and move-in-ready condition, this is an incredible opportunity."
+      },
+      "split": "test",
+      "reference_summary": "This well-maintained home features OWNED SOLAR with BACKUP BATTERY, an updated kitchen with breakfast bar, and a spacious family room with soaring ceilings, stacked windows, abundant natural light, warm wood flooring, and a wood-burning fireplace. All three bedrooms and a convenient laundry room are located upstairs. The low-maintenance backyard offers planting beds, a deck, and artificial turf, giving you more time to enjoy the COMMUNITY POOL, nearby trails, and convenient access to the neighborhood elementary school.",
+      "reference_sentences": [
+        "This well-maintained home features OWNED SOLAR with BACKUP BATTERY, an updated kitchen with breakfast bar, and a spacious family room with soaring ceilings, stacked windows, abundant natural light, warm wood flooring, and a wood-burning fireplace.",
+        "All three bedrooms and a convenient laundry room are located upstairs.",
+        "The low-maintenance backyard offers planting beds, a deck, and artificial turf, giving you more time to enjoy the COMMUNITY POOL, nearby trails, and convenient access to the neighborhood elementary school."
+      ],
+      "reference_sentence_indices": [
+        1,
+        2,
+        3
+      ],
+      "source_only": true,
+      "source_sha256": "4f31b963600089ee567f69605cbbd02dd408f80cba8bc182313d56dd223f2bb1",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1190347015",
+      "record": {
+        "L_ListingID": 1190347015,
+        "L_Address": "3343 Brookridge Road",
+        "L_City": "Duarte",
+        "beds": 4.0,
+        "baths": 3.0,
+        "price": 1099000,
+        "remarks": "$80K+ UPGRADES, NEWLY REMODELED, turn-key SMART HOME with MASSIVE 18,228 SQ FT ½ ACRE LOT on a quiet, tree-lined street with NO THROUGH TRAFFIC in the desirable UPPER FISH CANYON neighborhood. Savor PANORAMIC MOUNTAIN VIEWS FROM EVERY BEDROOM and UNOBSTRUCTED CITY VIEWS from the backyard. PAID OFF SOLAR with BATTERY BACKUP.  BRAND NEW WINDOWS and NEW HVAC, $10K+ of NEW SMART APPLIANCES, SMART THERMOSTAT, SMART LIGHTS, SMART IRRIGATION and SMART SAFETY FEATURES. NEW PAINT (both interior/exterior), FLOORS, KITCHEN and UPDATED BATHS.  Wake to the mountains from the primary suite, then step into the fully updated bath with dual-sink quartz vanity, rain shower with custom niche, private water closet and walk-in closet. The refreshed second bath features a new quartz vanity, dual showerhead and tub/shower combination.  Brand-new windows fill the living spaces with natural light. An elegant arch connects the formal living and dining rooms, while the family room offers a stone fireplace and built-in wet bar. The covered patio creates an inviting setting for al fresco dining surrounded by nature.  The chef’s kitchen features quartz countertops and backsplash, soft-close cabinetry, industrial-style faucet, stainless steel farmhouse sink with accessories, $10K+ in smart Samsung appliances (wall oven/microwave, refrigerator and dishwasher), externally vented hood and Empava cooktop with Italian burners.  Smart and energy-efficient upgrades include the neighborhood’s only fully paid Enphase solar system with battery backup, new Trane HVAC with EcoBee thermostat, Alexa-controlled lighting, voice-controlled X-Sense smoke/CO detectors, EV charger hookup, business-grade wireless access points on every floor, and Amcrest security system with doorbell and cameras.  The expansive lot offers room for a sport court, garden or recreation. Encanto Equestrian Center and Mt. Bliss Van Tassel Trailhead are directly behind the home. Bike from Puente Largo Bridge at Encanto Park along the San Gabriel Bike Trail to Long Beach. Families will appreciate highly ranked Valley View Elementary and Duarte High School.  Close to Glen Miller Park, Duarte Bike Trail/Recreational Trail, Fish Canyon Falls, Royal Oaks Park, StarX Golf Course, Duarte Historical Museum, Costco, Target and Walmart, with quick 210/605 freeway access.  Don’t miss this expertly upgraded home with exceptional space, technology and lifestyle amenities!"
+      },
+      "split": "test",
+      "reference_summary": "Savor PANORAMIC MOUNTAIN VIEWS FROM EVERY BEDROOM and UNOBSTRUCTED CITY VIEWS from the backyard. PAID OFF SOLAR with BATTERY BACKUP. An elegant arch connects the formal living and dining rooms, while the family room offers a stone fireplace and built-in wet bar.",
+      "reference_sentences": [
+        "Savor PANORAMIC MOUNTAIN VIEWS FROM EVERY BEDROOM and UNOBSTRUCTED CITY VIEWS from the backyard.",
+        "PAID OFF SOLAR with BATTERY BACKUP.",
+        "An elegant arch connects the formal living and dining rooms, while the family room offers a stone fireplace and built-in wet bar."
+      ],
+      "reference_sentence_indices": [
+        1,
+        2,
+        8
+      ],
+      "source_only": true,
+      "source_sha256": "e41499358e7de5eb860dc8469c334e7889cc564cdcb013e7fac265b7ed8b6aea",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1177002563",
+      "record": {
+        "L_ListingID": 1177002563,
+        "L_Address": "40500 Via Tapadero",
+        "L_City": "Murrieta",
+        "beds": 3.0,
+        "baths": 2.0,
+        "price": 475000,
+        "remarks": "40500 Via Tapadero, Murrieta, CA 92562— A beautifully located single-story 3-bedroom, 2-bathroom retreat in The Colony at California Oaks, one of Murrieta's most sought-after guard-gated 55+ active adult communities. Built around a scenic 18-hole golf course and framed by rolling hills, The Colony offers residents a resort-style lifestyle centered around a stunning clubhouse complete with a fitness center, grand ballroom, theater, library, billiards room, and beauty salon, along with outdoor amenities including a pool, spa, tennis courts, bocce ball, shuffleboard, and miles of scenic walking and biking trails — all included in the HOA (buyer to verify). This 1,754 sq. ft. home sits on a 5,662 sq. ft. lot with a 2-car attached garage, driveway parking, central air, a cozy family room fireplace, and a covered patio overlooking a peaceful rear view — the perfect spot to unwind after a day on the greens or an afternoon with friends at the clubhouse. Beyond the gates, life here is just as vibrant: you're minutes from Murrieta and Temecula's best shopping and dining, a short drive from the renowned wineries and tasting rooms of Temecula Valley wine country, and close to Pechanga Resort Casino and Old Town Temecula's charming boutiques and restaurants. Golf enthusiasts will love easy access to nearby courses like Cross Creek Golf Club and The Golf Club at Rancho California, while outdoor lovers can explore Diamond Valley Lake for fishing and boating, or head toward the San Jacinto and San Gorgonio Mountains for hiking and mountain views. With convenient access to both the I-15 and I-215 freeways, you're also well-positioned for day trips to San Diego, Orange County, and Palm Springs. This is more than a home — it's an invitation to enjoy an active, connected, low-maintenance lifestyle in one of Southern California's premier 55+ communities. Property sold AS-IS. Bathroom requires repair, including drywall/framing and plumbing finish-out. Cash or rehab financing recommended. Buyer responsible to verify all information presented and complete their own investigation."
+      },
+      "split": "test",
+      "reference_summary": "40500 Via Tapadero, Murrieta, CA 92562— A beautifully located single-story 3-bedroom, 2-bathroom retreat in The Colony at California Oaks, one of Murrieta's most sought-after guard-gated 55+ active adult communities. Built around a scenic 18-hole golf course and framed by rolling hills, The Colony offers residents a resort-style lifestyle centered around a stunning clubhouse complete with a fitness center, grand ballroom, theater, library, billiards room, and beauty salon, along with outdoor amenities including a pool, spa, tennis courts, bocce ball, shuffleboard, and miles of scenic walking and biking trails — all included in the HOA (buyer to verify). Bathroom requires repair, including drywall/framing and plumbing finish-out.",
+      "reference_sentences": [
+        "40500 Via Tapadero, Murrieta, CA 92562— A beautifully located single-story 3-bedroom, 2-bathroom retreat in The Colony at California Oaks, one of Murrieta's most sought-after guard-gated 55+ active adult communities.",
+        "Built around a scenic 18-hole golf course and framed by rolling hills, The Colony offers residents a resort-style lifestyle centered around a stunning clubhouse complete with a fitness center, grand ballroom, theater, library, billiards room, and beauty salon, along with outdoor amenities including a pool, spa, tennis courts, bocce ball, shuffleboard, and miles of scenic walking and biking trails — all included in the HOA (buyer to verify).",
+        "Bathroom requires repair, including drywall/framing and plumbing finish-out."
+      ],
+      "reference_sentence_indices": [
+        0,
+        1,
+        8
+      ],
+      "source_only": true,
+      "source_sha256": "6c906962fe4ee3cd8b8fd27b8a92afeddd8fe09fc7f25c97c7f6ef7702f2be36",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1189332060",
+      "record": {
+        "L_ListingID": 1189332060,
+        "L_Address": "8845 Mentone",
+        "L_City": "Riverside",
+        "beds": 3.0,
+        "baths": 2.0,
+        "price": 649000,
+        "remarks": "Discover this stunning single-story home in quiet cul de sac area featuring 3 spacious bedrooms, 2 beautifully renovated bathrooms, and soaring vaulted ceilings accented by an elegant wood beam. with skylight .Step through the custom front door and into a bright, refreshed interior showcasing brand-new luxury wood flooring and new paint inside and out. The inviting living room offers the perfect setting for relaxation, complete with a cozy wood-burning fireplace. The updated kitchen is designed for both style and function, boasting granite countertops, with brand new kitchen cabinet and brand-new stainless steel appliances. Your private backyard oasis awaits with a sparkling built-in swimming pool surrounded by lush landscaping—ideal for enjoying the California sunshine. An oversized detached 2-car garage provides abundant storage and flexibility for hobbies, tools, or additional workspace. Located near California Baptist University, UC Riverside, Tyler Mall, Buccaneer Cove Water Park, and Indian Hills Golf Club, this home places you close to top conveniences, recreation, and entertainment. A rare opportunity to own a beautifully upgraded home in a prime location—your next chapter begins here."
+      },
+      "split": "test",
+      "reference_summary": "Discover this stunning single-story home in quiet cul de sac area featuring 3 spacious bedrooms, 2 beautifully renovated bathrooms, and soaring vaulted ceilings accented by an elegant wood beam. The inviting living room offers the perfect setting for relaxation, complete with a cozy wood-burning fireplace. Your private backyard oasis awaits with a sparkling built-in swimming pool surrounded by lush landscaping—ideal for enjoying the California sunshine.",
+      "reference_sentences": [
+        "Discover this stunning single-story home in quiet cul de sac area featuring 3 spacious bedrooms, 2 beautifully renovated bathrooms, and soaring vaulted ceilings accented by an elegant wood beam.",
+        "The inviting living room offers the perfect setting for relaxation, complete with a cozy wood-burning fireplace.",
+        "Your private backyard oasis awaits with a sparkling built-in swimming pool surrounded by lush landscaping—ideal for enjoying the California sunshine."
+      ],
+      "reference_sentence_indices": [
+        0,
+        2,
+        4
+      ],
+      "source_only": true,
+      "source_sha256": "7fbe53645ef822544f3957ba34525c93455b518d880053166216e54f18b897cf",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1180290080",
+      "record": {
+        "L_ListingID": 1180290080,
+        "L_Address": "321 Windy Ln",
+        "L_City": "Vista",
+        "beds": 1.0,
+        "baths": 1.0,
+        "price": 499000,
+        "remarks": "Welcome to this beautifully refreshed end-unit in the highly sought-after dog-friendly Vista Knolls community! Thoughtfully updated throughout, this home has been freshly painted and features new cabinet doors, new faucets, a reconditioned kitchen sink, and durable flooring throughout. The fireplace has also received a stylish facelift, adding a fresh focal point to the living room. Inside, grand vaulted ceilings and dual-pane windows create an open, inviting atmosphere, while the gas fireplace adds warmth and ambiance. The functional floor plan includes convenient in-unit laundry and comfortable living spaces designed for everyday enjoyment. Meander outside to discover the covered rear patio, perfect for relaxing or entertaining. An oversized attached 2-car garage provides excellent parking and storage space. Residents also enjoy access to the community pool and spa. Conveniently located near Vista Village's dining, shopping, and entertainment, this home offers a wonderful combination of updates, comfort, and location."
+      },
+      "split": "test",
+      "reference_summary": "Welcome to this beautifully refreshed end-unit in the highly sought-after dog-friendly Vista Knolls community! An oversized attached 2-car garage provides excellent parking and storage space. Residents also enjoy access to the community pool and spa.",
+      "reference_sentences": [
+        "Welcome to this beautifully refreshed end-unit in the highly sought-after dog-friendly Vista Knolls community!",
+        "An oversized attached 2-car garage provides excellent parking and storage space.",
+        "Residents also enjoy access to the community pool and spa."
+      ],
+      "reference_sentence_indices": [
+        0,
+        6,
+        7
+      ],
+      "source_only": true,
+      "source_sha256": "c4c9118f2674ac50296085c8c25afe14c269eb1b5d0e3c81fda9e17cf7dfad7b",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1178544808",
+      "record": {
+        "L_ListingID": 1178544808,
+        "L_Address": "5715 E Stillwater Avenue 12",
+        "L_City": "Orange",
+        "beds": 2.0,
+        "baths": 2.0,
+        "price": 749000,
+        "remarks": "Set within the serene Streamhouse community of Orange, this inviting home offers a peaceful setting surrounded by meandering streams, mature landscaping, lush greenbelts, and tree-lined views. Lovingly maintained by only two owners, the 2-bedroom, 2-bath residence features approximately 1,445 square feet of living space with an attached 2-car garage, vaulted ceilings, and a bright, open layout that creates a seamless indoor-outdoor connection.\r\r\n\r\r\nThe home features beautiful maple hardwood flooring throughout the main living areas, new luxury vinyl plank flooring on the lower level, and fresh interior paint throughout. The main living area is designed to feel open and welcoming, with a fireplace, abundant natural light, and access to a private patio overlooking the greenbelt. The dining area flows naturally into the kitchen and breakfast nook, making the home ideal for both everyday living and entertaining. Custom interior shutters and thoughtfully designed living spaces add warmth and timeless appeal.\r\r\n\r\r\nThe primary suite offers a spacious retreat with its own private patio, while the secondary bedroom provides flexibility for guests, a home office, or additional living space. Residents of Streamhouse enjoy access to community amenities including a pool, spa, clubhouse, beautifully maintained grounds, water, trash service, and scenic common areas. Ideally located near shopping, dining, parks, and major commuter routes, this home offers a rare opportunity to enjoy comfort, convenience, and a tranquil lifestyle in one of Orange's most picturesque communities."
+      },
+      "split": "test",
+      "reference_summary": "Set within the serene Streamhouse community of Orange, this inviting home offers a peaceful setting surrounded by meandering streams, mature landscaping, lush greenbelts, and tree-lined views. Lovingly maintained by only two owners, the 2-bedroom, 2-bath residence features approximately 1,445 square feet of living space with an attached 2-car garage, vaulted ceilings, and a bright, open layout that creates a seamless indoor-outdoor connection. Residents of Streamhouse enjoy access to community amenities including a pool, spa, clubhouse, beautifully maintained grounds, water, trash service, and scenic common areas.",
+      "reference_sentences": [
+        "Set within the serene Streamhouse community of Orange, this inviting home offers a peaceful setting surrounded by meandering streams, mature landscaping, lush greenbelts, and tree-lined views.",
+        "Lovingly maintained by only two owners, the 2-bedroom, 2-bath residence features approximately 1,445 square feet of living space with an attached 2-car garage, vaulted ceilings, and a bright, open layout that creates a seamless indoor-outdoor connection.",
+        "Residents of Streamhouse enjoy access to community amenities including a pool, spa, clubhouse, beautifully maintained grounds, water, trash service, and scenic common areas."
+      ],
+      "reference_sentence_indices": [
+        0,
+        1,
+        7
+      ],
+      "source_only": true,
+      "source_sha256": "7952abd69fa66ad6fde6aef3ab23a787b53a5c1f1155a09025fd17bcbe90f7d4",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1159558215",
+      "record": {
+        "L_ListingID": 1159558215,
+        "L_Address": "6116 Calle Mariselda 304",
+        "L_City": "San Diego",
+        "beds": 1.0,
+        "baths": 1.0,
+        "price": 619000,
+        "remarks": "Welcome to Villa Colina’s largest floor plan featuring 1 bedroom plus a spacious loft and breathtaking panoramic canyon views. Beautifully remodeled and move-in ready, this stunning home showcases custom designer paint throughout, rehabbed kitchen cabinetry, sleek quartz countertops, and stainless steel appliances. Enjoy modern recessed lighting, updated fixtures, and luxury vinyl plank flooring throughout the entire unit. The remodeled bathroom offers dual vanities & quartz countertops. New heat & A/C.  Remodeled fireplace hearth in living room. The bathroom features dual vanities, quartz countertops, new mirrors, sinks, faucets, updated plumbing fixtures, a new toilet, and a beautifully redesigned tub enclosure. Additional upgrades include new electrical outlets, switches, and dimmers throughout the home. Convenience meets comfort with an included new central heat & air conditioning value over $11000, washer, dryer, and refrigerator. The oversized 2-car garage provides ample room for vehicles, storage, and more. A rare opportunity to enjoy stylish canyon-view living in one of Villa Colina’s most desirable floor plans."
+      },
+      "split": "test",
+      "reference_summary": "Welcome to Villa Colina’s largest floor plan featuring 1 bedroom plus a spacious loft and breathtaking panoramic canyon views. Beautifully remodeled and move-in ready, this stunning home showcases custom designer paint throughout, rehabbed kitchen cabinetry, sleek quartz countertops, and stainless steel appliances. The oversized 2-car garage provides ample room for vehicles, storage, and more.",
+      "reference_sentences": [
+        "Welcome to Villa Colina’s largest floor plan featuring 1 bedroom plus a spacious loft and breathtaking panoramic canyon views.",
+        "Beautifully remodeled and move-in ready, this stunning home showcases custom designer paint throughout, rehabbed kitchen cabinetry, sleek quartz countertops, and stainless steel appliances.",
+        "The oversized 2-car garage provides ample room for vehicles, storage, and more."
+      ],
+      "reference_sentence_indices": [
+        0,
+        1,
+        9
+      ],
+      "source_only": true,
+      "source_sha256": "9fa4bf10167cc029e0ee150ea49acae8f298a524947a30db415c89ab47d982a6",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1176989295",
+      "record": {
+        "L_ListingID": 1176989295,
+        "L_Address": "9843 Miloann st",
+        "L_City": "Temple City",
+        "beds": 3.0,
+        "baths": 2.0,
+        "price": 1398000,
+        "remarks": "Welcome to this charming home situated on a desirable north-facing, rectangular lot in one of Temple City’s most peaceful and established neighborhoods. Located within the highly sought-after Temple City Unified School District, this home is served by top-rated Cloverly Elementary School (9/10) and Temple City High School (10/10). Full of potential, this home is ready for your personal touches and a little updating to truly shine. The rectangular lot offers excellent usability, while the quiet, tree-lined street provides a wonderful sense of privacy and community. Conveniently located near shopping, dining, parks, and major transportation, this is an exceptional opportunity to create your dream home in one of the most desirable neighborhoods!!"
+      },
+      "split": "test",
+      "reference_summary": "Welcome to this charming home situated on a desirable north-facing, rectangular lot in one of Temple City’s most peaceful and established neighborhoods. Full of potential, this home is ready for your personal touches and a little updating to truly shine. The rectangular lot offers excellent usability, while the quiet, tree-lined street provides a wonderful sense of privacy and community.",
+      "reference_sentences": [
+        "Welcome to this charming home situated on a desirable north-facing, rectangular lot in one of Temple City’s most peaceful and established neighborhoods.",
+        "Full of potential, this home is ready for your personal touches and a little updating to truly shine.",
+        "The rectangular lot offers excellent usability, while the quiet, tree-lined street provides a wonderful sense of privacy and community."
+      ],
+      "reference_sentence_indices": [
+        0,
+        2,
+        3
+      ],
+      "source_only": true,
+      "source_sha256": "b02fb879a7afd629a7ec7e1116b30fa060e3c59c5353dfbd2f03dd47d6282b2a",
+      "reference_source": "assistant_selected_original_sentences",
+      "review_status": "needs_human_review"
+    }
+  ]
+}

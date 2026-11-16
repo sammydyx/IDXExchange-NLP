@@ -19,6 +19,7 @@ DISPLAY_COLUMNS = [
     "price",
     "square_feet",
     "property_type",
+    "remarks",
 ]
 
 

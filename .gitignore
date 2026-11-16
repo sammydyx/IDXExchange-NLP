@@ -9,5 +9,14 @@ data/raw/*
 data/processed/*
 !data/processed/.gitkeep
 !data/processed/week7_intent_queries.csv
+!data/processed/week8_listing_summaries.jsonl
+!data/processed/week8_rouge_scores.csv
+!data/processed/week8_summary_evaluation.json
+!data/processed/week8_summary_report.md
+!data/processed/week8_human_ratings.json
+!data/processed/week8_archive/
+data/processed/week8_archive/*
+!data/processed/week8_archive/template_evaluation_20261115.json
+!data/processed/week8_archive/template_rouge_scores_20261115.csv
 data/models/*
 !data/models/.gitkeep

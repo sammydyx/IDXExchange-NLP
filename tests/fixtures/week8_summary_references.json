@@ -1,0 +1,305 @@
+{
+  "selection": "listing_sample.csv.sample(n=20, random_state=8)",
+  "cases": [
+    {
+      "listing_id": "1179227225",
+      "record": {
+        "L_ListingID": 1179227225,
+        "L_Address": "23445 Sylvan Street",
+        "L_City": "Woodland Hills",
+        "beds": 4.0,
+        "baths": 3.0,
+        "price": 1250000,
+        "remarks": "NEW PRICE. NEW OPPORTUNITY. Exceptional Woodland Hills value just minutes from Walnut Acres. Tucked away on a tree-lined street, this beautifully remodeled single-story home delivers the modern comfort and effortless California lifestyle today's buyers are looking for without the renovation project. The thoughtfully reimagined interior features a designer updated kitchen, updated primary bathroom and bright, inviting living spaces designed for everyday living and entertaining. The spacious primary suite offers a true retreat with a fully renovated, spa-inspired bathroom, while major improvements throughout provide added peace of mind, including a newer roof and brand-new HVAC system. A brand-new washer and dryer add even more convenience to this truly move-in-ready home. Outside, the expansive 7,500+ square-foot lot offers a generous backyard with plenty of room to entertain, unwind, garden, or create your ideal outdoor living space. Ideally positioned near Walnut Acres, Westfield Topanga, The Village, Warner Center, The Commons at Calabasas, sought-after charter schools, dining, shopping, and everyday conveniences, this is an opportunity to own a beautifully upgraded home in one of Woodland Hills' most desirable areas, now offered at a compelling new price."
+      },
+      "reference_summary": "This remodeled single-story home in Woodland Hills has 4 bedrooms and 3 bathrooms and is listed for $1,250,000. Updates include a designer kitchen, renovated primary bathroom, newer roof and HVAC system, with a generous backyard on a 7,500-plus-square-foot lot.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1174445030",
+      "record": {
+        "L_ListingID": 1174445030,
+        "L_Address": "29603 Highpoint Road",
+        "L_City": "Rancho Palos Verdes",
+        "beds": 4.0,
+        "baths": 3.0,
+        "price": 2299900,
+        "remarks": "***HUGE PRICE IMPROVEMENT!!***  Welcome to 29603 Highpoint Road - Where the Coast Meets Elevated Living!\r\r\nFew addresses on the Palos Verdes Peninsula command attention quite like this one. Nestled within the sought-after enclave of Miraleste Hills, this beautifully appointed 4-bedroom, 3-bathroom residence delivers the kind of panoramic ocean and harbor views that make every morning feel like a getaway — visible from nearly every room in the home.\r\r\nSet on a tranquil cul-de-sac framed by mature trees and thoughtfully curated landscaping, the property offers an uncommon combination of seclusion and accessibility. Situated well over 5 miles from the landslide zone and with the fire department just minutes away, this home provides both peace of mind and peace of scenery.\r\r\nStep inside and discover a flowing floor plan designed for both everyday living and effortless entertaining. The main level opens into a generous living area that transitions naturally into a formal dining space — equally suited for intimate dinners or lively gatherings. The kitchen anchors the heart of the home with rich cabinetry, granite countertops, stainless steel appliances, and clean sightlines that keep the cook connected to the action. Adjacent, the family room invites you to settle in around a classic fireplace with a built-in wet bar nearby — the kind of space that guests tend to linger in.\r\r\nUpstairs, four well-proportioned bedrooms offer flexibility for family, guests, or a dedicated home office. The primary suite is a true retreat — featuring a custom walk-in closet, a spa-inspired ensuite with soaking tub and walk-in shower, and a private balcony where ocean breezes and coastal vistas greet you each morning. No power lines. Just horizon.\r\r\nAdditional highlights include central air conditioning, a full laundry room, an attached two-car garage with storage, and generous additional parking. Outdoor living is equally impressive, with patios accessible from both the kitchen and family room — perfect for al fresco dining — plus a manicured front lawn that doubles as one of the best sunset-viewing spots in the neighborhood.\r\r\nWith nearly $200,000 in recent upgrades throughout and proximity to top-rated schools, premier dining, and coastal destinations, this is a rare opportunity to plant roots in one of RPV's most prestigious and enduring communities."
+      },
+      "reference_summary": "Listed at $2,299,900, this 4-bedroom, 3-bathroom Rancho Palos Verdes home has panoramic ocean and harbor views on a cul-de-sac. The kitchen offers granite countertops and stainless steel appliances, with a fireplace, attached two-car garage and private primary-suite balcony.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1189490079",
+      "record": {
+        "L_ListingID": 1189490079,
+        "L_Address": "10656 King Phillip Ct.",
+        "L_City": "Santee",
+        "beds": 3.0,
+        "baths": 2.0,
+        "price": 549000,
+        "remarks": "Tucked away in the foothills of Santee is this remodeled & updated townhome featuring 3 spacious bedrooms. This is a true townhome, not a condominium, with no one living above or below you plus it has space between the adjoining walls to the neighbors for reducing noise transfer. This unit backs the greenbelt giving you a view of nature right outside most of your windows, letting the birds wake you each day!  The dual pane windows give you that extra quietness plus keeping your home cool in the summer & cozy in the winter. The newer central heating & air conditioning system ensures excellent climate control all year long. The remodeled kitchen gives you plenty of cabinet & counter space. The dining room sits right off the kitchen to keep the chef engaged with their guests, while looking out to the fully fenced patio.  Newer luxury vinyl planking is found throughout the home & carpet on the stairs for added quietness. Freshly painted throughout in modern neutral colors, including the ceilings, crown molding & all trim. It is just waiting for your personal touches to make it your own!  The In-Unit laundry room has a full-sized front-loading washer & dryer that is staying with the property. There is a half-bath downstairs for convenience & privacy. Upstairs you will find three comfortable bedrooms, including the primary bedroom with a walk-in closet & direct access to the fully remodeled bathroom including a deep soaking tub! The secondary bedrooms overlook hedges, not the neighbors or a parking lot, giving you privacy.  Parking is very convenient with two assigned spaces at the rear entry, one under the covered carport and the other is partially shaded, making it easy for unloading at the end of the day. There is a large storage closet in your parking area as well.   The community features a sparkling pool, playground area & plenty of greenbelts to get out & enjoy nature. Close to hiking trails, parks, entertainment & top-rated schools. Very close to the Santee Town Center for shopping & major freeways (52, 67 & 125). FHA & VA welcome so come take a look & make this your new home!"
+      },
+      "reference_summary": "This remodeled Santee townhome is listed at $549,000, with 3 bedrooms and 2 bathrooms recorded in the listing fields. Highlights include a community pool and playground, an updated kitchen, in-unit laundry and a walk-in closet.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1179199613",
+      "record": {
+        "L_ListingID": 1179199613,
+        "L_Address": "9637 Glade",
+        "L_City": "California City",
+        "beds": 3.0,
+        "baths": 2.0,
+        "price": 250000,
+        "remarks": "Located in the quiet desert community of California City, this property at 9637 Glade Ave offers an excellent opportunity for homeowners and investors alike. Set on a spacious lot with plenty of room to expand, garden, or create your ideal outdoor space, the home provides comfort, privacy, and great potential. Enjoy peaceful surroundings, open skies, and a relaxed lifestyle while still being within convenient reach of local amenities and major roadways. Whether you are searching for a primary residence, a vacation retreat, or a smart investment, this property delivers outstanding value in a growing area."
+      },
+      "reference_summary": "This California City property is listed for $250,000 with 3 bedrooms and 2 bathrooms. The remarks describe a spacious lot, peaceful desert surroundings and room for future outdoor projects, with access to local amenities and major roads.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1158795840",
+      "record": {
+        "L_ListingID": 1158795840,
+        "L_Address": "1407 N Bay Front",
+        "L_City": "Newport Beach",
+        "beds": 4.0,
+        "baths": 4.0,
+        "price": 9495000,
+        "remarks": "Life on Newport Harbor begins here, where timeless coastal charm meets coveted bay front living. Set on a rare oversized bayfront lot—approximately one and a half standard lots—on Balboa Island, this property offers 45 feet of frontage, a private pier and dock with room for multiple boats with easy nautical access to the harbor entrance, and ultraconvenient on-and-off-island access.\r\r\n\r\r\n  It is an exceptional opportunity to own one of the island’s prized waterfront settings. Inside, four bedrooms and four baths (two full and two three-quarters) are complemented by sandy shoreline access and sweeping harbor views in one of Newport Beach’s most iconic locations. Throughout the home, bright interiors blend warmth and character with hardwood flooring, new vinyl plank flooring in the kitchen and downstairs baths, and newly painted interiors and exteriors. Expansive windows and inviting living spaces are designed to capture water views from nearly every angle. Centering the main living room, a striking brick fireplace wall creates a welcoming focal point, while multiple gathering areas flow seamlessly to outdoor patios and charming entertaining courtyards. The updated main kitchen showcases crisp white cabinetry and new quartz countertops. Spanning just over 2,000 square feet, the thoughtfully arranged floorplan features two distinct wings, creating privacy and versatility. Upstairs is a living area, bedroom, full bath and kitchenette that was used as a spacious master suite and office. Upstairs features an elevated terrace which adds another open-air escape for lounging above it all. With a primary bedroom also downstairs, the upstairs alternatively it could be ideal for large families, multigenerational living, visitors or extended stays.\r\r\n\r\r\n   Located within the secondary wing is a separate one bedroom, three-quarter bath guest quarters with private patio-only access. Along the water, a private pier and dock with room for multiple boats provides access for boating, paddleboarding, kayaking, and effortless harbor enjoyment. Completing the residence is an oversized attached two-car garage. Just moments away, Balboa Island’s Marine Avenue boutiques and dining, waterfront restaurants, yacht clubs, Peninsula beaches, and world-class. Newport Harbor recreation await. Exceptional opportunity to own an authentic North Bayfront home surrounded by some of coastal Orange County’s most sought-after real estate."
+      },
+      "reference_summary": "Four bedrooms and four baths are listed for $9,495,000 on Balboa Island in Newport Beach. Bayfront living includes a private pier and dock, harbor views, an updated kitchen with quartz countertops, a fireplace and an attached two-car garage.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1160004120",
+      "record": {
+        "L_ListingID": 1160004120,
+        "L_Address": "45514 12th Street",
+        "L_City": "Lancaster",
+        "beds": 4.0,
+        "baths": 2.0,
+        "price": 429000,
+        "remarks": "WELCOME TO THIS BEAUTIFUL and spacious 4-bedroom, 2-bathroom home offering incredible potential for an ADU or future expansion. The property features a detached rear garage and a large lot, providing plenty of space for additional projects and customization.\r\r\nThe home has been recently updated with new flooring throughout, fresh interior paint, newly installed modern recessed lighting, and a spacious kitchen featuring beautiful granite countertops.\r\r\nConveniently located near restaurants, shopping centers, schools, and with easy freeway access, this property combines comfort, convenience, and future potential.\r\r\nDon’t miss this great opportunity to make this property your new home!"
+      },
+      "reference_summary": "This 4-bedroom, 2-bathroom Lancaster home is listed at $429,000. A detached rear garage and large lot accompany new flooring, fresh interior paint, recessed lighting and granite countertops, while the remarks describe potential for a future ADU rather than an existing unit.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1176698043",
+      "record": {
+        "L_ListingID": 1176698043,
+        "L_Address": "520 Barnett Drive",
+        "L_City": "San Marcos",
+        "beds": 2.0,
+        "baths": 2.0,
+        "price": 775000,
+        "remarks": "PRICE IMPROVEMENT!  SELLERS MOTIVATED..Welcome home to this beautiful energy efficient 2 bed 2 bath single story cul-de-sac home in San Marcos with OWNED SOLAR AND POOL!  You'll savor your morning coffee in the entry rose garden. In the evenings you'll enjoy star gazing from the elevated area by the hot tub.  As you enter the home you'll admire the openness of the vaulted ceilings, fresh paint and views to the backyard.  The kitchen is thoughtfully appointed with white cabinetry, stainless steel appliances, granite counter tops, and soft close drawers.  The sparkling pool and spa, private fenced backyard and gazebo invite you to unwind. The pool was just resurfaced and the pool filter was replaced recently.  You'll appreciate your energy savings with the NEM 1 credits, and 21 solar panels with a 5000 watt inverter, along with a level 2 EV car charger.  The  primary suite offers a tranquil escape with a sliding door to the backyard, ensuite bathroom and large mirrored closet.  You'll enjoy the added amenities which include electric air conditioning, nest thermostat, whole house fan, ring door bell & ring security camera, blackout window treatments, newer vinyl windows, newer luxury vinyl plank floors, and fireplace.  The modern lutron lighting in kitchen, entry and primary suite allow you to control your lighting with the app on your phone!  The second bedroom enjoys views of the rose garden, a generous closet and a full bathroom right outside the door. There's a two car garage, pull down attic ladder and an upgraded laundry area in the garage.  The generous side yard allows for additional outside storage for your toys.  The home is centrally located near Cal State San Marcos, HWY 78,  plenty of restaurants and shopping."
+      },
+      "reference_summary": "Listed at $775,000, this San Marcos home has 2 bedrooms and 2 bathrooms. Features include a pool, spa, hot tub, owned solar panels, vaulted ceilings and a fireplace, with a fenced backyard and two-car garage on a cul-de-sac.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1157540545",
+      "record": {
+        "L_ListingID": 1157540545,
+        "L_Address": "56375 Bighorn Drive",
+        "L_City": "Mountain Center",
+        "beds": 3.0,
+        "baths": 4.0,
+        "price": 1595000,
+        "remarks": "This beautiful Mediterranean Design is surrounded by the mystic and tranquility of the Santa Rosa and San Jacinto Mountains. Perched high above on 3 acres capturing long range views beyond the Desert Cities below you will be captivated by the serenity of it's natural surroundings. One of twenty three custom homesites, within the privately gated Enclave of Royal Carrizo, it is three thousand feet above fashionable El Paseo in South Palm Desert. A private driveway opens to a motor court and 4-car garage. Graceful arches extend along the exterior. Decorative tile leads to striking details in the custom ironwork and glass double doors. Upon entry the warmth of wood beams, Saltillo tile, natural stone fireplace and expansive views will take your breath away. Curved archways and textured walls define the Spanish influence within the 3,735 sq ft interior. Three bedrooms and a private office have exquisite hardwood floors. Hallways are wide and rooms are large with access to the outdoors at every angle. Inspired by the breathtaking natural surroundings, a wrap around covered loggia invites you to sit, relax and embrace the quiet breeze. The sun shines across the sparkling salt water pool and spa. A pool house is equipped with a mini-split HVAC and kitchenette.  Outdoor dining is enjoyed on the expansive patio extending to embrace captivating views. Privacy without isolation amidst natural surroundings, this beautiful home offers you a most desirable retreat."
+      },
+      "reference_summary": "This Mediterranean-style Mountain Center property is listed for $1,595,000 with 3 bedrooms and 4 bathrooms in the listing fields. It offers mountain views, a pool and spa, private office, fireplace and four-car garage on approximately three acres.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1179231055",
+      "record": {
+        "L_ListingID": 1179231055,
+        "L_Address": "11662 Jewel",
+        "L_City": "Garden Grove",
+        "beds": 3.0,
+        "baths": 2.0,
+        "price": 1109000,
+        "remarks": "Spacious 3BR/2BA Garden Grove Home Minutes from Disneyland! Located at 11662 Jewel Lane, this bright 1,681 square foot home delivers comfort, space, and a world-class location. Enjoy a functional single-story layout featuring three generous bedrooms, two full bathrooms, and an attached garage.The crown jewel of this property is the sprawling 8,060 square foot lot with immense ADU potential, perfect for anyone looking to build a second detached unit for extended family or passive rental income. Nestled in a quiet neighborhood just steps from Parkview Elementary and a short drive to Disneyland, this home offers the ultimate Southern California lifestyle."
+      },
+      "reference_summary": "This single-story Garden Grove home is listed for $1,109,000 with 3 bedrooms and 2 bathrooms. The remarks highlight an attached garage and a large lot with ADU potential, with 1,681 square feet of living space and access to Disneyland and nearby schools.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1182868514",
+      "record": {
+        "L_ListingID": 1182868514,
+        "L_Address": "2104 Raymond 4",
+        "L_City": "Altadena",
+        "beds": 2.0,
+        "baths": 2.0,
+        "price": 660000,
+        "remarks": "Move-in ready townhome-style condo in a gated 12-unit Altadena community, with1,066 square feet of comfortable two-story living. The welcoming, updated front-porch and double-door entry open to an airy living room area with laminate wood flooring, recessed lighting, bright kitchen, and a guest half-bath. A glass slider leads to a private enclosed patio with updated fencing. Upstairs, two spacious bedrooms feature crown molding, walk-in closets, and a large balcony, served by a full hallway bath. Recent updates include a new AC unit installed within the last year, plus association improvements to the building exterior, roof, and communal water heater. Additional features include an attached two-car garage with direct unit access and smart opener, in-unit washer/dryer hookups, central heat and air, and dual-paned windows and glass sliders throughout. Ideally located near the Rose Bowl, Old Pasadena, Loma Alta Park, and JPL, with the San Gabriel Mountains close by and convenient freeway access.\r\r\n\r\r\nVACANT GO DIRECT"
+      },
+      "reference_summary": "Listed at $660,000, this Altadena townhome-style condo has 2 bedrooms and 2 bathrooms in the listing fields. It features a private patio, walk-in closets, a balcony, recessed lighting and an attached two-car garage in a gated community.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1184344838",
+      "record": {
+        "L_ListingID": 1184344838,
+        "L_Address": "6050 E Malton Avenue",
+        "L_City": "Simi Valley",
+        "beds": 4.0,
+        "baths": 2.0,
+        "price": 899900,
+        "remarks": "Welcome to 6050 E. Malton in East Simi Valley—a beautifully maintained, move-in-ready home where many of the major high-ticket improvements have already been completed.\r\r\n\r\r\nThe stunning gourmet kitchen was remodeled in 2025 and features quartz countertops, custom cabinetry, a center island with built-in microwave, recessed lighting, and a built-in bar designed for both everyday living and entertaining. High-end appliances include a six-burner gas range with oven, stainless steel refrigerator, and dishwasher. All major appliances are included with the sale, including the washer and dryer.\r\r\n\r\r\nAdditional upgrades include a new HVAC system, whole-house fan, brand-new windows throughout, brand-new shutters, upgraded sliding glass doors, copper plumbing, and an emergency generator transfer-switch system with the generator included.\r\r\n\r\r\nThe bright and inviting interior offers an open dining area and a step-down living room featuring a fireplace and bay window. Ceiling fans throughout the home provide additional comfort.\r\r\n\r\r\nThe backyard is designed for relaxation and entertaining, with mature landscaping, a greenhouse, beautifully maintained grounds, and a spacious covered patio with three ceiling fans. An approximately one-year-old spa and gazebo are also included with the sale, creating a private outdoor retreat ready to enjoy.\r\r\n\r\r\nAdditional conveniences include a separate laundry room, abundant storage, a finished two-car garage with generous workspace, and a security system that will remain with the property.\r\r\n\r\r\n6050 E. Malton combines extensive recent improvements, thoughtful amenities, and inviting indoor-outdoor living in a desirable East Simi Valley location—truly a home ready for its next owner to move in and enjoy."
+      },
+      "reference_summary": "This Simi Valley home is listed at $899,900 with 4 bedrooms and 2 bathrooms. Features include a spa, fireplace, covered patio and finished two-car garage, with a remodeled kitchen offering quartz countertops and recessed lighting.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1179325362",
+      "record": {
+        "L_ListingID": 1179325362,
+        "L_Address": "14661 Allison Street",
+        "L_City": "Adelanto",
+        "beds": 3.0,
+        "baths": 2.0,
+        "price": 354000,
+        "remarks": "Welcome to 14661 Allison St! Located on a quiet cul-de-sac in Adelanto, this cozy 3-bedroom, 2-bath home offers 1,126 sq. ft. of living space with plenty of versatility. In addition to the main living areas, the home features a sunroom, providing extra space to relax, entertain, or enjoy year-round.\r\r\n\r\r\nA portion of the garage has been converted into a spacious bonus room that can serve as an optional 4th bedroom, home office, game room, or additional living space. Prefer a garage? The space can easily be converted back to its original use.\r\r\n\r\r\nThe backyard is ready for family fun with a children's playground that will remain with the sale. Select mounted TVs throughout the home are also included, adding even more value for the new owner.\r\r\n\r\r\nConveniently located near schools, shopping, dining, and commuter routes, the home is approximately 2.8 miles from Highway 395, with multiple shopping centers nearby and the Mall of Victor Valley and Southern California Logistics Airport just a short drive away.\r\r\n\r\r\nWith flexible living space, a great location, and several extras included, 14661 Allison St is ready for its next owner. Schedule your private showing today!  Buyer to assume solar lease"
+      },
+      "reference_summary": "This Adelanto home is listed for $354,000 with 3 bedrooms and 2 bathrooms. The remarks highlight a sunroom and playground on a cul-de-sac, and describe a garage conversion used as a bonus room rather than an additional confirmed bedroom.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1190863047",
+      "record": {
+        "L_ListingID": 1190863047,
+        "L_Address": "1600 Don Court",
+        "L_City": "Mountain View",
+        "beds": 3.0,
+        "baths": 2.0,
+        "price": 3498000,
+        "remarks": "Gorgeous completely remodeled Mountain View home with highly regarded Los Altos schools!  Reimagined from the studs out with meticulously designed interiors by Nomadika Design Studio, this single-story smart home pairs refined contemporary design with inviting indoor-outdoor living. New skylights illuminate an open layout finished with wide-plank engineered wood flooring, smooth walls, & a linear fireplace framed in hand-applied limewash. The custom kitchen anchors the home with Thermador appliances, integrated custom cabinetry, Ivory Taj quartzite countertops and backsplash, a generous island, & a wine refrigerator. An expanded primary suite offers a walk-in closet and a beautifully appointed bath with a floating double vanity, rain shower, and frameless glass enclosure. Sliding doors lead to the private, newly landscaped backyard, where a louvered pergola, patio, and lounge area complement a built-in outdoor kitchen with a Coyote grill, sink, and refrigerator. Beyond the finishes, improvements include a new roof, Milgard windows and sliding doors, new plumbing, electrical and HVAC systems, a tankless water heater, and a permitted EV charging circuit. New landscaping completes the home. Served by sought after Springer Elementary, Blach Junior High, and Los Altos High School."
+      },
+      "reference_summary": "Listed at $3,498,000, this remodeled Mountain View home has 3 bedrooms and 2 bathrooms. It offers a fireplace, walk-in closet, skylights and an outdoor kitchen, with a newly landscaped backyard and updated roof, plumbing and HVAC.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1189566652",
+      "record": {
+        "L_ListingID": 1189566652,
+        "L_Address": "22262 Summit Hill",
+        "L_City": "Lake Forest",
+        "beds": 3.0,
+        "baths": 3.0,
+        "price": 899999,
+        "remarks": "Welcome to this beautifully upgraded end-unit townhome in the highly desirable Grandview Crest community of Lake Forest, offering 3 bedrooms, 2.5 bathrooms, scenic mountain views, and an impressive collection of thoughtful updates throughout. Step inside to a bright, inviting interior where soaring two-story vaulted ceilings create an immediate sense of openness. Tile flooring, custom lighting, blinds, double-pane windows, and striking custom millwork along the stair wall add architectural interest and a polished designer touch. The spacious living room is centered around a cozy fireplace and flows seamlessly into the dining area and sunroom. Filled with natural light, the sunroom provides valuable additional living space ideal for relaxing, entertaining, a playroom, home office, or simply taking in the surrounding views. The updated kitchen features refinished cabinetry, granite countertops, a stylish glass backsplash, recessed lighting, abundant storage, and a convenient breakfast bar. Nearby, the beautifully updated downstairs powder room makes a statement with a quartz stone accent wall behind the contemporary vanity, creating an elevated and sophisticated look. Upstairs, the primary suite serves as a peaceful retreat with beautiful mountain views and dual mirrored closets featuring custom built-ins. The remodeled en-suite bathroom delivers a spa-inspired feel with quartz stone finishes, dual vanities, and an impressive oversized walk-in shower. Two additional bedrooms also feature custom closet built-ins and share a full hall bathroom with a shower and tub. Outside, the private backyard offers relaxing views and plenty of space for a BBQ, outdoor dining, entertaining, or simply unwinding while enjoying the Southern California lifestyle. The direct-access two-car garage provides additional storage and a convenient laundry area with washer and dryer, while ample guest parking is located nearby. Residents of Grandview Crest enjoy resort-style amenities including two pools, tennis courts, and basketball courts, with Lake Forest Sports Park, shopping, dining, parks, hiking trails, and local schools all conveniently nearby. With its desirable end-unit location, mountain views, sunroom, custom millwork, remodeled bathrooms, private driveway and thoughtfully upgraded interior, this home offers an exceptional combination of style, comfort, and convenience in one of Lake Forest’s most sought-after communities. \r\r\nFHA/VA APPROVED!"
+      },
+      "reference_summary": "This Lake Forest townhome is listed for $899,999 with 3 bedrooms and 3 bathrooms in the listing fields. Community amenities include pools and tennis courts, with mountain views and a fireplace, but the remarks state 2.5 bathrooms and the discrepancy needs verification.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1190507668",
+      "record": {
+        "L_ListingID": 1190507668,
+        "L_Address": "74 Dalerose Court",
+        "L_City": "Daly City",
+        "beds": 4.0,
+        "baths": 4.0,
+        "price": 1388888,
+        "remarks": "STUNNING PANORAMIC VIEWS | PERMITTED LOWER-LEVEL LIVING AREAS | MINUTES TO SF & BART This stunning 4-bedroom, 3.5-bath residence is perched in Daly City's coveted Southern Hills on a serene and flat cul-de-sac, and commands sweeping views of the San Francisco skyline, and the shimmering San Francisco Bay. A beautifully updated floor plan unfolds across the main level with 3-bedrooms and 2-bathrooms upstairs, complemented by a permitted beautiful lower-level, which includes 1-bedroom, 1 bathroom, and living areas downstairs with its own separate entrance -- perfectly suited as a private office, entertaining lounge, multigenerational retreat, or a potential income-producing living area. Both levels were recently updated.  Entertain in sun-drenched interiors by day; watch the skyline ignite by night, from your own private perch above it all. Southern Hills is one of Daly City's most distinctive addresses, blending suburban calm with sweeping Bay Area scenery and a more spacious, laid-back feel than Daly City's denser pockets.  Steps to Arden Park.  Nearby San Bruno Mountain State Park adds miles of hiking trails and open space. Minutes to San Francisco, BART, SFO Airport, major commute routes, and the finest of the Peninsula.  Effortless connectivity without sacrificing tranquility."
+      },
+      "reference_summary": "Listed at $1,388,888, this Daly City property has 4 bedrooms and 4 bathrooms according to the listing fields. The remarks highlight a cul-de-sac and panoramic views with a separate lower-level entrance, but state 3.5 bathrooms, so the bathroom count should be verified.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1179907859",
+      "record": {
+        "L_ListingID": 1179907859,
+        "L_Address": "13875 La Jolla Plaza",
+        "L_City": "Garden Grove",
+        "beds": 3.0,
+        "baths": 2.0,
+        "price": 778000,
+        "remarks": "Discover a rare gem, an exceptional end-unit, single-story home located within a Planned Unit Development that combines comfort and style in the vibrant heart of Little Saigon. Spanning an impressive 1,427 square feet, this residence boasts three bedrooms and two bathrooms. Step inside to find a spacious kitchen that delights the culinary enthusiast, featuring an abundance of counter space and cupboards, ideal for all your cooking needs. The cozy eat-in area encourages casual dining and enjoyable breakfasts, while the large living room invites you to unwind or entertain friends and family with ease. Retreat to the tranquil primary suite, complete with its own ensuite bathroom for privacy and convenience as well as a spacious walk-in closet that caters to all your wardrobe needs. Here, you'll also find direct access to a generous, private patio, perfect for serene morning coffee or evening relaxation. The two additional bedrooms are versatile and functional, making them ideal for family members, guests, or even a home office. A secondary full bathroom ensures that everyone’s needs are met. Enhance your living experience with an array of community amenities, including a refreshing pool, beautifully landscaped grassy areas, charming walking paths, a picnic spot for gatherings, a welcoming clubhouse, and guest parking. Plus, if you need additional parking, a third parking pass for community spaces can be readily requested. Convenience is at your fingertips with this property’s prime location near Bolsa Grande High School, Garden Grove Park, as well as quick access to freeways, shopping centers, and an abundance of dining options. Don't miss the opportunity to make this charming and inviting home your very own!"
+      },
+      "reference_summary": "This Garden Grove home is listed at $778,000 with 3 bedrooms and 2 bathrooms. Community amenities include a pool, clubhouse and guest parking, while the home offers a walk-in closet, private patio and single-story layout.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1176324617",
+      "record": {
+        "L_ListingID": 1176324617,
+        "L_Address": "428 E Bay Avenue",
+        "L_City": "Newport Beach",
+        "beds": 3.0,
+        "baths": 5.0,
+        "price": 4150000,
+        "remarks": "Welcome to 428 E Bay Avenue, a quintessential coastal retreat ideally located just one home from the bay and two blocks from the ocean and boardwalk in the heart of the Balboa Peninsula, moments from the Balboa Pier, ferry, and Fun Zone. With timeless beach cottage charm and classic coastal appeal, this move-in ready residence offers an effortless blend of style and functionality, featuring a light-filled great room, open-concept kitchen, and powder bath on the main level, while upstairs three spacious bedrooms each enjoy ensuite bathrooms for ultimate comfort and privacy. The rooftop deck captures refreshing bay breezes, passing boats, and city lights into the evening—perfect for embracing the vibrant Peninsula lifestyle year-round—while a bonus room with an additional bathroom provides flexible space for guests, a home office, or secondary living area. Complete with a versatile garage for parking, storage, bikes, and beach essentials, this is a rare opportunity to own a turnkey home in one of Newport Beach’s most iconic and sought-after beachside locations."
+      },
+      "reference_summary": "Listed at $4,150,000, this Newport Beach home has 3 bedrooms and 5 bathrooms in the listing fields. A rooftop deck and versatile garage accompany a great room and open-concept kitchen, with the bay and ocean nearby.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1176119202",
+      "record": {
+        "L_ListingID": 1176119202,
+        "L_Address": "10487 Crosscreek",
+        "L_City": "San Diego",
+        "beds": 2.0,
+        "baths": 2.0,
+        "price": 715000,
+        "remarks": "Nestled in the highly desirable Scripps Ranch community, this charming 2-bedroom, 1.5-bath townhome offers a comfortable floorplan, peaceful surroundings and an unbeatable location. Freshly painted throughout, the home features a bright and inviting interior with a cozy fireplace and a spacious primary bedroom showcasing vaulted ceilings and a private balcony—perfect for enjoying your morning coffee or unwinding at the end of the day. Two private patios provide additional outdoor living space for relaxing, entertaining, or gardening, while the absence of neighbors behind the home enhances the sense of privacy. Additional highlights include a detached two-car garage with newly finished, textured, and painted walls, enhancing a clean, versatile space for parking, storage or hobbies. Situated in a quiet neighborhood just minutes from top-rated schools, parks, shopping, dining, and convenient access to Interstate 15, this home is the ideal combination of comfort and the sought-after Scripps Ranch lifestyle."
+      },
+      "reference_summary": "This San Diego townhome is listed for $715,000 with 2 bedrooms and 2 bathrooms in the listing fields. Features include a fireplace, private balcony and detached two-car garage, but the remarks state 1.5 bathrooms and the count needs verification.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1190885923",
+      "record": {
+        "L_ListingID": 1190885923,
+        "L_Address": "22330 Meyler Street 36",
+        "L_City": "Torrance",
+        "beds": 4.0,
+        "baths": 3.0,
+        "price": 918000,
+        "remarks": "Welcome to this charming and beautifully maintained condo nestled in a secured gated community in Torrance! Step inside to find stylish wood flooring and modern recessed lighting that highlight the bright, open living space. The functional kitchen offers ample cabinetry and seamlessly flows into the dining area. Outstanding parking setup featuring a 2-car garage PLUS 1 assigned parking space. Enjoy top-notch community amenities, including a sparkling pool. Prime location with quick access to I-110 & I-405, Del Amo Fashion Center, parks, and Harbor-UCLA Medical Center. Move-in ready and a must-see!"
+      },
+      "reference_summary": "This Torrance condo is listed at $918,000 with 4 bedrooms and 3 bathrooms according to the listing fields. It offers a community pool and a two-car garage with an additional assigned parking space in a gated community, with recessed lighting and wood flooring.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    },
+    {
+      "listing_id": "1190171882",
+      "record": {
+        "L_ListingID": 1190171882,
+        "L_Address": "2441 Lyric Avenue",
+        "L_City": "Los Angeles",
+        "beds": 3.0,
+        "baths": 3.0,
+        "price": 2150000,
+        "remarks": "Beautiful, expansive and drenched in light! Perfectly perched amongst stunning homes on a quiet street in the highly sought-after Franklin Hills neighborhood of Los Feliz, this wonderfully spacious estate has so much to offer. Everywhere you look you'll find clean open spaces and cheerful views from every window. 4 beds and 2.5 baths span a bright, flowing, multi-level floor-plan where every space feels intentionally situated. Upon entering you'll find a private office just off the foyer and conveniently tucked away from the vibrant family gathering spaces beyond. The main level opens up to a grand great room where memories are waiting to be made! Soaring wood ceilings, uplifting city views and architectural details thoughtfully blend with a modern warmth woven into the custom design moments throughout. All is overlooked by an elevated dining room just off the ultra chic perfectly appointed kitchen. Down the hall you'll find a powder room and a huge laundry room with storage galore in one direction and an intimate family room with its own fireplace that opens directly to one of the multiple tranquil backyard spaces. The super functional layout is absolutely awesome! When you think you've seen it all it just keeps going in all the best ways! The top floor is dedicated to the private bedroom quarters, including a romantic and whimsical primary suite with vaulted wood-accented ceilings, breathtaking views of Los Feliz and direct access to a private deck—overlooking the backyard, perfect for greeting the day every morning in your own private hilltop sanctuary. Two additional spacious bedrooms and another full bath complete the upper level perfectly. An idyllic setting just moments from the adorable shops, restaurants, and artistic energy of Hyperion and all that Los Feliz has to offer, this distinctive Franklin Hills home combines modern comfort, dramatic views, and an unbeatable location."
+      },
+      "reference_summary": "Listed at $2,150,000, this Los Angeles home has 3 bedrooms and 3 bathrooms in the listing fields. The remarks highlight a fireplace, private office and city views, but describe 4 beds and 2.5 baths, so the room counts require verification.",
+      "reference_source": "assistant_authored",
+      "review_status": "needs_human_review"
+    }
+  ]
+}
