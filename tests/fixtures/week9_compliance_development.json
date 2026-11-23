@@ -1,0 +1,552 @@
+{
+  "annotation_source": "assistant_authored_synthetic",
+  "review_status": "needs_independent_human_review",
+  "protocol": "Text-disjoint synthetic regression fixtures authored alongside the implementation; not an independent real-world or legal gold benchmark.",
+  "split": "development",
+  "cases": [
+    {
+      "case_id": "development-001",
+      "split": "development",
+      "label": "known_violation",
+      "category": "familial_status",
+      "text": "No children.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-002",
+      "split": "development",
+      "label": "known_violation",
+      "category": "familial_status",
+      "text": "Children are not allowed in this apartment.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-003",
+      "split": "development",
+      "label": "known_violation",
+      "category": "familial_status",
+      "text": "Adults only.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-004",
+      "split": "development",
+      "label": "known_violation",
+      "category": "familial_status",
+      "text": "This house is not suitable for families with children.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-005",
+      "split": "development",
+      "label": "known_violation",
+      "category": "familial_status",
+      "text": "Kids are prohibited.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-006",
+      "split": "development",
+      "label": "known_violation",
+      "category": "disability",
+      "text": "No wheelchairs.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-007",
+      "split": "development",
+      "label": "known_violation",
+      "category": "disability",
+      "text": "Applicants must be able-bodied.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-008",
+      "split": "development",
+      "label": "known_violation",
+      "category": "disability",
+      "text": "No disabled tenants.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-009",
+      "split": "development",
+      "label": "known_violation",
+      "category": "disability",
+      "text": "Wheelchair users are not accepted.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-010",
+      "split": "development",
+      "label": "known_violation",
+      "category": "race",
+      "text": "White tenants only.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-011",
+      "split": "development",
+      "label": "known_violation",
+      "category": "race",
+      "text": "No Asian applicants.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-012",
+      "split": "development",
+      "label": "known_violation",
+      "category": "race",
+      "text": "Black renters preferred.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-013",
+      "split": "development",
+      "label": "known_violation",
+      "category": "race",
+      "text": "We prefer white tenants.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-014",
+      "split": "development",
+      "label": "known_violation",
+      "category": "color",
+      "text": "Light-skinned tenants only.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-015",
+      "split": "development",
+      "label": "known_violation",
+      "category": "color",
+      "text": "No dark-skinned applicants.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-016",
+      "split": "development",
+      "label": "known_violation",
+      "category": "color",
+      "text": "Fair-skinned renters preferred.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-017",
+      "split": "development",
+      "label": "known_violation",
+      "category": "national_origin",
+      "text": "No Mexican tenants.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-018",
+      "split": "development",
+      "label": "known_violation",
+      "category": "national_origin",
+      "text": "US-born residents only.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-019",
+      "split": "development",
+      "label": "known_violation",
+      "category": "national_origin",
+      "text": "Chinese tenants preferred.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-020",
+      "split": "development",
+      "label": "known_violation",
+      "category": "national_origin",
+      "text": "Foreigners are not welcome.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-021",
+      "split": "development",
+      "label": "known_violation",
+      "category": "religion",
+      "text": "Christians only.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-022",
+      "split": "development",
+      "label": "known_violation",
+      "category": "religion",
+      "text": "No Muslim applicants.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-023",
+      "split": "development",
+      "label": "known_violation",
+      "category": "religion",
+      "text": "Jewish tenants preferred.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-024",
+      "split": "development",
+      "label": "known_violation",
+      "category": "religion",
+      "text": "We prefer Hindu renters.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-025",
+      "split": "development",
+      "label": "known_violation",
+      "category": "sex",
+      "text": "Women only.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-026",
+      "split": "development",
+      "label": "known_violation",
+      "category": "sex",
+      "text": "No male applicants.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-027",
+      "split": "development",
+      "label": "known_violation",
+      "category": "sex",
+      "text": "Female tenants preferred.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-028",
+      "split": "development",
+      "label": "known_violation",
+      "category": "sex",
+      "text": "Only male renters may apply.",
+      "rationale": "Explicit exclusion or resident preference in an ordinary dwelling advertisement; no exception facts asserted."
+    },
+    {
+      "case_id": "development-029",
+      "split": "development",
+      "label": "review",
+      "category": "familial_status",
+      "text": "Perfect for singles.",
+      "rationale": "Ambiguous preference, unverified exception context, or policy requiring qualified human review."
+    },
+    {
+      "case_id": "development-030",
+      "split": "development",
+      "label": "review",
+      "category": "familial_status",
+      "text": "Ideal for couples.",
+      "rationale": "Ambiguous preference, unverified exception context, or policy requiring qualified human review."
+    },
+    {
+      "case_id": "development-031",
+      "split": "development",
+      "label": "review",
+      "category": "familial_status",
+      "text": "55+ community; adults only.",
+      "rationale": "Ambiguous preference, unverified exception context, or policy requiring qualified human review."
+    },
+    {
+      "case_id": "development-032",
+      "split": "development",
+      "label": "review",
+      "category": "familial_status",
+      "text": "Retirement community with no children.",
+      "rationale": "Ambiguous preference, unverified exception context, or policy requiring qualified human review."
+    },
+    {
+      "case_id": "development-033",
+      "split": "development",
+      "label": "review",
+      "category": "race",
+      "text": "Located in a white neighborhood.",
+      "rationale": "Ambiguous preference, unverified exception context, or policy requiring qualified human review."
+    },
+    {
+      "case_id": "development-034",
+      "split": "development",
+      "label": "review",
+      "category": "religion",
+      "text": "A Christian community with gardens.",
+      "rationale": "Ambiguous preference, unverified exception context, or policy requiring qualified human review."
+    },
+    {
+      "case_id": "development-035",
+      "split": "development",
+      "label": "review",
+      "category": "national_origin",
+      "text": "English speakers only.",
+      "rationale": "Ambiguous preference, unverified exception context, or policy requiring qualified human review."
+    },
+    {
+      "case_id": "development-036",
+      "split": "development",
+      "label": "review",
+      "category": "national_origin",
+      "text": "US citizens only.",
+      "rationale": "Ambiguous preference, unverified exception context, or policy requiring qualified human review."
+    },
+    {
+      "case_id": "development-037",
+      "split": "development",
+      "label": "review",
+      "category": "sex",
+      "text": "Female roommate wanted.",
+      "rationale": "Ambiguous preference, unverified exception context, or policy requiring qualified human review."
+    },
+    {
+      "case_id": "development-038",
+      "split": "development",
+      "label": "review",
+      "category": "disability",
+      "text": "No service animals.",
+      "rationale": "Ambiguous preference, unverified exception context, or policy requiring qualified human review."
+    },
+    {
+      "case_id": "development-039",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "A three-bedroom home with two bathrooms.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-040",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "White cabinets brighten the kitchen.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-041",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "Black granite countertops are included.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-042",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "Near a Christian community center.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-043",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "A diverse area with parks.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-044",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "Ethnic restaurants are nearby.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-045",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "Wheelchair accessible entrance.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-046",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "A step-free entrance and wide doors.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-047",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "The building has no wheelchair access.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-048",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "All ages are welcome.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-049",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "Families with children are welcome.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-050",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "No smoking inside the home.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-051",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "No pets, subject to applicable accommodation requirements.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-052",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "A church is nearby.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-053",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "Walk to the community swimming pool.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-054",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "Do not use the phrase \"no children\".",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-055",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "We reject the phrase \"white tenants only\".",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-056",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "Not adults only; all ages welcome.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-057",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "No children are excluded.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-058",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "There are no adults-only restrictions.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-059",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "Previously \"adults only\", now all ages welcome.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-060",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "The White House architectural style inspired the facade.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-061",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "An Asian-inspired garden creates a peaceful setting.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-062",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "We do not exclude applicants because of race.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-063",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "Each applicant is evaluated using the same objective criteria.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-064",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "The primary bedroom faces south.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-065",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "Adults and children can enjoy the garden.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-066",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "A private home office and attached garage.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-067",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "Two family rooms are included.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    },
+    {
+      "case_id": "development-068",
+      "split": "development",
+      "label": "clean",
+      "category": null,
+      "text": "An accessible bathroom is on the ground floor.",
+      "rationale": "Property description, inclusive wording, or locally explicit rejection of discriminatory wording; not a resident exclusion."
+    }
+  ]
+}

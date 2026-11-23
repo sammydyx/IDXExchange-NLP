@@ -45,3 +45,35 @@ Select **IDX Exchange NLP (.venv)** in VS Code, then run the notebook. Section 8
 contains Previous/Next navigation, ratings, notes, saved drafts, and an
 **Update evaluation** button. Completed ratings and evaluation results are
 versioned; local widget drafts and generated review seeds remain local.
+
+## Week 9: Fair Housing Compliance Screening
+
+The [Week 9 notebook](notebooks/week9_fair_housing_compliance.ipynb) demonstrates
+25 source-linked rules across seven federal protected categories, error/warning/info
+findings, context controls, and a simulated listing-submission workflow that also
+checks Week 8 summaries. No listing is published and no legal compliance is certified.
+
+The synthetic test split contains 103 examples: 41 stipulated known violations,
+17 review-required cases and 45 clean controls. Its measured known-violation recall
+and screening precision are both 100%. These fixtures were authored alongside
+the rules and are not an independent human-verified legal benchmark.
+The unlabeled 1,000-listing scan flagged 19 records for review; those are not
+counts of proven violations.
+
+```bash
+source .venv/bin/activate
+python scripts/evaluate_week9.py
+python -m pytest -q tests/test_week9.py
+```
+
+Use **IDX Exchange NLP (.venv)** for the notebook. See
+[the team guide](docs/week9_fair_housing.md) for rule sources, severity meanings,
+metric definitions, examples and remaining validation work.
+
+
+The [English manual-review workbook](outputs/week9_manual_review/week9_manual_review.xlsx)
+contains all 19 flagged listings, full remarks, Week 8 summaries, and editable review
+fields. Select a listing on **Listing Review**, then record the conclusion and evidence
+on **Review Checklist**. Human review is still pending; no conclusions are prefilled.
+The full real-sample screening evidence is saved in
+[week9_sample_screening.jsonl](data/processed/week9_sample_screening.jsonl).

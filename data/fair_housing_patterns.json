@@ -1,0 +1,328 @@
+{
+  "version": "week9-1.0",
+  "scope": "Federal Fair Housing advertising language risk screening; English; no legal certification",
+  "sources": [
+    {
+      "id": "fha_3604c",
+      "url": "https://uscode.house.gov/us/usc/t42/s3604/",
+      "note": "Advertising preferences, limitations and discrimination; section 3604(c)."
+    },
+    {
+      "id": "cfr_10075",
+      "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-I/part-100/subpart-B/section-100.75",
+      "note": "Discriminatory advertisements, statements and notices."
+    },
+    {
+      "id": "fha_3607",
+      "url": "https://uscode.house.gov/us/usc/t42/s3607/",
+      "note": "Limited older-person housing and religious-organization/private-club provisions; never inferred solely from a phrase."
+    },
+    {
+      "id": "hud_1995_guidance",
+      "url": "https://www.justice.gov/sites/default/files/crt/legacy/2012/07/10/miamivalleybrief.pdf",
+      "note": "Appendix reproduces historical 1995 HUD advertising guidance; explanatory context, not a substitute for current law."
+    }
+  ],
+  "rules": [
+    {
+      "id": "familial.no_children",
+      "category": "familial_status",
+      "severity": "error",
+      "regex": "\\b(?:no|without)\\s+(?:young\\s+)?(?:children|kids|babies|infants|families\\s+with\\s+children)\\b(?!\\s+(?:restrictions?|exclusions?|are\\s+excluded|will\\s+be\\s+excluded))",
+      "message": "Excludes households with children.",
+      "suggestion": "Describe the property, not which households may live there.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "familial.children_not_allowed",
+      "category": "familial_status",
+      "severity": "error",
+      "regex": "\\b(?:children|kids|babies|infants|families\\s+with\\s+children)\\s+(?:(?:are|will\\s+be)\\s+)?(?:not\\s+(?:allowed|accepted|welcome|permitted)|prohibited|forbidden|unwelcome)\\b",
+      "message": "States that households with children are not accepted.",
+      "suggestion": "Remove household exclusions and describe objective property features.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "familial.adults_only",
+      "category": "familial_status",
+      "severity": "error",
+      "regex": "\\b(?:adults?\\s+only|only\\s+adults?|child\\s+free|adult\\s+only)\\b",
+      "message": "Advertises an adult-only or child-free occupancy restriction.",
+      "suggestion": "Remove the restriction or send documented older-person housing eligibility for qualified review.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "familial.unsuitable_children",
+      "category": "familial_status",
+      "severity": "error",
+      "regex": "\\bnot\\s+(?:suitable|available)\\s+for\\s+(?:children|kids|families\\s+with\\s+children)\\b",
+      "message": "Discourages households with children from the dwelling.",
+      "suggestion": "Describe objective physical conditions without excluding households.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "familial.household_preference",
+      "category": "familial_status",
+      "severity": "warning",
+      "regex": "\\b(?:perfect|ideal|best|suitable)\\s+for\\s+(?:singles|single\\s+(?:people|professionals)|couples|bachelors)\\b",
+      "message": "Suggests a preferred household profile; review the intended meaning.",
+      "suggestion": "Replace the resident profile with concrete layout, space, or amenity details.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "familial.senior_claim",
+      "category": "familial_status",
+      "severity": "warning",
+      "regex": "\\b(?:55|62)\\s*\\+|\\b(?:age[ds]?\\s+)?(?:55|62)\\s+(?:and|or)\\s+(?:over|older)\\b|\\b(?:senior|retirement)\\s+(?:housing|community|living)\\b",
+      "message": "Older-person housing eligibility cannot be verified from an advertisement alone.",
+      "suggestion": "Verify applicable program, occupancy, policies and age-verification requirements; text alone grants no exception.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "disability.no_wheelchairs",
+      "category": "disability",
+      "severity": "error",
+      "regex": "\\bno\\s+wheelchairs?\\b(?!\\s+(?:access|accessibility|ramp|lift))|\\bwheelchair\\s+users?\\s+(?:(?:are|will\\s+be)\\s+)?not\\s+(?:allowed|accepted|welcome|permitted)\\b",
+      "message": "Excludes wheelchair users.",
+      "suggestion": "Remove the resident exclusion; describe verified accessibility features accurately.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "disability.excluded_residents",
+      "category": "disability",
+      "severity": "error",
+      "regex": "\\bno\\s+(?:(?:disabled|handicapped)\\s+(?:people|persons?|tenants?|applicants?|residents?)|people\\s+with\\s+disabilities)\\b|\\b(?:disabled\\s+(?:tenants?|people|applicants?)|people\\s+with\\s+disabilities)\\s+(?:are\\s+)?not\\s+(?:allowed|accepted|welcome|permitted)\\b",
+      "message": "Excludes people because of disability.",
+      "suggestion": "Remove disability-based occupancy or applicant restrictions.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "disability.able_bodied",
+      "category": "disability",
+      "severity": "error",
+      "regex": "\\b(?:must|need\\s+to)\\s+be\\s+able\\s+bodied\\b|\\b(?:able\\s+bodied|physically\\s+fit)\\s+(?:(?:tenants?|renters?|residents?|applicants?)\\s+)?only\\b",
+      "message": "Requires a physical ability profile for residents.",
+      "suggestion": "Describe the dwelling and access conditions without prescribing residents' abilities.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "disability.animal_policy",
+      "category": "disability",
+      "severity": "warning",
+      "regex": "\\bno\\s+(?:service|assistance|support|emotional\\s+support)\\s+animals?\\b",
+      "message": "Assistance-animal restrictions may require a disability accommodation review.",
+      "suggestion": "Send the policy for accommodation review; do not treat assistance animals as ordinary pets automatically.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "disability.accessibility_description",
+      "category": "disability",
+      "severity": "info",
+      "regex": "\\b(?:wheelchair\\s+accessible|step\\s+free\\s+(?:entrance|access)|no\\s+wheelchair\\s+access)\\b",
+      "message": "Describes physical access rather than excluding a group of residents.",
+      "suggestion": "Confirm the physical description is accurate; this language screen does not certify accessibility compliance.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "race.only_group",
+      "category": "race",
+      "severity": "error",
+      "regex": "\\b(?:whites?|blacks?|asians?|caucasians?|hispanics?|latinos?)\\s+(?:(?:tenants?|buyers?|renters?|residents?|applicants?)\\s+)?only\\b|\\bonly\\s+(?:white|black|asian|caucasian|hispanic|latino)\\s+(?:tenants?|buyers?|renters?|residents?|applicants?)\\b",
+      "message": "Expresses a racial or ethnic occupancy preference.",
+      "suggestion": "Remove the preference and describe property features instead.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "race.exclude_group",
+      "category": "race",
+      "severity": "error",
+      "regex": "\\bno\\s+(?:black|white|asian|caucasian|hispanic|latino)\\s+(?:tenants?|buyers?|renters?|residents?|applicants?|people)\\b|\\bno\\s+(?:blacks|whites|asians|hispanics|latinos)\\b",
+      "message": "Explicitly excludes a racial or ethnic group.",
+      "suggestion": "Remove the group exclusion.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "race.preferred_group",
+      "category": "race",
+      "severity": "error",
+      "regex": "\\b(?:prefer(?:red)?|preference\\s+for)\\s+(?:white|black|asian|caucasian|hispanic|latino)\\s+(?:tenants?|buyers?|renters?|residents?|applicants?)\\b|\\b(?:white|black|asian|caucasian|hispanic|latino)\\s+(?:tenants?|buyers?|renters?|residents?|applicants?)\\s+(?:preferred|wanted|welcome\\s+only)\\b",
+      "message": "States a preferred racial or ethnic group for residents.",
+      "suggestion": "Describe the home and remove resident-group preferences.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "race.neighborhood_identity",
+      "category": "race",
+      "severity": "warning",
+      "regex": "\\b(?:white|black|asian|caucasian|hispanic|latino)\\s+(?:neighbou?rhood|community|residents?)\\b",
+      "message": "Uses racial or ethnic composition as a housing description.",
+      "suggestion": "Review context and replace demographic descriptions with objective location features.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "color.exclusion",
+      "category": "color",
+      "severity": "error",
+      "regex": "\\bno\\s+(?:dark|light|fair)\\s+skinned\\s+(?:tenants?|buyers?|renters?|residents?|applicants?|people)\\b|\\b(?:dark|light|fair)\\s+skinned\\s+(?:(?:tenants?|buyers?|renters?|residents?|applicants?)\\s+)?(?:only|preferred)\\b|\\bonly\\s+(?:dark|light|fair)\\s+skinned\\s+(?:tenants?|renters?|residents?|applicants?)\\b",
+      "message": "Restricts or prefers residents based on skin color.",
+      "suggestion": "Remove skin-color preferences or exclusions.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "national_origin.exclusion",
+      "category": "national_origin",
+      "severity": "error",
+      "regex": "\\bno\\s+(?:mexican|chinese|indian|iranian|canadian|foreign|immigrant)\\s+(?:tenants?|buyers?|renters?|residents?|applicants?|people)\\b|\\b(?:mexicans|foreigners|immigrants)\\s+(?:are\\s+)?not\\s+(?:allowed|accepted|welcome|permitted)\\b",
+      "message": "Excludes people based on national origin or an origin-related resident label.",
+      "suggestion": "Remove origin-based resident restrictions.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "national_origin.birthplace",
+      "category": "national_origin",
+      "severity": "error",
+      "regex": "\\b(?:us|u\\.s\\.|american)\\s+born\\s+(?:(?:tenants?|buyers?|renters?|residents?|applicants?)\\s+)?only\\b|\\bonly\\s+(?:us|u\\.s\\.|american)\\s+born\\s+(?:tenants?|renters?|residents?|applicants?)\\b",
+      "message": "Requires a resident birthplace or national-origin profile.",
+      "suggestion": "Remove birthplace-based resident requirements.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "national_origin.preferred_origin",
+      "category": "national_origin",
+      "severity": "error",
+      "regex": "\\b(?:mexican|chinese|indian|iranian|canadian)\\s+(?:tenants?|buyers?|renters?|residents?|applicants?)\\s+(?:only|preferred)\\b|\\bprefer\\s+(?:mexican|chinese|indian|iranian|canadian)\\s+(?:tenants?|renters?|residents?|applicants?)\\b",
+      "message": "States a preferred national origin for residents.",
+      "suggestion": "Remove national-origin preferences.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "national_origin.language_citizenship",
+      "category": "national_origin",
+      "severity": "warning",
+      "regex": "\\b(?:english\\s+(?:speakers?|speaking)|(?:us|u\\.s\\.|american)\\s+citizens?)\\s+only\\b",
+      "message": "Language or citizenship wording requires contextual and program-specific review.",
+      "suggestion": "Review the actual requirement and applicable law; do not infer illegality solely from this phrase.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "religion.exclusion",
+      "category": "religion",
+      "severity": "error",
+      "regex": "\\bno\\s+(?:christian|jewish|muslim|hindu|buddhist|atheist)\\s+(?:tenants?|buyers?|renters?|residents?|applicants?|people)\\b|\\bno\\s+(?:christians|jews|muslims|hindus|buddhists|atheists)\\b",
+      "message": "Excludes residents based on religion.",
+      "suggestion": "Remove the religious restriction or obtain review of a documented statutory exception.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "religion.preference",
+      "category": "religion",
+      "severity": "error",
+      "regex": "\\b(?:christian|jewish|muslim|hindu|buddhist|atheist)s?\\s+(?:(?:tenants?|buyers?|renters?|residents?|applicants?)\\s+)?(?:only|preferred)\\b|\\bonly\\s+(?:christian|jewish|muslim|hindu|buddhist|atheist)\\s+(?:tenants?|renters?|residents?|applicants?)\\b|\\bprefer\\s+(?:christian|jewish|muslim|hindu|buddhist|atheist)\\s+(?:tenants?|renters?|residents?|applicants?)\\b",
+      "message": "Expresses a religious preference for residents.",
+      "suggestion": "Remove the preference or send documented religious-organization housing facts for qualified review.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "religion.community_identity",
+      "category": "religion",
+      "severity": "warning",
+      "regex": "\\b(?:christian|jewish|muslim|hindu|buddhist)\\s+(?:community|neighbou?rhood)\\b(?!\\s+(?:cent(?:er|re)|school|church|hospital|museum))",
+      "message": "Uses a religious community identity in a housing description.",
+      "suggestion": "Review context and describe objective property or location features.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "sex.exclusion",
+      "category": "sex",
+      "severity": "error",
+      "regex": "\\bno\\s+(?:men|women|male\\s+(?:tenants?|renters?|residents?|applicants?)|female\\s+(?:tenants?|renters?|residents?|applicants?))\\b|\\b(?:men|women|male|female)\\s+(?:(?:tenants?|buyers?|renters?|residents?|applicants?)\\s+)?(?:only|preferred)\\b|\\bonly\\s+(?:male|female)\\s+(?:tenants?|renters?|residents?|applicants?)\\b",
+      "message": "Expresses a sex-based resident restriction or preference.",
+      "suggestion": "Remove the resident restriction; shared-living or other exception claims require qualified review.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    },
+    {
+      "id": "sex.roommate_context",
+      "category": "sex",
+      "severity": "warning",
+      "regex": "\\b(?:male|female)\\s+(?:roommate|room\\s+mate|housemate)\\s+(?:only|wanted|preferred)\\b",
+      "message": "Sex-specific roommate advertising requires shared-living and jurisdictional review.",
+      "suggestion": "Review actual shared-living facts and applicable law; a roommate keyword is not an automatic exemption.",
+      "source_ids": [
+        "fha_3604c",
+        "cfr_10075"
+      ]
+    }
+  ]
+}

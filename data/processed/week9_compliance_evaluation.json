@@ -1,0 +1,150 @@
+{
+  "rule_version": "week9-1.0",
+  "rule_count": 25,
+  "rule_library_sha256": "8989b26a8c5fe5a4f6014c41c5265ed0651124d12385344f47875e2fb1a1213b",
+  "implementation_sha256": "f2a5c239ccc08b11351242ccc1f819b4392ef2f5e7b7eac7182373bb3a111595",
+  "evaluation_status": "synthetic_regression_only_not_human_verified",
+  "limitations": "Synthetic examples and rules share an author. Text splits are disjoint but phrase families overlap. No deployment-wide recall, legal certification, or independent human benchmark is established.",
+  "splits": {
+    "development": {
+      "count": 68,
+      "confusion": {
+        "tp": 38,
+        "fp": 0,
+        "fn": 0,
+        "tn": 30
+      },
+      "screening_precision": 1.0,
+      "screening_recall": 1.0,
+      "screening_f1": 1.0,
+      "decision_accuracy": 1.0,
+      "known_violation_support": 28,
+      "known_violations_detected": 28,
+      "known_violation_recall": 1.0,
+      "known_violation_error_recall": 1.0,
+      "per_category_known_violation_recall": {
+        "familial_status": {
+          "support": 5,
+          "detected": 5,
+          "recall": 1.0
+        },
+        "disability": {
+          "support": 4,
+          "detected": 4,
+          "recall": 1.0
+        },
+        "race": {
+          "support": 4,
+          "detected": 4,
+          "recall": 1.0
+        },
+        "color": {
+          "support": 3,
+          "detected": 3,
+          "recall": 1.0
+        },
+        "national_origin": {
+          "support": 4,
+          "detected": 4,
+          "recall": 1.0
+        },
+        "religion": {
+          "support": 4,
+          "detected": 4,
+          "recall": 1.0
+        },
+        "sex": {
+          "support": 4,
+          "detected": 4,
+          "recall": 1.0
+        }
+      },
+      "targets_met": {
+        "known_violation_recall_100": true,
+        "precision_over_80": true
+      },
+      "definition": "Case-level: error or warning = flagged; info alone = not flagged. Known violations and review-required examples are positive; clean examples are negative.",
+      "annotation_source": "assistant_authored_synthetic",
+      "human_verified": false,
+      "fixture_sha256": "3443587f83ca884ef6d7b95de735dccfa44be47ee59981634289e388a532568f"
+    },
+    "test": {
+      "count": 103,
+      "confusion": {
+        "tp": 58,
+        "fp": 0,
+        "fn": 0,
+        "tn": 45
+      },
+      "screening_precision": 1.0,
+      "screening_recall": 1.0,
+      "screening_f1": 1.0,
+      "decision_accuracy": 1.0,
+      "known_violation_support": 41,
+      "known_violations_detected": 41,
+      "known_violation_recall": 1.0,
+      "known_violation_error_recall": 1.0,
+      "per_category_known_violation_recall": {
+        "familial_status": {
+          "support": 6,
+          "detected": 6,
+          "recall": 1.0
+        },
+        "disability": {
+          "support": 6,
+          "detected": 6,
+          "recall": 1.0
+        },
+        "race": {
+          "support": 6,
+          "detected": 6,
+          "recall": 1.0
+        },
+        "color": {
+          "support": 5,
+          "detected": 5,
+          "recall": 1.0
+        },
+        "national_origin": {
+          "support": 6,
+          "detected": 6,
+          "recall": 1.0
+        },
+        "religion": {
+          "support": 6,
+          "detected": 6,
+          "recall": 1.0
+        },
+        "sex": {
+          "support": 6,
+          "detected": 6,
+          "recall": 1.0
+        }
+      },
+      "targets_met": {
+        "known_violation_recall_100": true,
+        "precision_over_80": true
+      },
+      "definition": "Case-level: error or warning = flagged; info alone = not flagged. Known violations and review-required examples are positive; clean examples are negative.",
+      "annotation_source": "assistant_authored_synthetic",
+      "human_verified": false,
+      "fixture_sha256": "fd54cc736f8282680f316f92dadb2699a55f4dfba9b497d8bd9c6de5cf3da9c0"
+    }
+  },
+  "real_sample_scan": {
+    "listing_count": 1000,
+    "listings_flagged_for_correction_or_review": 19,
+    "decisions_by_field": {
+      "remarks": {
+        "pass": 981,
+        "review": 19
+      },
+      "summary": {
+        "pass": 987,
+        "review": 13
+      }
+    },
+    "ground_truth_available": false,
+    "interpretation": "Counts of screening flags, not counts of proven violations; no precision or recall is calculated on unlabeled real listings."
+  }
+}

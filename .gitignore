@@ -18,5 +18,9 @@ data/processed/*
 data/processed/week8_archive/*
 !data/processed/week8_archive/template_evaluation_20261115.json
 !data/processed/week8_archive/template_rouge_scores_20261115.csv
+!data/processed/week9_compliance_evaluation.json
+!data/processed/week9_compliance_report.md
+!data/processed/week9_case_results.jsonl
+!data/processed/week9_sample_screening.jsonl
 data/models/*
 !data/models/.gitkeep
